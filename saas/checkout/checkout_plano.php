@@ -146,6 +146,11 @@ $usuario_email = $_SESSION['usuario'] ?? '';
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="/style.css">
     
+    <?php if ($credit_card_mercadopago_enabled): ?>
+    <!-- Mercado Pago SDK -->
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <?php endif; ?>
+    
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -442,36 +447,104 @@ $usuario_email = $_SESSION['usuario'] ?? '';
             });
         });
         
+        let mpInstance = null;
+        let cardNumberElement = null;
+        let expirationDateElement = null;
+        let securityCodeElement = null;
+        
         function initCardForm() {
-            // Implementar inicialização de formulário de cartão conforme gateway
-            // Por enquanto, apenas mostrar campos básicos
             const container = document.getElementById('card-form-container');
-            container.innerHTML = `
-                <div class="space-y-4">
-                    <div>
-                        <label class="block text-gray-300 mb-2">Número do Cartão</label>
-                        <input type="text" id="card-number" placeholder="0000 0000 0000 0000" 
-                               class="modern-input" maxlength="19">
-                    </div>
-                    <div class="grid grid-cols-2 gap-4">
+            
+            // Verificar qual gateway está sendo usado
+            if (selectedGateway === 'mercadopago') {
+                // Inicializar Mercado Pago SDK
+                const mpPublicKey = '<?php echo $gateways_by_name['mercadopago']['mp_public_key'] ?? ''; ?>';
+                
+                if (!mpPublicKey) {
+                    alert('Chave pública do Mercado Pago não configurada');
+                    return;
+                }
+                
+                container.innerHTML = `
+                    <div class="space-y-4">
                         <div>
-                            <label class="block text-gray-300 mb-2">Validade</label>
-                            <input type="text" id="card-expiry" placeholder="MM/AA" 
-                                   class="modern-input" maxlength="5">
+                            <label class="block text-gray-300 mb-2">Número do Cartão</label>
+                            <div id="cardNumberContainer" class="modern-input" style="padding: 0.75rem 1rem;"></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-gray-300 mb-2">Validade</label>
+                                <div id="expirationDateContainer" class="modern-input" style="padding: 0.75rem 1rem;"></div>
+                            </div>
+                            <div>
+                                <label class="block text-gray-300 mb-2">CVV</label>
+                                <div id="securityCodeContainer" class="modern-input" style="padding: 0.75rem 1rem;"></div>
+                            </div>
                         </div>
                         <div>
-                            <label class="block text-gray-300 mb-2">CVV</label>
-                            <input type="text" id="card-cvv" placeholder="000" 
-                                   class="modern-input" maxlength="4">
+                            <label class="block text-gray-300 mb-2">Nome no Cartão</label>
+                            <input type="text" id="card-name" placeholder="NOME COMO NO CARTÃO" 
+                                   class="modern-input" style="text-transform: uppercase;">
                         </div>
                     </div>
-                    <div>
-                        <label class="block text-gray-300 mb-2">Nome no Cartão</label>
-                        <input type="text" id="card-name" placeholder="NOME COMO NO CARTÃO" 
-                               class="modern-input">
+                `;
+                
+                // Aguardar o DOM ser atualizado
+                setTimeout(() => {
+                    try {
+                        // Inicializar Mercado Pago
+                        mpInstance = new MercadoPago(mpPublicKey, {
+                            locale: 'pt-BR'
+                        });
+                        
+                        // Criar e montar campos seguros
+                        cardNumberElement = mpInstance.fields.create('cardNumber', {
+                            placeholder: '0000 0000 0000 0000'
+                        }).mount('cardNumberContainer');
+                        
+                        expirationDateElement = mpInstance.fields.create('expirationDate', {
+                            placeholder: 'MM/AA'
+                        }).mount('expirationDateContainer');
+                        
+                        securityCodeElement = mpInstance.fields.create('securityCode', {
+                            placeholder: 'CVV'
+                        }).mount('securityCodeContainer');
+                        
+                        console.log('Mercado Pago SDK inicializado com sucesso');
+                    } catch (error) {
+                        console.error('Erro ao inicializar Mercado Pago SDK:', error);
+                        alert('Erro ao inicializar formulário de pagamento. Por favor, recarregue a página.');
+                    }
+                }, 100);
+            } else {
+                // Outros gateways - formulário básico
+                container.innerHTML = `
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-gray-300 mb-2">Número do Cartão</label>
+                            <input type="text" id="card-number" placeholder="0000 0000 0000 0000" 
+                                   class="modern-input" maxlength="19">
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-gray-300 mb-2">Validade</label>
+                                <input type="text" id="card-expiry" placeholder="MM/AA" 
+                                       class="modern-input" maxlength="5">
+                            </div>
+                            <div>
+                                <label class="block text-gray-300 mb-2">CVV</label>
+                                <input type="text" id="card-cvv" placeholder="000" 
+                                       class="modern-input" maxlength="4">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-300 mb-2">Nome no Cartão</label>
+                            <input type="text" id="card-name" placeholder="NOME COMO NO CARTÃO" 
+                                   class="modern-input">
+                        </div>
                     </div>
-                </div>
-            `;
+                `;
+            }
         }
         
         // Dados do usuário da sessão (PHP)
@@ -558,21 +631,118 @@ $usuario_email = $_SESSION['usuario'] ?? '';
                 return;
             }
             
-            // Validar campos do cartão
-            const cardNumber = document.getElementById('card-number').value.replace(/\D/g, '');
-            const cardExpiry = document.getElementById('card-expiry').value;
-            const cardCvv = document.getElementById('card-cvv').value;
-            const cardName = document.getElementById('card-name').value;
+            const cpf = document.getElementById('cpf').value.replace(/\D/g, '');
+            const phone = document.getElementById('phone').value.replace(/\D/g, '');
+            const cardName = document.getElementById('card-name')?.value;
             
-            if (!cardNumber || !cardExpiry || !cardCvv || !cardName) {
-                alert('Preencha todos os dados do cartão');
+            if (!cpf || cpf.length !== 11) {
+                alert('Por favor, informe um CPF válido');
                 return;
             }
             
-            // Aqui você precisaria tokenizar o cartão conforme o gateway
-            // Por enquanto, apenas exemplo básico
-            alert('Processamento de cartão será implementado conforme gateway selecionado');
+            if (!phone || phone.length < 10) {
+                alert('Por favor, informe um telefone válido');
+                return;
+            }
+            
+            if (!cardName || cardName.trim() === '') {
+                alert('Por favor, informe o nome no cartão');
+                return;
+            }
+            
+            // Processar conforme gateway
+            if (selectedGateway === 'mercadopago') {
+                await processarCartaoMercadoPago(cpf, phone, cardName);
+            } else {
+                alert('Gateway de cartão não suportado: ' + selectedGateway);
+            }
         });
+        
+        async function processarCartaoMercadoPago(cpf, phone, cardName) {
+            try {
+                if (!mpInstance) {
+                    alert('SDK do Mercado Pago não inicializado. Por favor, recarregue a página.');
+                    return;
+                }
+                
+                // Desabilitar botão durante processamento
+                const btn = document.getElementById('btn-pagar-cartao');
+                const originalText = btn.textContent;
+                btn.disabled = true;
+                btn.textContent = 'PROCESSANDO...';
+                
+                // Criar token do cartão
+                const cardData = {
+                    cardholderName: cardName.toUpperCase(),
+                    identificationType: 'CPF',
+                    identificationNumber: cpf
+                };
+                
+                console.log('Criando token do cartão...', cardData);
+                const tokenResponse = await mpInstance.createCardToken(cardData);
+                
+                if (!tokenResponse || !tokenResponse.id) {
+                    throw new Error('Falha ao criar token do cartão');
+                }
+                
+                console.log('Token criado com sucesso:', tokenResponse.id);
+                
+                // Enviar para o backend
+                const formData = {
+                    plano_id: <?php echo $plano_id; ?>,
+                    gateway: 'mercadopago',
+                    payment_method: 'credit_card',
+                    transaction_amount: <?php echo $valor; ?>,
+                    name: userData.name,
+                    email: userData.email,
+                    cpf: cpf,
+                    phone: phone,
+                    token: tokenResponse.id,
+                    installments: 1,
+                    payment_method_id: tokenResponse.payment_method_id || 'visa'
+                };
+                
+                console.log('Enviando pagamento para o backend...');
+                const response = await fetch('/saas/checkout/process_plano_payment.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+                
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/json')) {
+                    const text = await response.text();
+                    console.error('Resposta não é JSON:', text);
+                    throw new Error('Resposta inválida do servidor');
+                }
+                
+                const data = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(data.error || 'Erro ao processar pagamento');
+                }
+                
+                if (data.status === 'approved' || data.status === 'paid') {
+                    alert('Pagamento aprovado! Redirecionando...');
+                    window.location.href = '/index?pagina=saas_planos&success=1&payment_id=' + data.payment_id;
+                } else if (data.status === 'pending') {
+                    alert('Pagamento em análise. Você receberá uma notificação quando for aprovado.');
+                    window.location.href = '/index?pagina=saas_planos&pending=1';
+                } else {
+                    throw new Error(data.error || 'Pagamento não aprovado');
+                }
+            } catch (error) {
+                console.error('Erro ao criar token ou processar pagamento:', error);
+                alert('Erro ao processar pagamento: ' + (error.message || 'Erro desconhecido'));
+                
+                // Reabilitar botão
+                const btn = document.getElementById('btn-pagar-cartao');
+                if (btn) {
+                    btn.disabled = false;
+                    btn.textContent = 'FINALIZAR PAGAMENTO';
+                }
+            }
+        }
         
         function showPixModal(pixData) {
             // Mostrar estado de aguardando pagamento
