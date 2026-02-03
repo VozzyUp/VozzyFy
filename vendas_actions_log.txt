@@ -1,0 +1,21 @@
+2026-01-12 11:56:33 - AVISO: utmfy_helper.php não encontrado (opcional).
+2026-01-12 11:56:33 - E-mail atualizado para: seckodb@gmail.com
+2026-01-12 11:56:33 - Erro PHPMailer: Invalid address:  (From): noreply@localhost
+2026-01-12 11:59:06 - AVISO: utmfy_helper.php não encontrado (opcional).
+2026-01-12 11:59:06 - E-mail atualizado para: seckodb@gmail.com
+2026-01-12 11:59:06 - API Vendas Actions: Template vazio, gerando template padrão com configurações da plataforma
+2026-01-12 11:59:07 - E-mail enviado com sucesso para: seckodb@gmail.com
+2026-01-12 12:04:35 - AVISO: utmfy_helper.php não encontrado (opcional).
+2026-01-12 12:04:35 - E-mail atualizado para: seckodb@gmail.com
+2026-01-12 12:04:35 - API Vendas Actions: Template vazio, gerando template padrão com configurações da plataforma
+2026-01-12 12:04:36 - E-mail enviado com sucesso para: seckodb@gmail.com
+2026-01-15 14:06:40 - AVISO: utmfy_helper.php não encontrado (opcional).
+2026-01-15 14:06:40 - Venda aprovada manualmente: 282
+2026-01-15 14:06:40 - API Vendas Actions: Template vazio, gerando template padrão com configurações da plataforma
+2026-01-15 14:06:41 - E-mail enviado com sucesso para: leonardoiss@icloud.com
+2026-01-31 10:49:45 - AVISO: utmfy_helper.php não encontrado (opcional).
+2026-01-31 10:49:45 - Venda aprovada manualmente: 1
+2026-01-31 10:49:45 - Novo usuário criado (com senha temporária): seckodb@gmail.com - ID: 34
+2026-01-31 10:49:45 - Token de criação de senha gerado para: seckodb@gmail.com
+2026-01-31 10:49:45 - Erro PHPMailer: Invalid address:  (From): noreply@localhost
+2026-01-31 10:50:11 - AVISO: utmfy_helper.php não encontrado (opcional).

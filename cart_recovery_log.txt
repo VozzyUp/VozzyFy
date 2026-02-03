@@ -1,0 +1,33 @@
+[2026-01-01 21:17:33] === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[2026-01-01 21:17:33] Vendas pendentes encontradas: 0
+[2026-01-01 21:17:33] Nenhuma venda pendente para processar. Finalizando.
+[2026-01-01 21:17:35] === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[2026-01-01 21:17:35] Vendas pendentes encontradas: 0
+[2026-01-01 21:17:35] Nenhuma venda pendente para processar. Finalizando.
+[2026-02-03 02:18:10] === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[2026-02-03 02:18:10] Vendas pendentes encontradas: 0
+[2026-02-03 02:18:10] Nenhuma venda pendente para processar. Finalizando.
+[2026-02-03 02:20:57] === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[2026-02-03 02:20:57] Vendas pendentes encontradas: 0
+[2026-02-03 02:20:57] Nenhuma venda pendente para processar. Finalizando.
+[2026-02-03 03:04:45] === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[2026-02-03 03:04:45] Vendas pendentes encontradas: 0
+[2026-02-03 03:04:45] Nenhuma venda pendente para processar. Finalizando.
+[2026-02-03 07:04:45] === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[2026-02-03 07:04:45] Vendas pendentes encontradas: 1
+[2026-02-03 07:04:45] Processando venda ID 1 - Cliente: fernando.rodrigues.a@gmail.com - Produto: VozSmart
+[2026-02-03 07:04:47] Venda ID 1: Email enviado com sucesso e flag atualizada.
+[2026-02-03 07:04:47] === RESUMO DO PROCESSAMENTO ===
+[2026-02-03 07:04:47] Total encontradas: 1
+[2026-02-03 07:04:47] Emails enviados: 1
+[2026-02-03 07:04:47] Erros: 0
+[2026-02-03 07:04:47] === FIM DO PROCESSAMENTO ===
+[2026-02-03 08:04:45] === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[2026-02-03 08:04:45] Vendas pendentes encontradas: 0
+[2026-02-03 08:04:45] Nenhuma venda pendente para processar. Finalizando.
+[2026-02-03 09:04:45] === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[2026-02-03 09:04:45] Vendas pendentes encontradas: 0
+[2026-02-03 09:04:45] Nenhuma venda pendente para processar. Finalizando.
+[2026-02-03 10:04:45] === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[2026-02-03 10:04:45] Vendas pendentes encontradas: 0
+[2026-02-03 10:04:45] Nenhuma venda pendente para processar. Finalizando.

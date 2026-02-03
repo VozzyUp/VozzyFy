@@ -1,0 +1,14 @@
+2026-02-01 13:30:51 - EDITAR_PRODUTO iniciado
+POST: secao_id=0, produto_id=43
+FILES imagem_capa_produto: EXISTE
+Erro upload: 0
+remove_imagem_capa_produto: NÃO
+2026-02-01 17:23:59 - EDITAR_PRODUTO iniciado
+POST: secao_id=0, produto_id=43
+FILES imagem_capa_produto: EXISTE
+Erro upload: 0
+remove_imagem_capa_produto: NÃO
+Produto encontrado: SIM
+Imagem atual: NULL
+handle_file_upload retornou: uploads/imagem_capa_produto_7ca4b569e349a1c0efc38152cbdb1b9c_1769977736.png
+UPDATE executado. Resultado: SUCESSO, linhas: 1

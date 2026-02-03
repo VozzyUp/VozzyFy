@@ -1,0 +1,1777 @@
+2025-12-27 21:37:58 - === Disparo UTMfy Iniciado ===
+2025-12-27 21:37:58 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b26f0e-c4a6-4183-a3b3-0d03c0cae3e3
+2025-12-27 21:37:58 - AVISO: Nenhuma integração ativa encontrada para User: 30 na coluna 'event_pending'.
+2025-12-27 21:39:52 - === Disparo UTMfy Iniciado ===
+2025-12-27 21:39:52 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b26fbc-6d26-4f4b-b8f1-119efa66a56a
+2025-12-27 21:39:52 - AVISO: Nenhuma integração ativa encontrada para User: 30 na coluna 'event_pending'.
+2025-12-28 13:55:04 - === Disparo UTMfy Iniciado ===
+2025-12-28 13:55:04 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3cc13-7357-4fb9-829f-90568ba4ef6b
+2025-12-28 13:55:04 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:06:23 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:06:23 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3d01f-422d-4012-8af4-d5d4d7fff490
+2025-12-28 14:06:23 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:11:08 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:11:08 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3d1d2-85f3-422c-9127-0fbce20a338e
+2025-12-28 14:11:08 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:13:09 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:13:09 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3d28b-be54-49d7-ad30-ff27c925f779
+2025-12-28 14:13:09 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:20:47 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:20:47 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3d545-8556-40db-af65-279449cbf57b
+2025-12-28 14:20:47 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:24:50 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:24:50 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3d6b8-4192-4a26-90e1-ceef03785575
+2025-12-28 14:24:50 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:28:21 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:28:21 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3d7fb-846f-45d0-8d27-d017b721fb09
+2025-12-28 14:28:21 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:34:43 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:34:43 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3da41-c27a-47ba-8b6d-89a91c3b7cd7
+2025-12-28 14:34:43 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:36:37 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:36:37 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139785488212
+2025-12-28 14:36:37 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:41:09 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:41:09 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139136649225
+2025-12-28 14:41:09 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:44:13 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:44:13 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139782956030
+2025-12-28 14:44:13 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 14:46:43 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:46:43 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139785964454
+2025-12-28 14:46:43 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_approved'.
+2025-12-28 14:50:04 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:50:04 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139786482322
+2025-12-28 14:50:04 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_approved'.
+2025-12-28 14:51:03 - === Disparo UTMfy Iniciado ===
+2025-12-28 14:51:03 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3e019-077e-41aa-8e80-d7e36c19d502
+2025-12-28 14:51:03 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:02:25 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:02:25 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b3e429-7cb3-4932-b3e7-ae59af4b0c8c
+2025-12-28 15:02:25 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:02:58 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:02:58 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: A0B3E429-7CB3-4932-B3E7-AE59AF4B0C8C
+2025-12-28 15:02:58 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_approved'.
+2025-12-28 15:05:03 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:05:03 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139139778735
+2025-12-28 15:05:03 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:05:04 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:05:04 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139139778735
+2025-12-28 15:05:04 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:05:04 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:05:04 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139139778735
+2025-12-28 15:05:04 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:06:17 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:06:17 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139139778789
+2025-12-28 15:06:17 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:06:18 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:06:18 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139139778789
+2025-12-28 15:06:18 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:06:18 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:06:18 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139139778789
+2025-12-28 15:06:18 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:07:07 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:07:07 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139786482322
+2025-12-28 15:07:07 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_approved'.
+2025-12-28 15:07:07 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:07:07 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139786482322
+2025-12-28 15:07:07 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_approved'.
+2025-12-28 15:07:08 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:07:08 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139785964454
+2025-12-28 15:07:08 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_approved'.
+2025-12-28 15:07:09 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:07:09 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139785964454
+2025-12-28 15:07:09 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_approved'.
+2025-12-28 15:07:19 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:07:19 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139139778789
+2025-12-28 15:07:19 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:07:19 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:07:19 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139139778789
+2025-12-28 15:07:19 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:10:25 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:10:25 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139787162936
+2025-12-28 15:10:25 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:10:25 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:10:25 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787162936
+2025-12-28 15:10:25 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:10:25 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:10:25 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787162936
+2025-12-28 15:10:25 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:11:35 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:11:35 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139787162994
+2025-12-28 15:11:35 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:11:36 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:11:36 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787162994
+2025-12-28 15:11:36 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:11:36 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:11:36 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787162994
+2025-12-28 15:11:36 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:11:41 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:11:41 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787162994
+2025-12-28 15:11:41 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:11:41 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:11:41 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787162994
+2025-12-28 15:11:41 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:12:30 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:12:30 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139787558784
+2025-12-28 15:12:30 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:14:09 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:14:09 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139141464143
+2025-12-28 15:14:09 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:14:10 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:14:10 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139141464143
+2025-12-28 15:14:10 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:14:10 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:14:10 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139141464143
+2025-12-28 15:14:10 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:15:07 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:15:07 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139787163182
+2025-12-28 15:15:07 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:15:08 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:15:08 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787163182
+2025-12-28 15:15:08 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:15:08 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:15:08 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787163182
+2025-12-28 15:15:08 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:15:11 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:15:11 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139141464143
+2025-12-28 15:15:11 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:15:12 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:15:12 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139141464143
+2025-12-28 15:15:12 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:16:08 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:16:08 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787163182
+2025-12-28 15:16:08 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:16:09 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:16:09 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139787163182
+2025-12-28 15:16:09 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:19:52 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:19:52 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139138945897
+2025-12-28 15:19:52 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:19:52 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:19:52 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139138945897
+2025-12-28 15:19:52 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:19:53 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:19:53 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139138945897
+2025-12-28 15:19:53 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:19:57 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:19:57 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139138945897
+2025-12-28 15:19:57 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:19:57 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:19:57 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139138945897
+2025-12-28 15:19:57 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:21:16 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:21:16 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139140962777
+2025-12-28 15:21:16 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2025-12-28 15:21:16 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:21:16 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139140962777
+2025-12-28 15:21:16 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:21:16 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:21:16 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139140962777
+2025-12-28 15:21:16 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:21:22 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:21:22 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139140962777
+2025-12-28 15:21:22 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-28 15:21:22 - === Disparo UTMfy Iniciado ===
+2025-12-28 15:21:22 - Evento: 'rejected' -> Status UTMfy: 'refused' | ID Transação: 139140962777
+2025-12-28 15:21:22 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_rejected'.
+2025-12-29 00:20:29 - === Disparo UTMfy Iniciado ===
+2025-12-29 00:20:29 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b4abbd-2cff-44fb-b62e-e5caeb91ccd6
+2025-12-29 00:20:29 - Enviando para: getfy
+2025-12-29 00:20:29 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 01:04:28 - === Disparo UTMfy Iniciado ===
+2025-12-29 01:04:28 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b4bb78-ab9e-4c72-98b8-5fe5e40f19cb
+2025-12-29 01:04:28 - Enviando para: getfy
+2025-12-29 01:04:28 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 01:05:06 - === Disparo UTMfy Iniciado ===
+2025-12-29 01:05:06 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: A0B4BB78-AB9E-4C72-98B8-5FE5E40F19CB
+2025-12-29 01:05:06 - Enviando para: getfy
+2025-12-29 01:05:06 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 03:38:54 - === Disparo UTMfy Iniciado ===
+2025-12-29 03:38:54 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b4f2b3-8c93-49ad-90a2-53203906d501
+2025-12-29 03:38:54 - Enviando para: getfy
+2025-12-29 03:38:54 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 04:01:43 - === Disparo UTMfy Iniciado ===
+2025-12-29 04:01:43 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b4fadd-5a0d-4121-9705-d000846dcae0
+2025-12-29 04:01:43 - Enviando para: getfy
+2025-12-29 04:01:44 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 08:49:16 - === Disparo UTMfy Iniciado ===
+2025-12-29 08:49:16 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b561b2-9a8c-4460-8200-494f37c218f3
+2025-12-29 08:49:16 - Enviando para: getfy
+2025-12-29 08:49:16 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 08:49:55 - === Disparo UTMfy Iniciado ===
+2025-12-29 08:49:55 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: A0B561B2-9A8C-4460-8200-494F37C218F3
+2025-12-29 08:49:55 - Enviando para: getfy
+2025-12-29 08:49:55 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 09:05:17 - === Disparo UTMfy Iniciado ===
+2025-12-29 09:05:17 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b5676d-4a6b-41c2-9103-9efed572b4bd
+2025-12-29 09:05:17 - Enviando para: getfy
+2025-12-29 09:05:17 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 10:11:52 - === Disparo UTMfy Iniciado ===
+2025-12-29 10:11:52 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b57f3c-2f05-47c1-80cb-80524a6abcd8
+2025-12-29 10:11:52 - Enviando para: getfy
+2025-12-29 10:11:52 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 10:36:39 - === Disparo UTMfy Iniciado ===
+2025-12-29 10:36:39 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139219568417
+2025-12-29 10:36:39 - Enviando para: getfy
+2025-12-29 10:36:39 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 10:36:39 - === Disparo UTMfy Iniciado ===
+2025-12-29 10:36:39 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139219568417
+2025-12-29 10:36:39 - Enviando para: getfy
+2025-12-29 10:36:39 - === Disparo UTMfy Iniciado ===
+2025-12-29 10:36:39 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139219568417
+2025-12-29 10:36:39 - Enviando para: getfy
+2025-12-29 10:36:39 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 10:36:39 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 10:37:19 - === Disparo UTMfy Iniciado ===
+2025-12-29 10:37:19 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139216421935
+2025-12-29 10:37:19 - Enviando para: getfy
+2025-12-29 10:37:19 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 10:51:48 - === Disparo UTMfy Iniciado ===
+2025-12-29 10:51:48 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139864838010
+2025-12-29 10:51:48 - Enviando para: getfy
+2025-12-29 10:51:48 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 14:28:46 - === Disparo UTMfy Iniciado ===
+2025-12-29 14:28:46 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139249999679
+2025-12-29 14:28:46 - Enviando para: getfy
+2025-12-29 14:28:46 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 14:31:37 - === Disparo UTMfy Iniciado ===
+2025-12-29 14:31:37 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139249999679
+2025-12-29 14:31:37 - Enviando para: getfy
+2025-12-29 14:31:37 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 14:31:37 - === Disparo UTMfy Iniciado ===
+2025-12-29 14:31:37 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139249999679
+2025-12-29 14:31:37 - Enviando para: getfy
+2025-12-29 14:31:37 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 14:53:20 - === Disparo UTMfy Iniciado ===
+2025-12-29 14:53:20 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139254281295
+2025-12-29 14:53:20 - Enviando para: getfy
+2025-12-29 14:53:20 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 15:42:58 - === Disparo UTMfy Iniciado ===
+2025-12-29 15:42:58 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139259875635
+2025-12-29 15:42:58 - Enviando para: getfy
+2025-12-29 15:42:58 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 15:57:28 - === Disparo UTMfy Iniciado ===
+2025-12-29 15:57:28 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139909701448
+2025-12-29 15:57:28 - Enviando para: getfy
+2025-12-29 15:57:28 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 15:57:46 - === Disparo UTMfy Iniciado ===
+2025-12-29 15:57:46 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 139909701448
+2025-12-29 15:57:46 - Enviando para: getfy
+2025-12-29 15:57:46 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 16:55:28 - === Disparo UTMfy Iniciado ===
+2025-12-29 16:55:28 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139272288317
+2025-12-29 16:55:28 - Enviando para: getfy
+2025-12-29 16:55:28 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 19:24:24 - === Disparo UTMfy Iniciado ===
+2025-12-29 19:24:24 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139288995487
+2025-12-29 19:24:24 - Enviando para: getfy
+2025-12-29 19:24:25 - Resp UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 19:59:41 - === Disparo UTMfy Iniciado ===
+2025-12-29 19:59:41 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139296396979
+2025-12-29 19:59:41 - Produtos recebidos: 1
+2025-12-29 19:59:41 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-29 19:59:41 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-29 19:59:41 - Payload JSON gerado (671 bytes)
+2025-12-29 19:59:41 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-29 19:59:41 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 19:59:41 - ✓ Evento enviado com sucesso para getfy
+2025-12-29 19:59:41 - === Disparo UTMfy Finalizado ===
+2025-12-29 20:31:56 - === Disparo UTMfy Iniciado ===
+2025-12-29 20:31:56 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139302908563
+2025-12-29 20:31:56 - Produtos recebidos: 1
+2025-12-29 20:31:56 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-29 20:31:56 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-29 20:31:56 - Payload JSON gerado (848 bytes)
+2025-12-29 20:31:56 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-29 20:31:56 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 20:31:56 - ✓ Evento enviado com sucesso para getfy
+2025-12-29 20:31:56 - === Disparo UTMfy Finalizado ===
+2025-12-29 20:46:46 - === Disparo UTMfy Iniciado ===
+2025-12-29 20:46:46 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139305712349
+2025-12-29 20:46:46 - Produtos recebidos: 1
+2025-12-29 20:46:46 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-29 20:46:46 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-29 20:46:46 - Payload JSON gerado (908 bytes)
+2025-12-29 20:46:46 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-29 20:46:46 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 20:46:46 - ✓ Evento enviado com sucesso para getfy
+2025-12-29 20:46:46 - === Disparo UTMfy Finalizado ===
+2025-12-29 22:49:02 - === Disparo UTMfy Iniciado ===
+2025-12-29 22:49:02 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139968049020
+2025-12-29 22:49:02 - Produtos recebidos: 1
+2025-12-29 22:49:02 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-29 22:49:02 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-29 22:49:02 - Payload JSON gerado (672 bytes)
+2025-12-29 22:49:02 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-29 22:49:02 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 22:49:02 - ✓ Evento enviado com sucesso para getfy
+2025-12-29 22:49:02 - === Disparo UTMfy Finalizado ===
+2025-12-29 23:19:25 - === Disparo UTMfy Iniciado ===
+2025-12-29 23:19:25 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139325056193
+2025-12-29 23:19:25 - Produtos recebidos: 1
+2025-12-29 23:19:25 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-29 23:19:25 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-29 23:19:25 - Payload JSON gerado (758 bytes)
+2025-12-29 23:19:25 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-29 23:19:25 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-29 23:19:25 - ✓ Evento enviado com sucesso para getfy
+2025-12-29 23:19:25 - === Disparo UTMfy Finalizado ===
+2025-12-30 06:52:43 - === Disparo UTMfy Iniciado ===
+2025-12-30 06:52:43 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139989683678
+2025-12-30 06:52:43 - Produtos recebidos: 1
+2025-12-30 06:52:43 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 06:52:43 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 06:52:43 - Payload JSON gerado (740 bytes)
+2025-12-30 06:52:43 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 06:52:43 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 06:52:43 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 06:52:43 - === Disparo UTMfy Finalizado ===
+2025-12-30 08:21:19 - === Disparo UTMfy Iniciado ===
+2025-12-30 08:21:19 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139352427565
+2025-12-30 08:21:19 - Produtos recebidos: 1
+2025-12-30 08:21:19 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 08:21:19 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 08:21:19 - Payload JSON gerado (908 bytes)
+2025-12-30 08:21:19 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 08:21:19 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 08:21:19 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 08:21:19 - === Disparo UTMfy Finalizado ===
+2025-12-30 08:30:31 - === Disparo UTMfy Iniciado ===
+2025-12-30 08:30:31 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139353445521
+2025-12-30 08:30:31 - Produtos recebidos: 1
+2025-12-30 08:30:31 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 08:30:31 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 08:30:31 - Payload JSON gerado (904 bytes)
+2025-12-30 08:30:31 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 08:30:31 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 08:30:31 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 08:30:31 - === Disparo UTMfy Finalizado ===
+2025-12-30 08:38:57 - === Disparo UTMfy Iniciado ===
+2025-12-30 08:38:57 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139355110975
+2025-12-30 08:38:57 - Produtos recebidos: 1
+2025-12-30 08:38:57 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 08:38:57 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 08:38:57 - Payload JSON gerado (693 bytes)
+2025-12-30 08:38:57 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 08:38:57 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 08:38:57 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 08:38:57 - === Disparo UTMfy Finalizado ===
+2025-12-30 08:48:21 - === Disparo UTMfy Iniciado ===
+2025-12-30 08:48:21 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 140002383716
+2025-12-30 08:48:21 - Produtos recebidos: 1
+2025-12-30 08:48:21 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 08:48:21 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 08:48:21 - Payload JSON gerado (693 bytes)
+2025-12-30 08:48:21 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 08:48:21 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 08:48:21 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 08:48:21 - === Disparo UTMfy Finalizado ===
+2025-12-30 08:48:58 - === Disparo UTMfy Iniciado ===
+2025-12-30 08:48:58 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139354771597
+2025-12-30 08:48:58 - Produtos recebidos: 1
+2025-12-30 08:48:58 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 08:48:58 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 08:48:58 - Payload JSON gerado (693 bytes)
+2025-12-30 08:48:58 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 08:48:58 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 08:48:58 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 08:48:58 - === Disparo UTMfy Finalizado ===
+2025-12-30 09:12:10 - === Disparo UTMfy Iniciado ===
+2025-12-30 09:12:10 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139358922765
+2025-12-30 09:12:10 - Produtos recebidos: 1
+2025-12-30 09:12:10 - Produto 0: ID=47, Nome=Premium, Valor=1.00
+2025-12-30 09:12:10 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 09:12:10 - Payload JSON gerado (692 bytes)
+2025-12-30 09:12:10 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 09:12:10 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 09:12:10 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 09:12:10 - === Disparo UTMfy Finalizado ===
+2025-12-30 09:31:00 - === Disparo UTMfy Iniciado ===
+2025-12-30 09:31:00 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139360804649
+2025-12-30 09:31:00 - Produtos recebidos: 1
+2025-12-30 09:31:00 - Produto 0: ID=47, Nome=Premium, Valor=1.00
+2025-12-30 09:31:00 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 09:31:00 - Payload JSON gerado (699 bytes)
+2025-12-30 09:31:00 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 09:31:00 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 09:31:00 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 09:31:00 - === Disparo UTMfy Finalizado ===
+2025-12-30 09:31:42 - === Disparo UTMfy Iniciado ===
+2025-12-30 09:31:42 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 140006805586
+2025-12-30 09:31:42 - Produtos recebidos: 1
+2025-12-30 09:31:42 - Produto 0: ID=47, Nome=Premium, Valor=1.00
+2025-12-30 09:31:42 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 09:31:42 - Payload JSON gerado (699 bytes)
+2025-12-30 09:31:42 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 09:31:42 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 09:31:42 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 09:31:42 - === Disparo UTMfy Finalizado ===
+2025-12-30 09:34:01 - === Disparo UTMfy Iniciado ===
+2025-12-30 09:34:01 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 139360414913
+2025-12-30 09:34:01 - Produtos recebidos: 1
+2025-12-30 09:34:01 - Produto 0: ID=47, Nome=Premium, Valor=1.00
+2025-12-30 09:34:01 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 09:34:01 - Payload JSON gerado (699 bytes)
+2025-12-30 09:34:01 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 09:34:01 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 09:34:01 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 09:34:01 - === Disparo UTMfy Finalizado ===
+2025-12-30 10:00:55 - === Disparo UTMfy Iniciado ===
+2025-12-30 10:00:55 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b77e4d-4fa3-4806-98ba-658ee94bcfb3
+2025-12-30 10:00:55 - Produtos recebidos: 1
+2025-12-30 10:00:55 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 10:00:55 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 10:00:55 - Payload JSON gerado (717 bytes)
+2025-12-30 10:00:55 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 10:00:55 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 10:00:55 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 10:00:55 - === Disparo UTMfy Finalizado ===
+2025-12-30 10:07:21 - === Disparo UTMfy Iniciado ===
+2025-12-30 10:07:21 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b78099-d82e-432d-a001-c687fdd89fdb
+2025-12-30 10:07:21 - Produtos recebidos: 1
+2025-12-30 10:07:21 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 10:07:21 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 10:07:21 - Payload JSON gerado (717 bytes)
+2025-12-30 10:07:21 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 10:07:21 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 10:07:21 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 10:07:21 - === Disparo UTMfy Finalizado ===
+2025-12-30 11:24:39 - === Disparo UTMfy Iniciado ===
+2025-12-30 11:24:39 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b79c3e-4a04-4205-8752-96d4ff510998
+2025-12-30 11:24:39 - Produtos recebidos: 1
+2025-12-30 11:24:39 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 11:24:39 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 11:24:39 - Payload JSON gerado (927 bytes)
+2025-12-30 11:24:39 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 11:24:39 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 11:24:39 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 11:24:39 - === Disparo UTMfy Finalizado ===
+2025-12-30 11:25:08 - === Disparo UTMfy Iniciado ===
+2025-12-30 11:25:08 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: A0B79C3E-4A04-4205-8752-96D4FF510998
+2025-12-30 11:25:08 - Produtos recebidos: 1
+2025-12-30 11:25:08 - Produto 0: ID=42, Nome=getfy, Valor=99
+2025-12-30 11:25:08 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 11:25:08 - Payload JSON gerado (933 bytes)
+2025-12-30 11:25:08 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 11:25:08 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 11:25:08 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 11:25:08 - === Disparo UTMfy Finalizado ===
+2025-12-30 12:59:50 - === Disparo UTMfy Iniciado ===
+2025-12-30 12:59:50 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b7be49-8d0d-4b84-b577-3c28132e1ea3
+2025-12-30 12:59:50 - Produtos recebidos: 1
+2025-12-30 12:59:50 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 12:59:50 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 12:59:50 - Payload JSON gerado (981 bytes)
+2025-12-30 12:59:50 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 12:59:50 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 12:59:50 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 12:59:50 - === Disparo UTMfy Finalizado ===
+2025-12-30 13:06:57 - === Disparo UTMfy Iniciado ===
+2025-12-30 13:06:57 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b7c0d4-7022-4977-954a-633070b0cd7b
+2025-12-30 13:06:57 - Produtos recebidos: 1
+2025-12-30 13:06:57 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 13:06:57 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 13:06:57 - Payload JSON gerado (933 bytes)
+2025-12-30 13:06:57 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 13:06:57 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 13:06:57 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 13:06:57 - === Disparo UTMfy Finalizado ===
+2025-12-30 13:10:15 - === Disparo UTMfy Iniciado ===
+2025-12-30 13:10:15 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b7c202-fdc4-4edc-9385-9f1e41d56f34
+2025-12-30 13:10:15 - Produtos recebidos: 1
+2025-12-30 13:10:15 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 13:10:15 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 13:10:15 - Payload JSON gerado (913 bytes)
+2025-12-30 13:10:15 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 13:10:15 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 13:10:15 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 13:10:15 - === Disparo UTMfy Finalizado ===
+2025-12-30 13:11:29 - === Disparo UTMfy Iniciado ===
+2025-12-30 13:11:29 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b7c274-5d79-479c-b364-5d328e25c584
+2025-12-30 13:11:29 - Produtos recebidos: 1
+2025-12-30 13:11:29 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 13:11:29 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 13:11:29 - Payload JSON gerado (917 bytes)
+2025-12-30 13:11:29 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 13:11:29 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 13:11:29 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 13:11:29 - === Disparo UTMfy Finalizado ===
+2025-12-30 13:12:31 - === Disparo UTMfy Iniciado ===
+2025-12-30 13:12:31 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: A0B7C274-5D79-479C-B364-5D328E25C584
+2025-12-30 13:12:31 - Produtos recebidos: 1
+2025-12-30 13:12:31 - Produto 0: ID=42, Nome=getfy, Valor=99
+2025-12-30 13:12:31 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 13:12:31 - Payload JSON gerado (924 bytes)
+2025-12-30 13:12:31 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 13:12:31 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 13:12:31 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 13:12:31 - === Disparo UTMfy Finalizado ===
+2025-12-30 13:18:27 - === Disparo UTMfy Iniciado ===
+2025-12-30 13:18:27 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b7c4f1-de58-431d-b60f-2bfc854faed9
+2025-12-30 13:18:27 - Produtos recebidos: 1
+2025-12-30 13:18:27 - Produto 0: ID=42, Nome=getfy, Valor=99.00
+2025-12-30 13:18:27 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 13:18:27 - Payload JSON gerado (907 bytes)
+2025-12-30 13:18:27 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 13:18:27 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 13:18:27 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 13:18:27 - === Disparo UTMfy Finalizado ===
+2025-12-30 13:21:32 - === Disparo UTMfy Iniciado ===
+2025-12-30 13:21:32 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: A0B7C4F1-DE58-431D-B60F-2BFC854FAED9
+2025-12-30 13:21:32 - Produtos recebidos: 1
+2025-12-30 13:21:32 - Produto 0: ID=42, Nome=getfy, Valor=99
+2025-12-30 13:21:32 - Total processado: 1 produtos, Total em centavos: 9900
+2025-12-30 13:21:32 - Payload JSON gerado (913 bytes)
+2025-12-30 13:21:32 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 13:21:32 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 13:21:32 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 13:21:32 - === Disparo UTMfy Finalizado ===
+2025-12-30 17:49:55 - === Disparo UTMfy Iniciado ===
+2025-12-30 17:49:55 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 2259221589314628bfd8e89eb724d2f6
+2025-12-30 17:49:55 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2025-12-30 17:51:48 - === Disparo UTMfy Iniciado ===
+2025-12-30 17:51:48 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 42620852046b4a6d91e193dd1d07ce9d
+2025-12-30 17:51:48 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2025-12-30 17:53:54 - === Disparo UTMfy Iniciado ===
+2025-12-30 17:53:54 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: db1fe4f42bd9412a98616995be689ff8
+2025-12-30 17:53:54 - Produtos recebidos: 1
+2025-12-30 17:53:54 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2025-12-30 17:53:54 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 17:53:54 - Payload JSON gerado (684 bytes)
+2025-12-30 17:53:54 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 17:53:55 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 17:53:55 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 17:53:55 - === Disparo UTMfy Finalizado ===
+2025-12-30 17:56:08 - === Disparo UTMfy Iniciado ===
+2025-12-30 17:56:08 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 51574529daad4023ba6247c9a5634f34
+2025-12-30 17:56:08 - Produtos recebidos: 1
+2025-12-30 17:56:08 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2025-12-30 17:56:08 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 17:56:08 - Payload JSON gerado (684 bytes)
+2025-12-30 17:56:08 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 17:56:08 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 17:56:08 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 17:56:08 - === Disparo UTMfy Finalizado ===
+2025-12-30 17:59:37 - === Disparo UTMfy Iniciado ===
+2025-12-30 17:59:37 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: b729e64085874b90a845ca87d74f72a0
+2025-12-30 17:59:37 - Produtos recebidos: 1
+2025-12-30 17:59:37 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2025-12-30 17:59:37 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 17:59:37 - Payload JSON gerado (684 bytes)
+2025-12-30 17:59:37 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 17:59:37 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 17:59:37 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 17:59:37 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:03:04 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:03:04 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 3e34638c27234f0fbf81fa0d28c28fe7
+2025-12-30 18:03:04 - Produtos recebidos: 1
+2025-12-30 18:03:04 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2025-12-30 18:03:04 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 18:03:04 - Payload JSON gerado (683 bytes)
+2025-12-30 18:03:04 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:03:05 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:03:05 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:03:05 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:05:52 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:05:52 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0b82c27-4174-479c-acc1-cb562d003d8a
+2025-12-30 18:05:52 - Produtos recebidos: 1
+2025-12-30 18:05:52 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2025-12-30 18:05:52 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 18:05:52 - Payload JSON gerado (688 bytes)
+2025-12-30 18:05:52 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:05:52 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:05:52 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:05:52 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:06:10 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:06:10 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: A0B82C27-4174-479C-ACC1-CB562D003D8A
+2025-12-30 18:06:10 - Produtos recebidos: 1
+2025-12-30 18:06:10 - Produto 0: ID=45, Nome=teste, Valor=1
+2025-12-30 18:06:10 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 18:06:10 - Payload JSON gerado (694 bytes)
+2025-12-30 18:06:10 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:06:10 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:06:10 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:06:10 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:07:20 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:07:20 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 418eec1ae4334364ac6ce3b5ec4dec09
+2025-12-30 18:07:20 - Produtos recebidos: 1
+2025-12-30 18:07:20 - Produto 0: ID=45, Nome=teste, Valor=1.50
+2025-12-30 18:07:20 - Total processado: 1 produtos, Total em centavos: 150
+2025-12-30 18:07:20 - Payload JSON gerado (684 bytes)
+2025-12-30 18:07:20 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:07:20 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:07:20 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:07:20 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:13:23 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:13:23 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 55ee336df1da421185d0848132b5203b
+2025-12-30 18:13:23 - Produtos recebidos: 1
+2025-12-30 18:13:23 - Produto 0: ID=45, Nome=teste, Valor=1.50
+2025-12-30 18:13:23 - Total processado: 1 produtos, Total em centavos: 150
+2025-12-30 18:13:23 - Payload JSON gerado (684 bytes)
+2025-12-30 18:13:23 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:13:24 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:13:24 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:13:24 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:14:37 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:14:37 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 193b2460fb02472e98ac6a293c2cf7b4
+2025-12-30 18:14:37 - Produtos recebidos: 1
+2025-12-30 18:14:37 - Produto 0: ID=45, Nome=teste, Valor=1.50
+2025-12-30 18:14:37 - Total processado: 1 produtos, Total em centavos: 150
+2025-12-30 18:14:37 - Payload JSON gerado (684 bytes)
+2025-12-30 18:14:37 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:14:37 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:14:37 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:14:37 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:17:05 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:17:05 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: baf9a72665e94268a8bf80a3afd4780f
+2025-12-30 18:17:05 - Produtos recebidos: 1
+2025-12-30 18:17:05 - Produto 0: ID=45, Nome=teste, Valor=1.20
+2025-12-30 18:17:05 - Total processado: 1 produtos, Total em centavos: 120
+2025-12-30 18:17:05 - Payload JSON gerado (684 bytes)
+2025-12-30 18:17:05 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:17:05 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:17:05 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:17:05 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:22:57 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:22:57 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 31fe2a2791d5448ca18acc4a9059d12d
+2025-12-30 18:22:57 - Produtos recebidos: 1
+2025-12-30 18:22:57 - Produto 0: ID=45, Nome=teste, Valor=1.20
+2025-12-30 18:22:57 - Total processado: 1 produtos, Total em centavos: 120
+2025-12-30 18:22:57 - Payload JSON gerado (684 bytes)
+2025-12-30 18:22:57 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:22:57 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:22:57 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:22:57 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:26:39 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:26:39 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 70434a036a9a4502b50b298aca4280b7
+2025-12-30 18:26:39 - Produtos recebidos: 1
+2025-12-30 18:26:39 - Produto 0: ID=45, Nome=teste, Valor=1.20
+2025-12-30 18:26:39 - Total processado: 1 produtos, Total em centavos: 120
+2025-12-30 18:26:39 - Payload JSON gerado (684 bytes)
+2025-12-30 18:26:39 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:26:39 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:26:39 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:26:39 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:30:15 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:30:15 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: d086d739eff24d908ed1141e1a660204
+2025-12-30 18:30:15 - Produtos recebidos: 1
+2025-12-30 18:30:15 - Produto 0: ID=45, Nome=teste, Valor=1.10
+2025-12-30 18:30:15 - Total processado: 1 produtos, Total em centavos: 110
+2025-12-30 18:30:15 - Payload JSON gerado (684 bytes)
+2025-12-30 18:30:15 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:30:16 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:30:16 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:30:16 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:37:11 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:37:11 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: de28b4137e8c411c9e972d7b5b3f0e86
+2025-12-30 18:37:11 - Produtos recebidos: 1
+2025-12-30 18:37:11 - Produto 0: ID=45, Nome=teste, Valor=1.10
+2025-12-30 18:37:11 - Total processado: 1 produtos, Total em centavos: 110
+2025-12-30 18:37:11 - Payload JSON gerado (684 bytes)
+2025-12-30 18:37:11 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:37:11 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:37:11 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:37:11 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:37:33 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:37:33 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: de28b4137e8c411c9e972d7b5b3f0e86
+2025-12-30 18:37:33 - Produtos recebidos: 1
+2025-12-30 18:37:33 - Produto 0: ID=45, Nome=teste, Valor=0
+2025-12-30 18:37:33 - Total processado: 1 produtos, Total em centavos: 0
+2025-12-30 18:37:33 - Payload JSON gerado (684 bytes)
+2025-12-30 18:37:33 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:37:33 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:37:33 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:37:33 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:44:45 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:44:45 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 76fea096341b4e69b7ae527e54e5b7e3
+2025-12-30 18:44:45 - Produtos recebidos: 1
+2025-12-30 18:44:45 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2025-12-30 18:44:45 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 18:44:45 - Payload JSON gerado (684 bytes)
+2025-12-30 18:44:45 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:44:45 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:44:45 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:44:45 - === Disparo UTMfy Finalizado ===
+2025-12-30 18:45:03 - === Disparo UTMfy Iniciado ===
+2025-12-30 18:45:03 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 76fea096341b4e69b7ae527e54e5b7e3
+2025-12-30 18:45:03 - Produtos recebidos: 1
+2025-12-30 18:45:03 - Produto 0: ID=45, Nome=teste, Valor=1
+2025-12-30 18:45:03 - Total processado: 1 produtos, Total em centavos: 100
+2025-12-30 18:45:03 - Payload JSON gerado (690 bytes)
+2025-12-30 18:45:03 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 18:45:03 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 18:45:03 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 18:45:03 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:18:17 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:18:17 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 4a32b8f9-63da-48ef-9902-52c95bb7fde9
+2025-12-30 21:18:17 - Produtos recebidos: 1
+2025-12-30 21:18:17 - Produto 0: ID=46, Nome=Teste, Valor=5
+2025-12-30 21:18:17 - Total processado: 1 produtos, Total em centavos: 500
+2025-12-30 21:18:17 - Payload JSON gerado (705 bytes)
+2025-12-30 21:18:17 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:18:17 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:18:17 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:18:17 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:21:56 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:21:56 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 5d64c9a1-a63b-443f-ac37-bddf7b1a87f0
+2025-12-30 21:21:56 - Produtos recebidos: 1
+2025-12-30 21:21:56 - Produto 0: ID=46, Nome=Teste, Valor=5
+2025-12-30 21:21:56 - Total processado: 1 produtos, Total em centavos: 500
+2025-12-30 21:21:56 - Payload JSON gerado (705 bytes)
+2025-12-30 21:21:56 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:21:56 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:21:56 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:21:56 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:23:38 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:23:38 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 4a32b8f9-63da-48ef-9902-52c95bb7fde9
+2025-12-30 21:23:38 - Produtos recebidos: 1
+2025-12-30 21:23:38 - Produto 0: ID=46, Nome=Teste, Valor=5
+2025-12-30 21:23:38 - Total processado: 1 produtos, Total em centavos: 500
+2025-12-30 21:23:38 - Payload JSON gerado (711 bytes)
+2025-12-30 21:23:38 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:23:38 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:23:38 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 4a32b8f9-63da-48ef-9902-52c95bb7fde9
+2025-12-30 21:23:38 - Produtos recebidos: 1
+2025-12-30 21:23:38 - Produto 0: ID=46, Nome=Teste, Valor=5
+2025-12-30 21:23:38 - Total processado: 1 produtos, Total em centavos: 500
+2025-12-30 21:23:38 - Payload JSON gerado (711 bytes)
+2025-12-30 21:23:38 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:23:38 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:23:38 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:23:38 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:23:38 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:23:38 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:23:38 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:26:43 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:26:43 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 5d64c9a1-a63b-443f-ac37-bddf7b1a87f0
+2025-12-30 21:26:43 - Produtos recebidos: 1
+2025-12-30 21:26:43 - Produto 0: ID=46, Nome=Teste, Valor=5
+2025-12-30 21:26:43 - Total processado: 1 produtos, Total em centavos: 500
+2025-12-30 21:26:43 - Payload JSON gerado (711 bytes)
+2025-12-30 21:26:43 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:26:43 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:26:43 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 5d64c9a1-a63b-443f-ac37-bddf7b1a87f0
+2025-12-30 21:26:43 - Produtos recebidos: 1
+2025-12-30 21:26:43 - Produto 0: ID=46, Nome=Teste, Valor=5
+2025-12-30 21:26:43 - Total processado: 1 produtos, Total em centavos: 500
+2025-12-30 21:26:43 - Payload JSON gerado (711 bytes)
+2025-12-30 21:26:43 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:26:43 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:26:43 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:26:43 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:26:43 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:26:43 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:26:43 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:37:56 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:37:56 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 69a67676-c0ef-4f57-96d4-87d25e4a1876
+2025-12-30 21:37:56 - Produtos recebidos: 1
+2025-12-30 21:37:56 - Produto 0: ID=46, Nome=Plano Pro, Valor=12
+2025-12-30 21:37:56 - Total processado: 1 produtos, Total em centavos: 1200
+2025-12-30 21:37:56 - Payload JSON gerado (712 bytes)
+2025-12-30 21:37:56 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:37:56 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:37:56 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:37:56 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:43:03 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:43:03 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 69a67676-c0ef-4f57-96d4-87d25e4a1876
+2025-12-30 21:43:03 - Produtos recebidos: 1
+2025-12-30 21:43:03 - Produto 0: ID=46, Nome=Plano Pro, Valor=12
+2025-12-30 21:43:03 - Total processado: 1 produtos, Total em centavos: 1200
+2025-12-30 21:43:03 - Payload JSON gerado (718 bytes)
+2025-12-30 21:43:03 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:43:03 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:43:03 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 69a67676-c0ef-4f57-96d4-87d25e4a1876
+2025-12-30 21:43:03 - Produtos recebidos: 1
+2025-12-30 21:43:03 - Produto 0: ID=46, Nome=Plano Pro, Valor=12
+2025-12-30 21:43:03 - Total processado: 1 produtos, Total em centavos: 1200
+2025-12-30 21:43:03 - Payload JSON gerado (718 bytes)
+2025-12-30 21:43:03 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:43:03 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:43:03 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:43:03 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:43:03 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:43:03 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:43:03 - === Disparo UTMfy Finalizado ===
+2025-12-30 21:43:04 - === Disparo UTMfy Iniciado ===
+2025-12-30 21:43:04 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 69a67676-c0ef-4f57-96d4-87d25e4a1876
+2025-12-30 21:43:04 - Produtos recebidos: 1
+2025-12-30 21:43:04 - Produto 0: ID=46, Nome=Plano Pro, Valor=12
+2025-12-30 21:43:04 - Total processado: 1 produtos, Total em centavos: 1200
+2025-12-30 21:43:04 - Payload JSON gerado (718 bytes)
+2025-12-30 21:43:04 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 21:43:04 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 21:43:04 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 21:43:04 - === Disparo UTMfy Finalizado ===
+2025-12-30 23:07:13 - === Disparo UTMfy Iniciado ===
+2025-12-30 23:07:13 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 955293586
+2025-12-30 23:07:13 - Produtos recebidos: 1
+2025-12-30 23:07:13 - Produto 0: ID=46, Nome=Plano Pro, Valor=6
+2025-12-30 23:07:13 - Total processado: 1 produtos, Total em centavos: 600
+2025-12-30 23:07:13 - Payload JSON gerado (682 bytes)
+2025-12-30 23:07:13 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 23:07:13 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 23:07:13 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 23:07:13 - === Disparo UTMfy Finalizado ===
+2025-12-30 23:17:00 - === Disparo UTMfy Iniciado ===
+2025-12-30 23:17:00 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 955295958
+2025-12-30 23:17:00 - Produtos recebidos: 1
+2025-12-30 23:17:00 - Produto 0: ID=46, Nome=Plano Pro, Valor=6
+2025-12-30 23:17:00 - Total processado: 1 produtos, Total em centavos: 600
+2025-12-30 23:17:00 - Payload JSON gerado (691 bytes)
+2025-12-30 23:17:00 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 23:17:00 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 23:17:00 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 23:17:00 - === Disparo UTMfy Finalizado ===
+2025-12-30 23:29:08 - === Disparo UTMfy Iniciado ===
+2025-12-30 23:29:08 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 955298771
+2025-12-30 23:29:08 - Produtos recebidos: 1
+2025-12-30 23:29:08 - Produto 0: ID=46, Nome=Plano Pro, Valor=6
+2025-12-30 23:29:08 - Total processado: 1 produtos, Total em centavos: 600
+2025-12-30 23:29:08 - Payload JSON gerado (691 bytes)
+2025-12-30 23:29:08 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-30 23:29:08 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-30 23:29:08 - ✓ Evento enviado com sucesso para getfy
+2025-12-30 23:29:08 - === Disparo UTMfy Finalizado ===
+2025-12-31 00:00:27 - === Disparo UTMfy Iniciado ===
+2025-12-31 00:00:27 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a226d010672f404da59332284d20ecbf
+2025-12-31 00:00:27 - Produtos recebidos: 1
+2025-12-31 00:00:27 - Produto 0: ID=46, Nome=Plano Pro, Valor=2.00
+2025-12-31 00:00:27 - Total processado: 1 produtos, Total em centavos: 200
+2025-12-31 00:00:27 - Payload JSON gerado (706 bytes)
+2025-12-31 00:00:27 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-31 00:00:27 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-31 00:00:27 - ✓ Evento enviado com sucesso para getfy
+2025-12-31 00:00:27 - === Disparo UTMfy Finalizado ===
+2025-12-31 00:00:54 - === Disparo UTMfy Iniciado ===
+2025-12-31 00:00:54 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: a226d010672f404da59332284d20ecbf
+2025-12-31 00:00:54 - Produtos recebidos: 1
+2025-12-31 00:00:54 - Produto 0: ID=46, Nome=Plano Pro, Valor=2
+2025-12-31 00:00:54 - Total processado: 1 produtos, Total em centavos: 200
+2025-12-31 00:00:54 - Payload JSON gerado (712 bytes)
+2025-12-31 00:00:54 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2025-12-31 00:00:55 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2025-12-31 00:00:55 - ✓ Evento enviado com sucesso para getfy
+2025-12-31 00:00:55 - === Disparo UTMfy Finalizado ===
+2026-01-01 10:54:11 - === Disparo UTMfy Iniciado ===
+2026-01-01 10:54:11 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bb97bc-c99b-4654-a6f7-bad2addae4a4
+2026-01-01 10:54:11 - Produtos recebidos: 1
+2026-01-01 10:54:11 - Produto 0: ID=48, Nome=teste, Valor=10.00
+2026-01-01 10:54:11 - Total processado: 1 produtos, Total em centavos: 1000
+2026-01-01 10:54:11 - Payload JSON gerado (700 bytes)
+2026-01-01 10:54:11 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 10:54:12 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 10:54:12 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 10:54:12 - === Disparo UTMfy Finalizado ===
+2026-01-01 11:16:17 - === Disparo UTMfy Iniciado ===
+2026-01-01 11:16:17 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bb9fa3-7aff-4f0b-a563-9dfa8bd778c4
+2026-01-01 11:16:17 - Produtos recebidos: 1
+2026-01-01 11:16:17 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 11:16:17 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 11:16:17 - Payload JSON gerado (703 bytes)
+2026-01-01 11:16:17 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 11:16:17 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 11:16:17 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 11:16:17 - === Disparo UTMfy Finalizado ===
+2026-01-01 11:18:34 - === Disparo UTMfy Iniciado ===
+2026-01-01 11:18:34 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bba075-c482-4566-a749-078b9653d07b
+2026-01-01 11:18:34 - Produtos recebidos: 1
+2026-01-01 11:18:34 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 11:18:34 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 11:18:34 - Payload JSON gerado (703 bytes)
+2026-01-01 11:18:34 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 11:18:35 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 11:18:35 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 11:18:35 - === Disparo UTMfy Finalizado ===
+2026-01-01 11:25:34 - === Disparo UTMfy Iniciado ===
+2026-01-01 11:25:34 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bba2f5-58c0-4755-a1d3-387bd3dc2268
+2026-01-01 11:25:34 - Produtos recebidos: 1
+2026-01-01 11:25:34 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 11:25:34 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 11:25:34 - Payload JSON gerado (703 bytes)
+2026-01-01 11:25:34 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 11:25:34 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 11:25:34 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 11:25:34 - === Disparo UTMfy Finalizado ===
+2026-01-01 11:26:30 - === Disparo UTMfy Iniciado ===
+2026-01-01 11:26:30 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bba34b-62e4-45aa-a839-b51ef506ca00
+2026-01-01 11:26:30 - Produtos recebidos: 1
+2026-01-01 11:26:30 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 11:26:30 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 11:26:30 - Payload JSON gerado (712 bytes)
+2026-01-01 11:26:30 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 11:26:30 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 11:26:30 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 11:26:30 - === Disparo UTMfy Finalizado ===
+2026-01-01 11:38:46 - === Disparo UTMfy Iniciado ===
+2026-01-01 11:38:46 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bba7ad-bea7-4439-97bc-422c05ad55f4
+2026-01-01 11:38:46 - Produtos recebidos: 1
+2026-01-01 11:38:46 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 11:38:46 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 11:38:46 - Payload JSON gerado (712 bytes)
+2026-01-01 11:38:46 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 11:38:46 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 11:38:46 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 11:38:46 - === Disparo UTMfy Finalizado ===
+2026-01-01 11:41:50 - === Disparo UTMfy Iniciado ===
+2026-01-01 11:41:50 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bba8c7-2e68-4f5b-832d-b79b187b05ae
+2026-01-01 11:41:50 - Produtos recebidos: 1
+2026-01-01 11:41:50 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 11:41:50 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 11:41:50 - Payload JSON gerado (712 bytes)
+2026-01-01 11:41:50 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 11:41:50 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 11:41:50 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 11:41:50 - === Disparo UTMfy Finalizado ===
+2026-01-01 11:46:16 - === Disparo UTMfy Iniciado ===
+2026-01-01 11:46:16 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bbaa5c-9aca-4b55-92a5-6d22521bb3d4
+2026-01-01 11:46:16 - Produtos recebidos: 1
+2026-01-01 11:46:16 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 11:46:16 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 11:46:16 - Payload JSON gerado (712 bytes)
+2026-01-01 11:46:16 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 11:46:16 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 11:46:16 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 11:46:16 - === Disparo UTMfy Finalizado ===
+2026-01-01 11:47:39 - === Disparo UTMfy Iniciado ===
+2026-01-01 11:47:39 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bbaadc-3819-46df-8fa1-aa8ce91903a2
+2026-01-01 11:47:39 - Produtos recebidos: 1
+2026-01-01 11:47:39 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 11:47:39 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 11:47:39 - Payload JSON gerado (705 bytes)
+2026-01-01 11:47:39 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 11:47:40 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 11:47:40 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 11:47:40 - === Disparo UTMfy Finalizado ===
+2026-01-01 11:54:50 - === Disparo UTMfy Iniciado ===
+2026-01-01 11:54:50 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bbad6e-13e1-4714-837e-2a9f90e379d8
+2026-01-01 11:54:50 - Produtos recebidos: 1
+2026-01-01 11:54:50 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 11:54:50 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 11:54:50 - Payload JSON gerado (703 bytes)
+2026-01-01 11:54:50 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 11:54:51 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 11:54:51 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 11:54:51 - === Disparo UTMfy Finalizado ===
+2026-01-01 12:02:05 - === Disparo UTMfy Iniciado ===
+2026-01-01 12:02:05 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bbb005-ad79-44f2-92ec-7d89b6ff8e45
+2026-01-01 12:02:05 - Produtos recebidos: 1
+2026-01-01 12:02:05 - Produto 0: ID=50, Nome=Produto New, Valor=1.00
+2026-01-01 12:02:05 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-01 12:02:05 - Payload JSON gerado (703 bytes)
+2026-01-01 12:02:05 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-01 12:02:06 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-01 12:02:06 - ✓ Evento enviado com sucesso para getfy
+2026-01-01 12:02:06 - === Disparo UTMfy Finalizado ===
+2026-01-01 16:57:40 - === Disparo UTMfy Iniciado ===
+2026-01-01 16:57:40 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bc19ba-bc9d-4bdf-9ff2-cfe16003a1c1
+2026-01-01 16:57:40 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-01 17:55:45 - === Disparo UTMfy Iniciado ===
+2026-01-01 17:55:45 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bc2e80-c00c-4c44-8284-f327f197248c
+2026-01-01 17:55:45 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-01 20:26:03 - === Disparo UTMfy Iniciado ===
+2026-01-01 20:26:03 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0bc643f-9459-4960-802a-07091a964431
+2026-01-01 20:26:03 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-02 18:01:06 - === Disparo UTMfy Iniciado ===
+2026-01-02 18:01:06 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 832091f6040141bd9e9388c031d29f99
+2026-01-02 18:01:06 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-05 18:27:42 - === Disparo UTMfy Iniciado ===
+2026-01-05 18:27:42 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c445db-95b7-4e24-9cc8-6787b9bbd995
+2026-01-05 18:27:42 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-05 18:28:38 - === Disparo UTMfy Iniciado ===
+2026-01-05 18:28:38 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: A0C445DB-95B7-4E24-9CC8-6787B9BBD995
+2026-01-05 18:28:38 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_approved'.
+2026-01-05 18:52:22 - === Disparo UTMfy Iniciado ===
+2026-01-05 18:52:22 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: b818fdc4d8b14119a00b058a258b7a27
+2026-01-05 18:52:22 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-05 18:52:34 - === Disparo UTMfy Iniciado ===
+2026-01-05 18:52:34 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: b818fdc4d8b14119a00b058a258b7a27
+2026-01-05 18:52:34 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_approved'.
+2026-01-06 07:46:47 - === Disparo UTMfy Iniciado ===
+2026-01-06 07:46:47 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a137e7f2186d4309acc9421e5380181c
+2026-01-06 07:46:47 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 07:47:05 - === Disparo UTMfy Iniciado ===
+2026-01-06 07:47:05 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: a137e7f2186d4309acc9421e5380181c
+2026-01-06 07:47:05 - Produtos recebidos: 1
+2026-01-06 07:47:05 - Produto 0: ID=45, Nome=teste, Valor=1
+2026-01-06 07:47:05 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-06 07:47:05 - Payload JSON gerado (721 bytes)
+2026-01-06 07:47:05 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 07:47:05 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 07:47:05 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 07:47:05 - === Disparo UTMfy Finalizado ===
+2026-01-06 07:47:59 - === Disparo UTMfy Iniciado ===
+2026-01-06 07:47:59 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c56411-2c91-48d5-8546-e65c8c6006dc
+2026-01-06 07:47:59 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 07:57:42 - === Disparo UTMfy Iniciado ===
+2026-01-06 07:57:42 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c56789-886e-49a5-a625-e52e72ba1cf7
+2026-01-06 07:57:42 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:13:02 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:13:02 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c56d05-48ca-4888-ab4b-5cdfc437f426
+2026-01-06 08:13:02 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:28:17 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:28:17 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c57279-d684-4fc4-8509-efdc9f43e089
+2026-01-06 08:28:17 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:30:12 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:30:12 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c57329-c317-4dfc-a728-5a2b9916bc66
+2026-01-06 08:30:12 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:30:34 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:30:34 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 03140cf23a384bfc936b4f2f9509d75d
+2026-01-06 08:30:34 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:31:15 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:31:15 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c57389-1ac0-4926-ab1d-200b5d4928d9
+2026-01-06 08:31:15 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:33:21 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:33:21 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c57449-60b6-48d3-b8ed-d2ab81bcd762
+2026-01-06 08:33:21 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:33:44 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:33:44 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c5746d-88e3-4f23-a0c1-f92659f71a7d
+2026-01-06 08:33:44 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:41:21 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:41:21 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c57726-0c85-4104-91e3-a84b5341fc5c
+2026-01-06 08:41:21 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:42:39 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:42:39 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 1af1d7ec46c44cc586a25255be0784b4
+2026-01-06 08:42:39 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:43:38 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:43:38 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 1af1d7ec46c44cc586a25255be0784b4
+2026-01-06 08:43:38 - Produtos recebidos: 1
+2026-01-06 08:43:38 - Produto 0: ID=45, Nome=teste, Valor=1.5
+2026-01-06 08:43:38 - Total processado: 1 produtos, Total em centavos: 150
+2026-01-06 08:43:38 - Payload JSON gerado (707 bytes)
+2026-01-06 08:43:38 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 08:43:39 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 08:43:39 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 08:43:39 - === Disparo UTMfy Finalizado ===
+2026-01-06 08:48:39 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:48:39 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: cf4f3cbed4fd43008c42e4783a8741b2
+2026-01-06 08:48:39 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:49:02 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:49:02 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: cf4f3cbed4fd43008c42e4783a8741b2
+2026-01-06 08:49:02 - Produtos recebidos: 1
+2026-01-06 08:49:02 - Produto 0: ID=45, Nome=teste, Valor=1.2
+2026-01-06 08:49:02 - Total processado: 1 produtos, Total em centavos: 120
+2026-01-06 08:49:02 - Payload JSON gerado (707 bytes)
+2026-01-06 08:49:02 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 08:49:02 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 08:49:02 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 08:49:02 - === Disparo UTMfy Finalizado ===
+2026-01-06 08:53:30 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:53:30 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 5c1d1a4868f247fc80884caff76c1574
+2026-01-06 08:53:30 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:53:52 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:53:52 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 5c1d1a4868f247fc80884caff76c1574
+2026-01-06 08:53:52 - Produtos recebidos: 1
+2026-01-06 08:53:52 - Produto 0: ID=45, Nome=teste, Valor=1
+2026-01-06 08:53:52 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-06 08:53:52 - Payload JSON gerado (707 bytes)
+2026-01-06 08:53:52 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 08:53:53 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 08:53:53 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 08:53:53 - === Disparo UTMfy Finalizado ===
+2026-01-06 08:54:18 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:54:18 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c57bc8-5cb5-4919-96e0-75cec2130ad9
+2026-01-06 08:54:18 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 08:57:15 - === Disparo UTMfy Iniciado ===
+2026-01-06 08:57:15 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c57cd6-39ab-4109-88c1-d2b2c2e5a263
+2026-01-06 08:57:15 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 09:00:11 - === Disparo UTMfy Iniciado ===
+2026-01-06 09:00:11 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c57de2-e5fa-4b76-8742-f06c1e2417bc
+2026-01-06 09:00:11 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 09:07:09 - === Disparo UTMfy Iniciado ===
+2026-01-06 09:07:09 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c58061-29cc-4814-9c71-48c8b5293326
+2026-01-06 09:07:09 - AVISO: Nenhuma integração ativa encontrada para User: 34 na coluna 'event_pending'.
+2026-01-06 09:12:55 - === Disparo UTMfy Iniciado ===
+2026-01-06 09:12:55 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c58270-2cd9-4460-9c8a-2f09d1596868
+2026-01-06 09:12:55 - Produtos recebidos: 1
+2026-01-06 09:12:55 - Produto 0: ID=45, Nome=teste, Valor=1.20
+2026-01-06 09:12:55 - Total processado: 1 produtos, Total em centavos: 120
+2026-01-06 09:12:55 - Payload JSON gerado (705 bytes)
+2026-01-06 09:12:55 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 09:12:55 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 09:12:55 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 09:12:55 - === Disparo UTMfy Finalizado ===
+2026-01-06 09:25:58 - === Disparo UTMfy Iniciado ===
+2026-01-06 09:25:58 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c5871a-d839-4422-8aa1-41a9e92e2ec8
+2026-01-06 09:25:58 - Produtos recebidos: 1
+2026-01-06 09:25:58 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2026-01-06 09:25:58 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-06 09:25:58 - Payload JSON gerado (705 bytes)
+2026-01-06 09:25:58 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 09:25:59 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 09:25:59 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 09:25:59 - === Disparo UTMfy Finalizado ===
+2026-01-06 09:33:18 - === Disparo UTMfy Iniciado ===
+2026-01-06 09:33:18 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c589ba-dee8-469d-814e-cc768454d4c1
+2026-01-06 09:33:18 - Produtos recebidos: 1
+2026-01-06 09:33:18 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2026-01-06 09:33:18 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-06 09:33:18 - Payload JSON gerado (705 bytes)
+2026-01-06 09:33:18 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 09:33:19 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 09:33:19 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 09:33:19 - === Disparo UTMfy Finalizado ===
+2026-01-06 09:44:27 - === Disparo UTMfy Iniciado ===
+2026-01-06 09:44:27 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c58db7-b516-4a98-8587-cc956aa597bf
+2026-01-06 09:44:27 - Produtos recebidos: 1
+2026-01-06 09:44:27 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2026-01-06 09:44:27 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-06 09:44:27 - Payload JSON gerado (705 bytes)
+2026-01-06 09:44:27 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 09:44:28 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 09:44:28 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 09:44:28 - === Disparo UTMfy Finalizado ===
+2026-01-06 09:45:59 - === Disparo UTMfy Iniciado ===
+2026-01-06 09:45:59 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: a0c58db7-b516-4a98-8587-cc956aa597bf
+2026-01-06 09:45:59 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-06 09:47:40 - === Disparo UTMfy Iniciado ===
+2026-01-06 09:47:40 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c58edd-71e2-4b6a-b5ab-de8cbfadb90c
+2026-01-06 09:47:40 - Produtos recebidos: 1
+2026-01-06 09:47:40 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2026-01-06 09:47:40 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-06 09:47:40 - Payload JSON gerado (705 bytes)
+2026-01-06 09:47:40 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 09:47:41 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 09:47:41 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 09:47:41 - === Disparo UTMfy Finalizado ===
+2026-01-06 09:48:42 - === Disparo UTMfy Iniciado ===
+2026-01-06 09:48:42 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: a0c58edd-71e2-4b6a-b5ab-de8cbfadb90c
+2026-01-06 09:48:42 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-06 10:16:41 - === Disparo UTMfy Iniciado ===
+2026-01-06 10:16:41 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c5993d-60f6-4e49-8d29-34cc96b91f7c
+2026-01-06 10:16:41 - Produtos recebidos: 1
+2026-01-06 10:16:41 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2026-01-06 10:16:41 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-06 10:16:41 - Payload JSON gerado (705 bytes)
+2026-01-06 10:16:41 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 10:16:41 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 10:16:41 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 10:16:41 - === Disparo UTMfy Finalizado ===
+2026-01-06 11:13:45 - === Disparo UTMfy Iniciado ===
+2026-01-06 11:13:45 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c5ada7-1fdb-49eb-94db-ea7d65323b55
+2026-01-06 11:13:45 - Produtos recebidos: 1
+2026-01-06 11:13:45 - Produto 0: ID=45, Nome=teste, Valor=1.00
+2026-01-06 11:13:45 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-06 11:13:45 - Payload JSON gerado (705 bytes)
+2026-01-06 11:13:45 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-06 11:13:46 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-06 11:13:46 - ✓ Evento enviado com sucesso para getfy
+2026-01-06 11:13:46 - === Disparo UTMfy Finalizado ===
+2026-01-07 08:03:38 - === Disparo UTMfy Iniciado ===
+2026-01-07 08:03:38 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0c76ca3-5507-43e7-8eb6-63a5b959f437
+2026-01-07 08:03:38 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-01-12 09:06:49 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:06:49 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: d4a4239a693d40b9ab4382b4603e4797
+2026-01-12 09:06:49 - Produtos recebidos: 1
+2026-01-12 09:06:49 - Produto 0: ID=41, Nome=teste, Valor=1.00
+2026-01-12 09:06:49 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 09:06:49 - Payload JSON gerado (693 bytes)
+2026-01-12 09:06:49 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:06:50 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:06:50 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:06:50 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:07:19 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:07:19 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: e21973eb86f64a9b8ffdbf880d661376
+2026-01-12 09:07:19 - Produtos recebidos: 1
+2026-01-12 09:07:19 - Produto 0: ID=41, Nome=teste, Valor=1.30
+2026-01-12 09:07:19 - Total processado: 1 produtos, Total em centavos: 130
+2026-01-12 09:07:19 - Payload JSON gerado (693 bytes)
+2026-01-12 09:07:19 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:07:19 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:07:19 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:07:19 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:07:37 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:07:37 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: e21973eb86f64a9b8ffdbf880d661376
+2026-01-12 09:07:37 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:10:04 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:10:04 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: b337c2c565b749049e3d16f7bbe88c72
+2026-01-12 09:10:04 - Produtos recebidos: 1
+2026-01-12 09:10:04 - Produto 0: ID=41, Nome=teste, Valor=1.15
+2026-01-12 09:10:04 - Total processado: 1 produtos, Total em centavos: 114
+2026-01-12 09:10:04 - Payload JSON gerado (693 bytes)
+2026-01-12 09:10:04 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:10:05 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:10:05 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:10:05 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:10:22 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:10:22 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: b337c2c565b749049e3d16f7bbe88c72
+2026-01-12 09:10:22 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:12:23 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:12:23 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 7151fa7e52494b79adeffdede18579a2
+2026-01-12 09:12:23 - Produtos recebidos: 1
+2026-01-12 09:12:23 - Produto 0: ID=41, Nome=teste, Valor=1.05
+2026-01-12 09:12:23 - Total processado: 1 produtos, Total em centavos: 105
+2026-01-12 09:12:23 - Payload JSON gerado (693 bytes)
+2026-01-12 09:12:23 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:12:23 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:12:23 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:12:23 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:12:46 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:12:46 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 7151fa7e52494b79adeffdede18579a2
+2026-01-12 09:12:46 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:15:23 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:15:23 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 15738378860045e0b7a861dd81a5ce4d
+2026-01-12 09:15:23 - Produtos recebidos: 1
+2026-01-12 09:15:23 - Produto 0: ID=41, Nome=teste, Valor=1.05
+2026-01-12 09:15:23 - Total processado: 1 produtos, Total em centavos: 105
+2026-01-12 09:15:23 - Payload JSON gerado (693 bytes)
+2026-01-12 09:15:23 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:15:23 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:15:23 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:15:23 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:16:09 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:16:09 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 3050e5165df24fbf9d0422c0cb319aac
+2026-01-12 09:16:09 - Produtos recebidos: 1
+2026-01-12 09:16:09 - Produto 0: ID=41, Nome=teste, Valor=1.00
+2026-01-12 09:16:09 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 09:16:09 - Payload JSON gerado (693 bytes)
+2026-01-12 09:16:09 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:16:09 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:16:09 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:16:09 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:16:21 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:16:21 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 3050e5165df24fbf9d0422c0cb319aac
+2026-01-12 09:16:21 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:18:57 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:18:57 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: d61a4a28aa91454497a34de5ba8ee21d
+2026-01-12 09:18:57 - Produtos recebidos: 1
+2026-01-12 09:18:57 - Produto 0: ID=41, Nome=teste, Valor=1.00
+2026-01-12 09:18:57 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 09:18:57 - Payload JSON gerado (693 bytes)
+2026-01-12 09:18:57 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:18:58 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:18:58 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:18:58 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:19:22 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:19:22 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 6ac1857fce5b47398fab7236207009d8
+2026-01-12 09:19:22 - Produtos recebidos: 1
+2026-01-12 09:19:22 - Produto 0: ID=41, Nome=teste, Valor=1.10
+2026-01-12 09:19:22 - Total processado: 1 produtos, Total em centavos: 110
+2026-01-12 09:19:22 - Payload JSON gerado (693 bytes)
+2026-01-12 09:19:22 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:19:22 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:19:22 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:19:22 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:19:40 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:19:40 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 6ac1857fce5b47398fab7236207009d8
+2026-01-12 09:19:40 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:24:07 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:24:07 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 469ca2debfb749a7af15b0c5583a5f64
+2026-01-12 09:24:07 - Produtos recebidos: 1
+2026-01-12 09:24:07 - Produto 0: ID=41, Nome=teste, Valor=1.15
+2026-01-12 09:24:07 - Total processado: 1 produtos, Total em centavos: 114
+2026-01-12 09:24:07 - Payload JSON gerado (693 bytes)
+2026-01-12 09:24:07 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:24:07 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:24:07 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:24:07 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:24:24 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:24:24 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 469ca2debfb749a7af15b0c5583a5f64
+2026-01-12 09:24:24 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:26:57 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:26:57 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: da2d9d4be23e456caba780a431262ae1
+2026-01-12 09:26:57 - Produtos recebidos: 1
+2026-01-12 09:26:57 - Produto 0: ID=41, Nome=teste, Valor=1.00
+2026-01-12 09:26:57 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 09:26:57 - Payload JSON gerado (693 bytes)
+2026-01-12 09:26:57 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:26:57 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:26:57 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:26:57 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:27:14 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:27:14 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: da2d9d4be23e456caba780a431262ae1
+2026-01-12 09:27:14 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:28:54 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:28:54 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: df1379020b524f51a5db628d66b54cda
+2026-01-12 09:28:54 - Produtos recebidos: 1
+2026-01-12 09:28:54 - Produto 0: ID=41, Nome=teste, Valor=1.00
+2026-01-12 09:28:54 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 09:28:54 - Payload JSON gerado (693 bytes)
+2026-01-12 09:28:54 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:28:54 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:28:54 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:28:54 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:29:15 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:29:15 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 1336677004bf4123b78aa442f5698cc8
+2026-01-12 09:29:15 - Produtos recebidos: 1
+2026-01-12 09:29:15 - Produto 0: ID=41, Nome=teste, Valor=1.00
+2026-01-12 09:29:15 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 09:29:15 - Payload JSON gerado (693 bytes)
+2026-01-12 09:29:15 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:29:16 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:29:16 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:29:16 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:29:52 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:29:52 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 131f32b5163c4870baa21a1d10ae830f
+2026-01-12 09:29:52 - Produtos recebidos: 1
+2026-01-12 09:29:52 - Produto 0: ID=41, Nome=teste, Valor=1.10
+2026-01-12 09:29:52 - Total processado: 1 produtos, Total em centavos: 110
+2026-01-12 09:29:52 - Payload JSON gerado (693 bytes)
+2026-01-12 09:29:52 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:29:52 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:29:52 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:29:52 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:30:04 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:30:04 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 131f32b5163c4870baa21a1d10ae830f
+2026-01-12 09:30:04 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:36:05 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:36:05 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: dec45697b11943adb058eab6d4ac828e
+2026-01-12 09:36:05 - Produtos recebidos: 1
+2026-01-12 09:36:05 - Produto 0: ID=41, Nome=teste, Valor=1.05
+2026-01-12 09:36:05 - Total processado: 1 produtos, Total em centavos: 105
+2026-01-12 09:36:05 - Payload JSON gerado (693 bytes)
+2026-01-12 09:36:05 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:36:05 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:36:05 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:36:05 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:36:23 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:36:23 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: dec45697b11943adb058eab6d4ac828e
+2026-01-12 09:36:23 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:39:06 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:39:06 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 331443210f914618a37cdf7c02cfb1a0
+2026-01-12 09:39:06 - Produtos recebidos: 1
+2026-01-12 09:39:06 - Produto 0: ID=41, Nome=teste, Valor=1.00
+2026-01-12 09:39:06 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 09:39:06 - Payload JSON gerado (693 bytes)
+2026-01-12 09:39:06 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:39:07 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:39:07 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:39:07 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:39:19 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:39:19 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 331443210f914618a37cdf7c02cfb1a0
+2026-01-12 09:39:19 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:42:26 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:42:26 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 7e9a577acf254d7ebaa91b338b25117a
+2026-01-12 09:42:26 - Produtos recebidos: 1
+2026-01-12 09:42:26 - Produto 0: ID=41, Nome=teste, Valor=1.05
+2026-01-12 09:42:26 - Total processado: 1 produtos, Total em centavos: 105
+2026-01-12 09:42:26 - Payload JSON gerado (693 bytes)
+2026-01-12 09:42:26 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:42:26 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:42:26 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:42:26 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:42:43 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:42:43 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 7e9a577acf254d7ebaa91b338b25117a
+2026-01-12 09:42:43 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:46:59 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:46:59 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: f302d1d42e5e408c9978e8dc66f2fd19
+2026-01-12 09:46:59 - Produtos recebidos: 1
+2026-01-12 09:46:59 - Produto 0: ID=41, Nome=teste, Valor=2.00
+2026-01-12 09:46:59 - Total processado: 1 produtos, Total em centavos: 200
+2026-01-12 09:46:59 - Payload JSON gerado (693 bytes)
+2026-01-12 09:46:59 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:46:59 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:46:59 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:46:59 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:47:17 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:47:17 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: f302d1d42e5e408c9978e8dc66f2fd19
+2026-01-12 09:47:17 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 09:49:15 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:49:15 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: d237428b27df4add92a15a92d8b71304
+2026-01-12 09:49:15 - Produtos recebidos: 1
+2026-01-12 09:49:15 - Produto 0: ID=41, Nome=teste, Valor=1.10
+2026-01-12 09:49:15 - Total processado: 1 produtos, Total em centavos: 110
+2026-01-12 09:49:15 - Payload JSON gerado (693 bytes)
+2026-01-12 09:49:15 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 09:49:16 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 09:49:16 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 09:49:16 - === Disparo UTMfy Finalizado ===
+2026-01-12 09:49:38 - === Disparo UTMfy Iniciado ===
+2026-01-12 09:49:38 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: d237428b27df4add92a15a92d8b71304
+2026-01-12 09:49:38 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 10:12:57 - === Disparo UTMfy Iniciado ===
+2026-01-12 10:12:57 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: d18b4ed3ea174441900c7efc3d9336a9
+2026-01-12 10:12:57 - Produtos recebidos: 1
+2026-01-12 10:12:57 - Produto 0: ID=41, Nome=teste, Valor=1.30
+2026-01-12 10:12:57 - Total processado: 1 produtos, Total em centavos: 130
+2026-01-12 10:12:57 - Payload JSON gerado (693 bytes)
+2026-01-12 10:12:57 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 10:12:57 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 10:12:57 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 10:12:57 - === Disparo UTMfy Finalizado ===
+2026-01-12 10:13:30 - === Disparo UTMfy Iniciado ===
+2026-01-12 10:13:30 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: d18b4ed3ea174441900c7efc3d9336a9
+2026-01-12 10:13:30 - AVISO: Nenhuma integração ativa encontrada para User:  na coluna 'event_approved'.
+2026-01-12 10:31:32 - === Disparo UTMfy Iniciado ===
+2026-01-12 10:31:32 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 84aa4eddee684165b65e668dc0e12a4c
+2026-01-12 10:31:32 - Produtos recebidos: 1
+2026-01-12 10:31:32 - Produto 0: ID=41, Nome=teste, Valor=0
+2026-01-12 10:31:32 - Total processado: 1 produtos, Total em centavos: 0
+2026-01-12 10:31:32 - Payload JSON gerado (687 bytes)
+2026-01-12 10:31:32 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 10:31:33 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 10:31:33 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 10:31:33 - === Disparo UTMfy Finalizado ===
+2026-01-12 10:32:00 - === Disparo UTMfy Iniciado ===
+2026-01-12 10:32:00 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 84aa4eddee684165b65e668dc0e12a4c
+2026-01-12 10:32:00 - Produtos recebidos: 1
+2026-01-12 10:32:00 - Produto 0: ID=41, Nome=teste, Valor=1
+2026-01-12 10:32:00 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 10:32:00 - Payload JSON gerado (699 bytes)
+2026-01-12 10:32:00 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 10:32:00 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 10:32:00 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 10:32:00 - === Disparo UTMfy Finalizado ===
+2026-01-12 10:32:36 - === Disparo UTMfy Iniciado ===
+2026-01-12 10:32:36 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 7a89569521b94f4e943b1da01492932d
+2026-01-12 10:32:36 - Produtos recebidos: 1
+2026-01-12 10:32:36 - Produto 0: ID=41, Nome=teste, Valor=0
+2026-01-12 10:32:36 - Total processado: 1 produtos, Total em centavos: 0
+2026-01-12 10:32:36 - Payload JSON gerado (687 bytes)
+2026-01-12 10:32:36 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 10:32:37 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 10:32:37 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 10:32:37 - === Disparo UTMfy Finalizado ===
+2026-01-12 10:34:19 - === Disparo UTMfy Iniciado ===
+2026-01-12 10:34:19 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 456f082597954c23abf0aaed5af49e21
+2026-01-12 10:34:19 - Produtos recebidos: 1
+2026-01-12 10:34:19 - Produto 0: ID=41, Nome=teste, Valor=1.1
+2026-01-12 10:34:19 - Total processado: 1 produtos, Total em centavos: 110
+2026-01-12 10:34:19 - Payload JSON gerado (693 bytes)
+2026-01-12 10:34:19 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 10:34:19 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 10:34:19 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 10:34:19 - === Disparo UTMfy Finalizado ===
+2026-01-12 10:34:46 - === Disparo UTMfy Iniciado ===
+2026-01-12 10:34:46 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 456f082597954c23abf0aaed5af49e21
+2026-01-12 10:34:46 - Produtos recebidos: 1
+2026-01-12 10:34:46 - Produto 0: ID=41, Nome=teste, Valor=1.1
+2026-01-12 10:34:46 - Total processado: 1 produtos, Total em centavos: 110
+2026-01-12 10:34:46 - Payload JSON gerado (699 bytes)
+2026-01-12 10:34:46 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 10:34:47 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 10:34:47 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 10:34:47 - === Disparo UTMfy Finalizado ===
+2026-01-12 10:43:50 - === Disparo UTMfy Iniciado ===
+2026-01-12 10:43:50 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 141700523346
+2026-01-12 10:43:50 - Produtos recebidos: 1
+2026-01-12 10:43:50 - Produto 0: ID=41, Nome=teste, Valor=1
+2026-01-12 10:43:50 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 10:43:50 - Payload JSON gerado (673 bytes)
+2026-01-12 10:43:50 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 10:43:50 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 10:43:50 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 10:43:50 - === Disparo UTMfy Finalizado ===
+2026-01-12 10:44:16 - === Disparo UTMfy Iniciado ===
+2026-01-12 10:44:16 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 141700523346
+2026-01-12 10:44:16 - Produtos recebidos: 1
+2026-01-12 10:44:16 - Produto 0: ID=41, Nome=teste, Valor=1
+2026-01-12 10:44:16 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 10:44:16 - Payload JSON gerado (679 bytes)
+2026-01-12 10:44:16 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 10:44:17 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 10:44:17 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 10:44:17 - === Disparo UTMfy Finalizado ===
+2026-01-12 11:05:45 - === Disparo UTMfy Iniciado ===
+2026-01-12 11:05:45 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 141042807375
+2026-01-12 11:05:45 - Produtos recebidos: 1
+2026-01-12 11:05:45 - Produto 0: ID=41, Nome=teste, Valor=1.2
+2026-01-12 11:05:45 - Total processado: 1 produtos, Total em centavos: 120
+2026-01-12 11:05:45 - Payload JSON gerado (673 bytes)
+2026-01-12 11:05:45 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 11:05:46 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 11:05:46 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 11:05:46 - === Disparo UTMfy Finalizado ===
+2026-01-12 11:51:28 - === Disparo UTMfy Iniciado ===
+2026-01-12 11:51:28 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a86a0e7ec69246158d0b07b9ed55ffea
+2026-01-12 11:51:28 - Produtos recebidos: 1
+2026-01-12 11:51:28 - Produto 0: ID=41, Nome=teste, Valor=1.2
+2026-01-12 11:51:28 - Total processado: 1 produtos, Total em centavos: 120
+2026-01-12 11:51:28 - Payload JSON gerado (693 bytes)
+2026-01-12 11:51:28 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 11:51:28 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 11:51:28 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 11:51:28 - === Disparo UTMfy Finalizado ===
+2026-01-12 11:51:44 - === Disparo UTMfy Iniciado ===
+2026-01-12 11:51:44 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: ac890242ef5545958fb6a89ef7600fe1
+2026-01-12 11:51:44 - Produtos recebidos: 1
+2026-01-12 11:51:44 - Produto 0: ID=41, Nome=teste, Valor=1
+2026-01-12 11:51:44 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 11:51:44 - Payload JSON gerado (693 bytes)
+2026-01-12 11:51:44 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 11:51:44 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 11:51:44 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 11:51:44 - === Disparo UTMfy Finalizado ===
+2026-01-12 11:51:56 - === Disparo UTMfy Iniciado ===
+2026-01-12 11:51:56 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: ac890242ef5545958fb6a89ef7600fe1
+2026-01-12 11:51:56 - Produtos recebidos: 1
+2026-01-12 11:51:56 - Produto 0: ID=41, Nome=teste, Valor=1
+2026-01-12 11:51:56 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 11:51:56 - Payload JSON gerado (699 bytes)
+2026-01-12 11:51:56 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 11:51:57 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 11:51:57 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 11:51:57 - === Disparo UTMfy Finalizado ===
+2026-01-12 13:52:19 - === Disparo UTMfy Iniciado ===
+2026-01-12 13:52:19 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 141066139849
+2026-01-12 13:52:19 - Produtos recebidos: 1
+2026-01-12 13:52:19 - Produto 0: ID=41, Nome=teste, Valor=1
+2026-01-12 13:52:19 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 13:52:19 - Payload JSON gerado (673 bytes)
+2026-01-12 13:52:19 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 13:52:20 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 13:52:20 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 13:52:20 - === Disparo UTMfy Finalizado ===
+2026-01-12 13:52:45 - === Disparo UTMfy Iniciado ===
+2026-01-12 13:52:45 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 141066139849
+2026-01-12 13:52:45 - Produtos recebidos: 1
+2026-01-12 13:52:45 - Produto 0: ID=41, Nome=teste, Valor=1
+2026-01-12 13:52:45 - Total processado: 1 produtos, Total em centavos: 100
+2026-01-12 13:52:45 - Payload JSON gerado (679 bytes)
+2026-01-12 13:52:45 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 13:52:46 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 13:52:46 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 13:52:46 - === Disparo UTMfy Finalizado ===
+2026-01-12 14:06:15 - === Disparo UTMfy Iniciado ===
+2026-01-12 14:06:15 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: pay_rivi98haxiwom81a
+2026-01-12 14:06:15 - Produtos recebidos: 1
+2026-01-12 14:06:15 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 14:06:15 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 14:06:15 - Payload JSON gerado (681 bytes)
+2026-01-12 14:06:15 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 14:06:16 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 14:06:16 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 14:06:16 - === Disparo UTMfy Finalizado ===
+2026-01-12 14:12:03 - === Disparo UTMfy Iniciado ===
+2026-01-12 14:12:03 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: pay_u1pdttsljlwmp2zk
+2026-01-12 14:12:03 - Produtos recebidos: 1
+2026-01-12 14:12:03 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 14:12:03 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 14:12:03 - Payload JSON gerado (695 bytes)
+2026-01-12 14:12:03 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 14:12:04 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 14:12:04 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 14:12:04 - === Disparo UTMfy Finalizado ===
+2026-01-12 14:25:20 - === Disparo UTMfy Iniciado ===
+2026-01-12 14:25:20 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: pay_kadoggt5q3r7ifz8
+2026-01-12 14:25:20 - Produtos recebidos: 1
+2026-01-12 14:25:20 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 14:25:20 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 14:25:20 - Payload JSON gerado (695 bytes)
+2026-01-12 14:25:20 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 14:25:21 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 14:25:21 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 14:25:21 - === Disparo UTMfy Finalizado ===
+2026-01-12 14:39:23 - === Disparo UTMfy Iniciado ===
+2026-01-12 14:39:23 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: pay_rgn8eqwls251tugy
+2026-01-12 14:39:23 - Produtos recebidos: 1
+2026-01-12 14:39:23 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 14:39:23 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 14:39:23 - Payload JSON gerado (681 bytes)
+2026-01-12 14:39:23 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 14:39:23 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 14:39:23 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 14:39:23 - === Disparo UTMfy Finalizado ===
+2026-01-12 14:45:43 - === Disparo UTMfy Iniciado ===
+2026-01-12 14:45:43 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: pay_kaydjh5wic7m1wni
+2026-01-12 14:45:43 - Produtos recebidos: 1
+2026-01-12 14:45:43 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 14:45:43 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 14:45:43 - Payload JSON gerado (695 bytes)
+2026-01-12 14:45:43 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 14:45:43 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 14:45:43 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 14:45:43 - === Disparo UTMfy Finalizado ===
+2026-01-12 14:56:45 - === Disparo UTMfy Iniciado ===
+2026-01-12 14:56:45 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 141075846449
+2026-01-12 14:56:45 - Produtos recebidos: 1
+2026-01-12 14:56:45 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 14:56:45 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 14:56:45 - Payload JSON gerado (673 bytes)
+2026-01-12 14:56:45 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 14:56:45 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 14:56:45 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 14:56:45 - === Disparo UTMfy Finalizado ===
+2026-01-12 15:10:39 - === Disparo UTMfy Iniciado ===
+2026-01-12 15:10:39 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 018de1a7ca884bfd93d5f0b5f9ae9055
+2026-01-12 15:10:39 - Produtos recebidos: 1
+2026-01-12 15:10:39 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 15:10:39 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 15:10:39 - Payload JSON gerado (693 bytes)
+2026-01-12 15:10:39 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 15:10:39 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 15:10:39 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 15:10:39 - === Disparo UTMfy Finalizado ===
+2026-01-12 15:11:38 - === Disparo UTMfy Iniciado ===
+2026-01-12 15:11:38 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0d214a3-33ce-4705-849e-ca22c16a8e82
+2026-01-12 15:11:38 - Produtos recebidos: 1
+2026-01-12 15:11:38 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 15:11:38 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 15:11:38 - Payload JSON gerado (686 bytes)
+2026-01-12 15:11:38 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 15:11:38 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 15:11:38 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 15:11:38 - === Disparo UTMfy Finalizado ===
+2026-01-12 15:16:53 - === Disparo UTMfy Iniciado ===
+2026-01-12 15:16:53 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 141076607629
+2026-01-12 15:16:53 - Produtos recebidos: 1
+2026-01-12 15:16:53 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 15:16:53 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 15:16:53 - Payload JSON gerado (662 bytes)
+2026-01-12 15:16:53 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 15:16:53 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 15:16:53 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 15:16:53 - === Disparo UTMfy Finalizado ===
+2026-01-12 15:17:24 - === Disparo UTMfy Iniciado ===
+2026-01-12 15:17:24 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0d216b3-1b1f-42fc-be01-7ca9f7b42480
+2026-01-12 15:17:24 - Produtos recebidos: 1
+2026-01-12 15:17:24 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 15:17:24 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 15:17:24 - Payload JSON gerado (686 bytes)
+2026-01-12 15:17:24 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 15:17:24 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 15:17:24 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 15:17:24 - === Disparo UTMfy Finalizado ===
+2026-01-12 15:17:40 - === Disparo UTMfy Iniciado ===
+2026-01-12 15:17:40 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 3c6fb24a5c014860b1fcc59d177717ce
+2026-01-12 15:17:40 - Produtos recebidos: 1
+2026-01-12 15:17:40 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-12 15:17:40 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-12 15:17:40 - Payload JSON gerado (693 bytes)
+2026-01-12 15:17:40 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-12 15:17:40 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-12 15:17:40 - ✓ Evento enviado com sucesso para getfy
+2026-01-12 15:17:40 - === Disparo UTMfy Finalizado ===
+2026-01-15 12:38:45 - === Disparo UTMfy Iniciado ===
+2026-01-15 12:38:45 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: fce7eae23fe04c4fb75f0039435ec755
+2026-01-15 12:38:45 - Produtos recebidos: 1
+2026-01-15 12:38:45 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-15 12:38:45 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-15 12:38:45 - Payload JSON gerado (693 bytes)
+2026-01-15 12:38:45 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-15 12:38:46 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-15 12:38:46 - ✓ Evento enviado com sucesso para getfy
+2026-01-15 12:38:46 - === Disparo UTMfy Finalizado ===
+2026-01-15 13:47:08 - === Disparo UTMfy Iniciado ===
+2026-01-15 13:47:08 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: cc0071ab17d34fd98d82b7611cb29086
+2026-01-15 13:47:08 - Produtos recebidos: 1
+2026-01-15 13:47:08 - Produto 0: ID=41, Nome=teste, Valor=2
+2026-01-15 13:47:08 - Total processado: 1 produtos, Total em centavos: 200
+2026-01-15 13:47:08 - Payload JSON gerado (693 bytes)
+2026-01-15 13:47:08 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-15 13:47:09 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-15 13:47:09 - ✓ Evento enviado com sucesso para getfy
+2026-01-15 13:47:09 - === Disparo UTMfy Finalizado ===
+2026-01-15 13:51:47 - === Disparo UTMfy Iniciado ===
+2026-01-15 13:51:47 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 6208a1f54cf34fa8970a14c5e7c3ce56
+2026-01-15 13:51:47 - Produtos recebidos: 1
+2026-01-15 13:51:47 - Produto 0: ID=41, Nome=teste, Valor=2
+2026-01-15 13:51:47 - Total processado: 1 produtos, Total em centavos: 200
+2026-01-15 13:51:47 - Payload JSON gerado (693 bytes)
+2026-01-15 13:51:47 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-15 13:51:48 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-15 13:51:48 - ✓ Evento enviado com sucesso para getfy
+2026-01-15 13:51:48 - === Disparo UTMfy Finalizado ===
+2026-01-15 13:52:04 - === Disparo UTMfy Iniciado ===
+2026-01-15 13:52:04 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: b7943ba3ece4408db99fd39a8cc34f9c
+2026-01-15 13:52:04 - Produtos recebidos: 1
+2026-01-15 13:52:04 - Produto 0: ID=41, Nome=teste, Valor=6
+2026-01-15 13:52:04 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-15 13:52:04 - Payload JSON gerado (693 bytes)
+2026-01-15 13:52:04 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-15 13:52:05 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-15 13:52:05 - ✓ Evento enviado com sucesso para getfy
+2026-01-15 13:52:05 - === Disparo UTMfy Finalizado ===
+2026-01-16 09:25:15 - === Disparo UTMfy Iniciado ===
+2026-01-16 09:25:15 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: cmkgupxsc2eacny1ryesnlw0y
+2026-01-16 09:25:15 - Produtos recebidos: 1
+2026-01-16 09:25:15 - Produto 0: ID=43, Nome=Getfy, Valor=5
+2026-01-16 09:25:15 - Total processado: 1 produtos, Total em centavos: 500
+2026-01-16 09:25:15 - Payload JSON gerado (686 bytes)
+2026-01-16 09:25:15 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-16 09:25:16 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-16 09:25:16 - ✓ Evento enviado com sucesso para getfy
+2026-01-16 09:25:16 - === Disparo UTMfy Finalizado ===
+2026-01-16 09:26:48 - === Disparo UTMfy Iniciado ===
+2026-01-16 09:26:48 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: cmkgurxkp2enpny1r9eosuz9k
+2026-01-16 09:26:48 - Produtos recebidos: 1
+2026-01-16 09:26:48 - Produto 0: ID=43, Nome=Getfy, Valor=5
+2026-01-16 09:26:48 - Total processado: 1 produtos, Total em centavos: 500
+2026-01-16 09:26:48 - Payload JSON gerado (708 bytes)
+2026-01-16 09:26:48 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-16 09:26:48 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-16 09:26:48 - ✓ Evento enviado com sucesso para getfy
+2026-01-16 09:26:48 - === Disparo UTMfy Finalizado ===
+2026-01-16 09:40:08 - === Disparo UTMfy Iniciado ===
+2026-01-16 09:40:08 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: cmkgv8vkg2keln41rqer8vz0m
+2026-01-16 09:40:08 - Produtos recebidos: 1
+2026-01-16 09:40:08 - Produto 0: ID=43, Nome=Getfy, Valor=5
+2026-01-16 09:40:08 - Total processado: 1 produtos, Total em centavos: 500
+2026-01-16 09:40:08 - Payload JSON gerado (708 bytes)
+2026-01-16 09:40:08 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-16 09:40:08 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-16 09:40:08 - ✓ Evento enviado com sucesso para getfy
+2026-01-16 09:40:08 - === Disparo UTMfy Finalizado ===
+2026-01-16 09:40:52 - === Disparo UTMfy Iniciado ===
+2026-01-16 09:40:52 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: cmkgva13a2irsny1rmhjypsvj
+2026-01-16 09:40:52 - Produtos recebidos: 1
+2026-01-16 09:40:52 - Produto 0: ID=43, Nome=Getfy, Valor=5
+2026-01-16 09:40:52 - Total processado: 1 produtos, Total em centavos: 500
+2026-01-16 09:40:52 - Payload JSON gerado (694 bytes)
+2026-01-16 09:40:52 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-16 09:40:53 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-16 09:40:53 - ✓ Evento enviado com sucesso para getfy
+2026-01-16 09:40:53 - === Disparo UTMfy Finalizado ===
+2026-01-16 09:41:14 - === Disparo UTMfy Iniciado ===
+2026-01-16 09:41:14 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: cmkgva13a2irsny1rmhjypsvj
+2026-01-16 09:41:14 - Produtos recebidos: 1
+2026-01-16 09:41:14 - Produto 0: ID=43, Nome=Getfy, Valor=5
+2026-01-16 09:41:14 - Total processado: 1 produtos, Total em centavos: 500
+2026-01-16 09:41:14 - Payload JSON gerado (700 bytes)
+2026-01-16 09:41:14 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-16 09:41:14 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-16 09:41:14 - ✓ Evento enviado com sucesso para getfy
+2026-01-16 09:41:14 - === Disparo UTMfy Finalizado ===
+2026-01-16 09:41:20 - === Disparo UTMfy Iniciado ===
+2026-01-16 09:41:20 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: cmkgva13a2irsny1rmhjypsvj
+2026-01-16 09:41:20 - Produtos recebidos: 1
+2026-01-16 09:41:20 - Produto 0: ID=43, Nome=Getfy, Valor=5
+2026-01-16 09:41:20 - Total processado: 1 produtos, Total em centavos: 500
+2026-01-16 09:41:20 - Payload JSON gerado (700 bytes)
+2026-01-16 09:41:20 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-16 09:41:20 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-16 09:41:20 - ✓ Evento enviado com sucesso para getfy
+2026-01-16 09:41:20 - === Disparo UTMfy Finalizado ===
+2026-01-17 00:09:22 - === Disparo UTMfy Iniciado ===
+2026-01-17 00:09:22 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: pay_ppdyvvbp5097aird
+2026-01-17 00:09:22 - Produtos recebidos: 1
+2026-01-17 00:09:22 - Produto 0: ID=41, Nome=teste2, Valor=6
+2026-01-17 00:09:22 - Total processado: 1 produtos, Total em centavos: 600
+2026-01-17 00:09:22 - Payload JSON gerado (682 bytes)
+2026-01-17 00:09:22 - Enviando para integração: getfy (Token: yqE9jlaBHN...)
+2026-01-17 00:09:23 - Resposta UTMfy (200): {"OK":true,"data":{},"result":"SUCCESS"}
+2026-01-17 00:09:23 - ✓ Evento enviado com sucesso para getfy
+2026-01-17 00:09:23 - === Disparo UTMfy Finalizado ===
+2026-01-31 10:49:40 - === Disparo UTMfy Iniciado ===
+2026-01-31 10:49:40 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0f7efa6-0a3b-4dec-a865-a7b3b803ae8c
+2026-01-31 10:49:40 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-01-31 10:52:53 - === Disparo UTMfy Iniciado ===
+2026-01-31 10:52:53 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0f7f0cd-721f-445d-9a6f-c99b00303858
+2026-01-31 10:52:53 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-01-31 16:11:49 - === Disparo UTMfy Iniciado ===
+2026-01-31 16:11:49 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 9X70MMZYXD42
+2026-01-31 16:11:49 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-01-31 16:13:06 - === Disparo UTMfy Iniciado ===
+2026-01-31 16:13:06 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 2L4JYY926K45
+2026-01-31 16:13:06 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-01-31 16:13:29 - === Disparo UTMfy Iniciado ===
+2026-01-31 16:13:29 - Evento: 'approved' -> Status UTMfy: 'paid' | ID Transação: 2L4JYY926K45
+2026-01-31 16:13:29 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_approved'.
+2026-01-31 16:23:24 - === Disparo UTMfy Iniciado ===
+2026-01-31 16:23:24 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: 2E4Q22D0D2RX
+2026-01-31 16:23:24 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-02-01 11:15:43 - === Disparo UTMfy Iniciado ===
+2026-02-01 11:15:43 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0f9fbf1-f888-4700-a8d4-a314dfcdc01c
+2026-02-01 11:15:43 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-02-01 11:29:50 - === Disparo UTMfy Iniciado ===
+2026-02-01 11:29:50 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: KW4LGGZM8Q76
+2026-02-01 11:29:50 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-02-01 11:55:40 - === Disparo UTMfy Iniciado ===
+2026-02-01 11:55:40 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: a0fa0a3c-9711-409e-ae5f-8cdaf95fd56d
+2026-02-01 11:55:40 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-02-01 11:57:19 - === Disparo UTMfy Iniciado ===
+2026-02-01 11:57:19 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: JQREXXN5M346
+2026-02-01 11:57:19 - AVISO: Nenhuma integração ativa encontrada para User: 33 na coluna 'event_pending'.
+2026-02-03 03:33:18 - === Disparo UTMfy Iniciado ===
+2026-02-03 03:33:18 - Evento: 'pending' -> Status UTMfy: 'waiting_payment' | ID Transação: pay_bb2fqzvefpss11g7
+2026-02-03 03:33:18 - AVISO: Nenhuma integração ativa encontrada para User: 2 na coluna 'event_pending'.

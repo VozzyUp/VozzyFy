@@ -1,0 +1,4 @@
+Super Admin:
+
+e-mail: admin@gmail.com
+senha: admin123

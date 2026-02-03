@@ -1,0 +1,12 @@
+# Desabilita listagem de diretórios
+Options -Indexes
+
+# Se alguém acessar /api/ diretamente, processa api.php na raiz
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/api/?$
+RewriteRule ^(.*)$ /api.php [L,QSA]
+
+# Permite acesso direto a todos os arquivos PHP na pasta api/
+<FilesMatch "\.php$">
+    Require all granted
+</FilesMatch>

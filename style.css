@@ -1,0 +1,320 @@
+/* ============================================
+   DARK THEME VARIABLES
+   ============================================ */
+:root {
+    --dark-base: #07090d;
+    --dark-elevated: #0f1419;
+    --dark-card: #1a1f24;
+    --dark-border: rgba(255, 255, 255, 0.1);
+    --text-primary: rgba(255, 255, 255, 0.9);
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --text-muted: rgba(255, 255, 255, 0.5);
+    --accent-green: #32e768; /* Fallback - será sobrescrito por --accent-primary do load_settings.php */
+    --accent-primary: var(--accent-green); /* Fallback padrão - será sobrescrito dinamicamente */
+    --accent-primary-hover: #28d15e; /* Fallback padrão - será sobrescrito dinamicamente */
+}
+
+/* Estilos para complementar o TailwindCSS e customizar o Payment Brick do Mercado Pago.
+*/
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark Theme Background Classes */
+.bg-dark-base {
+    background-color: var(--dark-base);
+}
+
+.bg-dark-elevated {
+    background-color: var(--dark-elevated);
+}
+
+.bg-dark-card {
+    background-color: var(--dark-card);
+}
+
+/* Customização do botão principal do Mercado Pago */
+.mercadopago-button {
+    background-color: var(--accent-color, #00A3FF) !important; /* Usa a cor de destaque definida no PHP */
+    transition: filter 0.2s ease !important;
+    font-size: 1.125rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.mercadopago-button:hover {
+    filter: brightness(1.1);
+}
+
+
+/* Novo Estilo para o Resumo Final */
+.checkout-summary-box {
+    background-color: #f9fafb; /* Cinza claro */
+    border: 1px solid #e5e7eb; /* Borda sutil */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+}
+
+/* Estilo para a linha tracejada */
+.checkout-summary-box hr {
+    border-top-style: dashed;
+}
+
+/* ============================================
+   GLASSMORPHISM SIDEBAR - MODERN DESIGN
+   ============================================ */
+
+/* Base para responsividade do menu lateral */
+/* Sidebar oculta por padrão em telas pequenas */
+#sidebar, #admin-sidebar {
+    position: fixed;
+    top: 0; /* Full height - cobre o header */
+    bottom: 0;
+    left: 0;
+    z-index: 50; /* Acima do header (z-50) */
+    width: 100%;
+    max-width: 280px; /* Largura máxima para mobile */
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+/* Sidebar Header (Logo Area) */
+.sidebar-header {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid var(--dark-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+}
+
+.sidebar-header img {
+    max-height: 40px;
+    width: auto;
+}
+
+/* Sidebar Footer (User Controls) */
+.sidebar-footer {
+    padding: 1rem;
+    border-top: 1px solid var(--dark-border);
+    margin-top: auto;
+}
+
+.sidebar-user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: background 0.2s ease;
+}
+
+.sidebar-user-info:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar-user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent-primary);
+}
+
+.sidebar-user-name {
+    flex: 1;
+    color: var(--text-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.sidebar-controls {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.sidebar-control-btn {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: var(--text-secondary);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-control-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+}
+
+.sidebar-control-btn.logout:hover {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+}
+
+/* Animação Shimmer para Barra de Progresso */
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.animate-shimmer {
+    animation: shimmer 2s infinite;
+}
+
+/* Glassmorphism Effect - Modern Glass */
+.sidebar-glass {
+    background: rgba(15, 20, 25, 0.6) !important;
+    backdrop-filter: blur(30px) saturate(180%);
+    -webkit-backdrop-filter: blur(30px) saturate(180%);
+    border-right: 1px dashed rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* Sidebar Items - Base Styles */
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    margin: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    position: relative;
+    text-decoration: none;
+}
+
+/* Estado Inativo */
+.sidebar-item-inactive {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sidebar-item-inactive:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sidebar-item-inactive i {
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 0.2s ease;
+}
+
+.sidebar-item-inactive:hover i {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Estado Ativo - Clean Design */
+/* As cores são definidas dinamicamente via load_settings.php */
+.sidebar-item-active {
+    font-weight: 600;
+}
+
+/* Sidebar visível quando a classe 'open' é aplicada */
+#sidebar.open, #admin-sidebar.open {
+    transform: translateX(0);
+}
+
+/* Overlay para fechar o menu ao clicar fora (mobile) */
+#sidebar-overlay, #admin-sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 30;
+    display: none; /* Oculto por padrão */
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+/* Overlay visível quando a classe 'open' é aplicada */
+#sidebar-overlay.open, #admin-sidebar-overlay.open {
+    display: block;
+    opacity: 1;
+}
+
+/*
+   Ajuste do conteúdo principal
+   As regras de `margin-left`, `flex-grow`, `padding` e `overflow-y`
+   agora são controladas diretamente pelas classes do Tailwind CSS
+   aplicadas no HTML dos arquivos `index.php` e `admin.php`.
+   Remover regras genéricas aqui evita conflitos com o layout de `checkout.php`.
+*/
+/* main {
+    margin-left: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+} */ /* REMOVIDO: Regras específicas para 'main' agora são definidas no HTML com Tailwind */
+
+/* Oculta o botão de toggle em telas maiores que md */
+#sidebar-toggle, #admin-sidebar-toggle {
+    display: flex; /* Visível por padrão em mobile */
+}
+
+/* Media query para telas maiores (desktop) */
+@media (min-width: 768px) { /* md breakpoint (768px) */
+    #sidebar, #admin-sidebar {
+        transform: translateX(0); /* Sempre visível em desktop */
+        width: 256px; /* md:w-64 */
+    }
+
+    #sidebar-toggle, #admin-sidebar-toggle {
+        display: none; /* Oculta em desktop */
+    }
+
+    #sidebar-overlay, #admin-sidebar-overlay {
+        display: none !important; /* Nunca visível em desktop */
+        opacity: 0 !important;
+    }
+}
+
+/* Dark Theme Card Styles */
+.dark-card {
+    background-color: var(--dark-card);
+    border: 1px solid var(--dark-border);
+    border-radius: 0.75rem;
+    color: var(--text-primary);
+}
+
+.dark-card-header {
+    border-bottom: 1px solid var(--dark-border);
+    padding: 1rem 1.5rem;
+}
+
+.dark-card-body {
+    padding: 1.5rem;
+}
+
+.dark-input {
+    background-color: var(--dark-elevated);
+    border: 1px solid var(--dark-border);
+    color: var(--text-primary);
+}
+
+.dark-input:focus {
+    border-color: var(--accent-primary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(var(--accent-primary-rgb, 50, 231, 104), 0.1);
+}
+
+.dark-input::placeholder {
+    color: var(--text-muted);
+}
+
+/* Invisible Header Styles */
+header.fixed {
+    background: rgba(7, 9, 13, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}

@@ -1,0 +1,54 @@
+[01-Jan-2026 21:17:33 America/Sao_Paulo] CART_RECOVERY: === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[01-Jan-2026 21:17:33 America/Sao_Paulo] CART_RECOVERY: Vendas pendentes encontradas: 0
+[01-Jan-2026 21:17:33 America/Sao_Paulo] CART_RECOVERY: Nenhuma venda pendente para processar. Finalizando.
+[01-Jan-2026 21:17:35 America/Sao_Paulo] CART_RECOVERY: === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[01-Jan-2026 21:17:35 America/Sao_Paulo] CART_RECOVERY: Vendas pendentes encontradas: 0
+[01-Jan-2026 21:17:35 America/Sao_Paulo] CART_RECOVERY: Nenhuma venda pendente para processar. Finalizando.
+[03-Feb-2026 02:18:10 America/Sao_Paulo] CART_RECOVERY: === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[03-Feb-2026 02:18:10 America/Sao_Paulo] CART_RECOVERY: Vendas pendentes encontradas: 0
+[03-Feb-2026 02:18:10 America/Sao_Paulo] CART_RECOVERY: Nenhuma venda pendente para processar. Finalizando.
+[03-Feb-2026 02:20:57 America/Sao_Paulo] CART_RECOVERY: === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[03-Feb-2026 02:20:57 America/Sao_Paulo] CART_RECOVERY: Vendas pendentes encontradas: 0
+[03-Feb-2026 02:20:57 America/Sao_Paulo] CART_RECOVERY: Nenhuma venda pendente para processar. Finalizando.
+[03-Feb-2026 03:04:45 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 03:04:45 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 03:04:45 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 03:04:45 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 03:04:45 America/Sao_Paulo] CART_RECOVERY: === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[03-Feb-2026 03:04:45 America/Sao_Paulo] CART_RECOVERY: Vendas pendentes encontradas: 0
+[03-Feb-2026 03:04:45 America/Sao_Paulo] CART_RECOVERY: Nenhuma venda pendente para processar. Finalizando.
+[03-Feb-2026 07:04:45 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 07:04:45 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 07:04:45 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 07:04:45 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 07:04:45 America/Sao_Paulo] CART_RECOVERY: === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[03-Feb-2026 07:04:45 America/Sao_Paulo] CART_RECOVERY: Vendas pendentes encontradas: 1
+[03-Feb-2026 07:04:45 America/Sao_Paulo] CART_RECOVERY: Processando venda ID 1 - Cliente: fernando.rodrigues.a@gmail.com - Produto: VozSmart
+[03-Feb-2026 07:04:47 America/Sao_Paulo] CART_RECOVERY: Email enviado com sucesso para: fernando.rodrigues.a@gmail.com
+[03-Feb-2026 07:04:47 America/Sao_Paulo] CART_RECOVERY: Venda ID 1: Email enviado com sucesso e flag atualizada.
+[03-Feb-2026 07:04:47 America/Sao_Paulo] CART_RECOVERY: === RESUMO DO PROCESSAMENTO ===
+[03-Feb-2026 07:04:47 America/Sao_Paulo] CART_RECOVERY: Total encontradas: 1
+[03-Feb-2026 07:04:47 America/Sao_Paulo] CART_RECOVERY: Emails enviados: 1
+[03-Feb-2026 07:04:47 America/Sao_Paulo] CART_RECOVERY: Erros: 0
+[03-Feb-2026 07:04:47 America/Sao_Paulo] CART_RECOVERY: === FIM DO PROCESSAMENTO ===
+[03-Feb-2026 08:04:45 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 08:04:45 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 08:04:45 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 08:04:45 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 08:04:45 America/Sao_Paulo] CART_RECOVERY: === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[03-Feb-2026 08:04:45 America/Sao_Paulo] CART_RECOVERY: Vendas pendentes encontradas: 0
+[03-Feb-2026 08:04:45 America/Sao_Paulo] CART_RECOVERY: Nenhuma venda pendente para processar. Finalizando.
+[03-Feb-2026 09:04:45 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 09:04:45 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 09:04:45 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 09:04:45 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 09:04:45 America/Sao_Paulo] CART_RECOVERY: === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[03-Feb-2026 09:04:45 America/Sao_Paulo] CART_RECOVERY: Vendas pendentes encontradas: 0
+[03-Feb-2026 09:04:45 America/Sao_Paulo] CART_RECOVERY: Nenhuma venda pendente para processar. Finalizando.
+[03-Feb-2026 10:04:45 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 10:04:45 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 10:04:45 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 10:04:45 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 10:04:45 America/Sao_Paulo] CART_RECOVERY: === INÍCIO DO PROCESSAMENTO DE RECUPERAÇÃO DE CARRINHO ===
+[03-Feb-2026 10:04:45 America/Sao_Paulo] CART_RECOVERY: Vendas pendentes encontradas: 0
+[03-Feb-2026 10:04:45 America/Sao_Paulo] CART_RECOVERY: Nenhuma venda pendente para processar. Finalizando.

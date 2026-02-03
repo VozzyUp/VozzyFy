@@ -1,0 +1,17 @@
+[28-Dec-2025 14:56:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer" not found in /home/getf0235/domains/getfy.online/public_html/api/vendas_actions.php:58
+Stack trace:
+#0 /home/getf0235/domains/getfy.online/public_html/api/vendas_actions.php(242): manual_send_email()
+#1 {main}
+  thrown in /home/getf0235/domains/getfy.online/public_html/api/vendas_actions.php on line 58
+[01-Jan-2026 11:52:11 America/Sao_Paulo] PASSWORD_SETUP: Token gerado para usuario_id: 42
+[01-Jan-2026 11:55:53 America/Sao_Paulo] PASSWORD_SETUP: Token gerado para usuario_id: 43
+[02-Jan-2026 18:07:15 America/Sao_Paulo] PASSWORD_SETUP: Token gerado para usuario_id: 37
+[31-Jan-2026 10:49:45 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 10:49:45 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 10:49:45 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 10:49:45 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 10:49:45 America/Sao_Paulo] PASSWORD_SETUP: Token gerado para usuario_id: 34
+[31-Jan-2026 10:50:11 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 10:50:11 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 10:50:11 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 10:50:11 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso

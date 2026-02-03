@@ -1,0 +1,967 @@
+[06-Jan-2026 09:25:59 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[06-Jan-2026 09:33:19 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[06-Jan-2026 09:44:28 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[06-Jan-2026 09:47:41 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[06-Jan-2026 10:16:41 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[06-Jan-2026 11:13:46 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[07-Jan-2026 08:03:38 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:06:46 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:06:47 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:06:47 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:06:47 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:06:47 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:06:47 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:06:48 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: d4a4239a693d40b9ab4382b4603e4797
+[12-Jan-2026 09:06:48 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:06:48 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:06:49 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1130 caracteres)
+[12-Jan-2026 09:06:50 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:07:17 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:07:18 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:07:18 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:07:18 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.30, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:07:18 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.30"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:07:18 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:07:18 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: e21973eb86f64a9b8ffdbf880d661376
+[12-Jan-2026 09:07:18 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:07:18 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:07:19 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1126 caracteres)
+[12-Jan-2026 09:07:19 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.15, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.15"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:10:02 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:10:03 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: b337c2c565b749049e3d16f7bbe88c72
+[12-Jan-2026 09:10:03 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:10:03 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:10:04 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1118 caracteres)
+[12-Jan-2026 09:10:05 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:12:20 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:12:21 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:12:21 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:12:21 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.05, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:12:21 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.05"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:12:21 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:12:22 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 7151fa7e52494b79adeffdede18579a2
+[12-Jan-2026 09:12:22 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:12:22 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:12:23 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1122 caracteres)
+[12-Jan-2026 09:12:23 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:15:20 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:15:21 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:15:21 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:15:21 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.05, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:15:21 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.05"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:15:21 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:15:21 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 15738378860045e0b7a861dd81a5ce4d
+[12-Jan-2026 09:15:21 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:15:21 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:15:22 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1110 caracteres)
+[12-Jan-2026 09:15:23 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:16:06 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:16:07 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:16:07 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:16:07 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:16:07 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:16:07 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:16:07 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 3050e5165df24fbf9d0422c0cb319aac
+[12-Jan-2026 09:16:07 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:16:07 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:16:09 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1150 caracteres)
+[12-Jan-2026 09:16:09 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:18:55 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:18:56 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: d61a4a28aa91454497a34de5ba8ee21d
+[12-Jan-2026 09:18:56 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:18:56 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:18:57 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1126 caracteres)
+[12-Jan-2026 09:18:58 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:19:19 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:19:20 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:19:20 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:19:20 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.10, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:19:20 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.10"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:19:20 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:19:21 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 6ac1857fce5b47398fab7236207009d8
+[12-Jan-2026 09:19:21 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:19:21 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:19:22 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1142 caracteres)
+[12-Jan-2026 09:19:22 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:24:04 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:24:05 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:24:05 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:24:05 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.15, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:24:05 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.15"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:24:05 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:24:05 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 469ca2debfb749a7af15b0c5583a5f64
+[12-Jan-2026 09:24:05 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:24:05 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:24:07 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1134 caracteres)
+[12-Jan-2026 09:24:07 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:26:54 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:26:55 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:26:55 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:26:55 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:26:55 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:26:55 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:26:56 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: da2d9d4be23e456caba780a431262ae1
+[12-Jan-2026 09:26:56 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:26:56 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:26:57 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1130 caracteres)
+[12-Jan-2026 09:26:57 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:28:51 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:28:52 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:28:52 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:28:52 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:28:52 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:28:52 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:28:53 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: df1379020b524f51a5db628d66b54cda
+[12-Jan-2026 09:28:53 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:28:53 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:28:54 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1126 caracteres)
+[12-Jan-2026 09:28:54 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:29:13 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:29:14 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 1336677004bf4123b78aa442f5698cc8
+[12-Jan-2026 09:29:14 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:29:14 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:29:15 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1106 caracteres)
+[12-Jan-2026 09:29:16 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:29:49 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:29:50 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:29:50 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:29:50 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.10, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:29:50 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.10"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:29:50 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:29:50 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 131f32b5163c4870baa21a1d10ae830f
+[12-Jan-2026 09:29:50 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:29:50 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:29:52 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1102 caracteres)
+[12-Jan-2026 09:29:52 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:36:00 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:36:01 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:36:01 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:36:01 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.05, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:36:01 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.05"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:36:01 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:36:04 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: dec45697b11943adb058eab6d4ac828e
+[12-Jan-2026 09:36:04 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:36:04 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:36:05 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1126 caracteres)
+[12-Jan-2026 09:36:05 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:39:04 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:39:05 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 331443210f914618a37cdf7c02cfb1a0
+[12-Jan-2026 09:39:05 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:39:05 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:39:06 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1106 caracteres)
+[12-Jan-2026 09:39:07 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:42:23 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:42:24 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:42:24 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:42:24 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.05, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:42:24 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.05"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:42:24 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:42:24 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 7e9a577acf254d7ebaa91b338b25117a
+[12-Jan-2026 09:42:24 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:42:24 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:42:26 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1118 caracteres)
+[12-Jan-2026 09:42:26 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:46:56 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:46:57 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:46:57 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:46:57 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 2.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:46:57 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"2.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:46:57 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:46:58 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: f302d1d42e5e408c9978e8dc66f2fd19
+[12-Jan-2026 09:46:58 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:46:58 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:46:59 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1110 caracteres)
+[12-Jan-2026 09:46:59 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.10, Chave Pix: 0c127205-4...
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.10"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 09:49:13 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 09:49:14 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: d237428b27df4add92a15a92d8b71304
+[12-Jan-2026 09:49:14 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 09:49:14 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 09:49:15 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1134 caracteres)
+[12-Jan-2026 09:49:16 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.30, Chave Pix: 0c127205-4...
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.30"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 10:12:55 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:12:56 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: d18b4ed3ea174441900c7efc3d9336a9
+[12-Jan-2026 10:12:56 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 10:12:56 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 10:12:57 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1122 caracteres)
+[12-Jan-2026 10:12:57 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 10:31:30 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:31:31 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 84aa4eddee684165b65e668dc0e12a4c
+[12-Jan-2026 10:31:31 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 10:31:31 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 10:31:32 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1118 caracteres)
+[12-Jan-2026 10:31:33 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 10:32:33 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 10:32:34 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 10:32:34 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 10:32:34 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 10:32:34 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 10:32:34 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:32:35 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 7a89569521b94f4e943b1da01492932d
+[12-Jan-2026 10:32:35 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 10:32:35 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 10:32:36 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1106 caracteres)
+[12-Jan-2026 10:32:37 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 10:34:16 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 10:34:17 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 10:34:17 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 10:34:17 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.10, Chave Pix: 0c127205-4...
+[12-Jan-2026 10:34:17 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.10"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 10:34:17 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 10:34:18 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 456f082597954c23abf0aaed5af49e21
+[12-Jan-2026 10:34:18 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 10:34:18 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 10:34:19 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1114 caracteres)
+[12-Jan-2026 10:34:19 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 10:43:50 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 11:05:46 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 11:51:25 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 11:51:26 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 11:51:26 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 11:51:26 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.20, Chave Pix: 0c127205-4...
+[12-Jan-2026 11:51:26 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.20"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 11:51:26 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 11:51:27 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: a86a0e7ec69246158d0b07b9ed55ffea
+[12-Jan-2026 11:51:27 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 11:51:27 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 11:51:27 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1122 caracteres)
+[12-Jan-2026 11:51:28 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 1.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"cpf":"35401338287","nome":"Leonardo Israel"},"valor":{"original":"1.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 11:51:42 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 11:51:43 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: ac890242ef5545958fb6a89ef7600fe1
+[12-Jan-2026 11:51:43 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 11:51:43 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 11:51:44 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1134 caracteres)
+[12-Jan-2026 11:51:44 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 13:52:18 America/Sao_Paulo] PHP Warning:  Undefined variable $payment_method in C:\xampp\htdocs\process_payment.php on line 543
+[12-Jan-2026 13:52:18 America/Sao_Paulo] PHP Warning:  Undefined variable $payment_method in C:\xampp\htdocs\process_payment.php on line 1035
+[12-Jan-2026 13:52:20 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 14:03:33 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento com cartão - API Key: $aact_hmlg...ZTQ3, Ambiente: sandbox
+[12-Jan-2026 14:03:33 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"CREDIT_CARD","value":1,"dueDate":"2026-01-12","description":"Compra: teste","installmentCount":1,"customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","phone":"91985589960"},"creditCard":{"holderName":"leonardo santos","number":"4444****4444","expiryMonth":"12","expiryYear":"2033","ccv":"***"},"creditCardHolderInfo":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","postalCode":"","addressNumber":"","addressComplement":null,"phone":"91985589960","mobilePhone":"91985589960"},"remoteIp":"::1"}
+[12-Jan-2026 14:03:34 America/Sao_Paulo] [Asaas] Create Card Payment HTTP Error (400): [{"code":"invalid_installmentValue","description":"O valor da parcela deve ser informado."}]
+[12-Jan-2026 14:03:43 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: $aact_hmlg...ZTQ3, Ambiente: sandbox
+[12-Jan-2026 14:03:43 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 1.00, Vencimento: 2026-01-13
+[12-Jan-2026 14:03:43 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":1,"dueDate":"2026-01-13","description":"Compra: teste","customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","phone":"91985589960"},"notificationDisabled":false}
+[12-Jan-2026 14:03:44 America/Sao_Paulo] [Asaas] Create Pix Payment HTTP Error (400): [{"code":"invalid_object","description":"O valor da cobran\u00e7a (R$ 1,00) menos o valor do desconto (R$ 0,00) n\u00e3o pode ser menor que R$ 5,00."}]
+[12-Jan-2026 14:03:44 America/Sao_Paulo] [Asaas] Resposta completa: {"errors":[{"code":"invalid_object","description":"O valor da cobrança (R$ 1,00) menos o valor do desconto (R$ 0,00) não pode ser menor que R$ 5,00."}]}
+[12-Jan-2026 14:06:05 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento com cartão - API Key: $aact_hmlg...ZTQ3, Ambiente: sandbox
+[12-Jan-2026 14:06:05 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"CREDIT_CARD","value":6,"dueDate":"2026-01-12","description":"Compra: teste","installmentCount":1,"installmentValue":"6.00","customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","phone":"91985589960"},"creditCard":{"holderName":"leonardos antos","number":"4444****4444","expiryMonth":"12","expiryYear":"2033","ccv":"***"},"creditCardHolderInfo":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","postalCode":"","addressNumber":"","addressComplement":null,"phone":"91985589960","mobilePhone":"91985589960"},"remoteIp":"::1"}
+[12-Jan-2026 14:06:06 America/Sao_Paulo] [Asaas] Create Card Payment HTTP Error (400): [{"code":"invalid_creditCard","description":"Informe o CEP do titular do cart\u00e3o."}]
+[12-Jan-2026 14:06:13 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: $aact_hmlg...ZTQ3, Ambiente: sandbox
+[12-Jan-2026 14:06:13 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 6.00, Vencimento: 2026-01-13
+[12-Jan-2026 14:06:13 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":6,"dueDate":"2026-01-13","description":"Compra: teste","customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","phone":"91985589960"},"notificationDisabled":false}
+[12-Jan-2026 14:06:15 America/Sao_Paulo] [Asaas] Pagamento Pix criado com sucesso - ID: pay_rivi98haxiwom81a
+[12-Jan-2026 14:06:15 America/Sao_Paulo] [Asaas] Buscando QR Code Pix - Payment ID: pay_rivi98haxiwom81a
+[12-Jan-2026 14:06:16 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 14:10:31 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento com cartão - API Key: $aact_hmlg...ZTQ3, Ambiente: sandbox
+[12-Jan-2026 14:10:31 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"CREDIT_CARD","value":6,"dueDate":"2026-01-12","description":"Compra: teste","installmentCount":1,"installmentValue":"6.00","customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","phone":"91985589960","postalCode":"67113230"},"creditCard":{"holderName":"leonardos antos","number":"4444****4444","expiryMonth":"12","expiryYear":"2033","ccv":"***"},"creditCardHolderInfo":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","postalCode":"67113230","addressNumber":"","addressComplement":null,"phone":"91985589960","mobilePhone":"91985589960"},"remoteIp":"::1"}
+[12-Jan-2026 14:10:36 America/Sao_Paulo] [Asaas] Create Card Payment HTTP Error (400): [{"code":"invalid_creditCard","description":"Informe o n\u00famero do endere\u00e7o do titular do cart\u00e3o."}]
+[12-Jan-2026 14:11:59 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento com cartão - API Key: $aact_hmlg...ZTQ3, Ambiente: sandbox
+[12-Jan-2026 14:11:59 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"CREDIT_CARD","value":6,"dueDate":"2026-01-12","description":"Compra: teste","installmentCount":1,"installmentValue":"6.00","customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","phone":"91985589960","postalCode":"67113230","addressNumber":"56"},"creditCard":{"holderName":"leonardo santos","number":"4444****4444","expiryMonth":"12","expiryYear":"2033","ccv":"***"},"creditCardHolderInfo":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","postalCode":"67113230","addressNumber":"56","addressComplement":null,"phone":"91985589960","mobilePhone":"91985589960"},"remoteIp":"::1"}
+[12-Jan-2026 14:12:03 America/Sao_Paulo] [Asaas] Pagamento com cartão criado - ID: pay_u1pdttsljlwmp2zk, Status: approved
+[12-Jan-2026 14:12:04 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 14:25:18 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento com cartão - API Key: $aact_hmlg...ZTQ3, Ambiente: sandbox
+[12-Jan-2026 14:25:18 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"CREDIT_CARD","value":6,"dueDate":"2026-01-12","description":"Compra: teste","installmentCount":1,"installmentValue":"6.00","customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"02629008231","phone":"91985589960","postalCode":"67113230","addressNumber":"56"},"creditCard":{"holderName":"leonardo santos","number":"4444****4444","expiryMonth":"12","expiryYear":"2033","ccv":"***"},"creditCardHolderInfo":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"02629008231","postalCode":"67113230","addressNumber":"56","addressComplement":null,"phone":"91985589960","mobilePhone":"91985589960"},"remoteIp":"::1"}
+[12-Jan-2026 14:25:20 America/Sao_Paulo] [Asaas] Pagamento com cartão criado - ID: pay_kadoggt5q3r7ifz8, Status: approved
+[12-Jan-2026 14:25:22 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 14:39:21 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: $aact_hmlg...ZTQ3, Ambiente: sandbox
+[12-Jan-2026 14:39:21 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 6.00, Vencimento: 2026-01-13
+[12-Jan-2026 14:39:21 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":6,"dueDate":"2026-01-13","description":"Compra: teste","customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"02629008231","phone":"91985589960"},"notificationDisabled":false}
+[12-Jan-2026 14:39:22 America/Sao_Paulo] [Asaas] Pagamento Pix criado com sucesso - ID: pay_rgn8eqwls251tugy
+[12-Jan-2026 14:39:22 America/Sao_Paulo] [Asaas] Buscando QR Code Pix - Payment ID: pay_rgn8eqwls251tugy
+[12-Jan-2026 14:39:23 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 14:45:39 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento com cartão - API Key: $aact_hmlg...ZTQ3, Ambiente: sandbox
+[12-Jan-2026 14:45:39 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"CREDIT_CARD","value":6,"dueDate":"2026-01-12","description":"Compra: teste","installmentCount":1,"installmentValue":"6.00","customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"02629008231","phone":"91985589960","postalCode":"67113230","addressNumber":"56"},"creditCard":{"holderName":"esrsfgd","number":"4444****4444","expiryMonth":"12","expiryYear":"2033","ccv":"***"},"creditCardHolderInfo":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"02629008231","postalCode":"67113230","addressNumber":"56","addressComplement":null,"phone":"91985589960","mobilePhone":"91985589960"},"remoteIp":"::1"}
+[12-Jan-2026 14:45:43 America/Sao_Paulo] [Asaas] Pagamento com cartão criado - ID: pay_kaydjh5wic7m1wni, Status: approved
+[12-Jan-2026 14:45:44 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 14:56:45 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 15:07:40 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 15:07:41 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 15:07:41 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 15:07:41 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 6.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 15:07:41 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"nome":"Leonardo Israel"},"valor":{"original":"6.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 15:07:41 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:07:42 America/Sao_Paulo] Efí Create Charge HTTP Error (400): {"nome":"json_invalido","mensagem":"Valores ou tipos de campo inválidos","erros":[{"chave":"required","caminho":".body.devedor","mensagem":"deve ter a propriedade obrigatória .cpf"},{"chave":"required","caminho":".body.devedor","mensagem":"deve ter a propriedade obrigatória .cnpj"},{"chave":"oneOf","caminho":".body.devedor","mensagem":"deve corresponder exatamente com um schema em \"oneOf\""}]}
+[12-Jan-2026 15:07:42 America/Sao_Paulo] Efí Create Charge Error Details: {"nome":"json_invalido","mensagem":"Valores ou tipos de campo inv\u00e1lidos","erros":[{"chave":"required","caminho":".body.devedor","mensagem":"deve ter a propriedade obrigat\u00f3ria .cpf"},{"chave":"required","caminho":".body.devedor","mensagem":"deve ter a propriedade obrigat\u00f3ria .cnpj"},{"chave":"oneOf","caminho":".body.devedor","mensagem":"deve corresponder exatamente com um schema em \"oneOf\""}]}
+[12-Jan-2026 15:07:42 America/Sao_Paulo] Efí Error Message: Valores ou tipos de campo inválidos
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 15:10:36 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 15:10:37 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 15:10:37 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 15:10:37 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 6.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 15:10:37 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"nome":"Leonardo Israel","cpf":"02629008231"},"valor":{"original":"6.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 15:10:37 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:10:38 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 018de1a7ca884bfd93d5f0b5f9ae9055
+[12-Jan-2026 15:10:38 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 15:10:38 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 15:10:39 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1118 caracteres)
+[12-Jan-2026 15:10:39 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 15:11:38 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 15:16:53 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 15:17:24 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[12-Jan-2026 15:17:38 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[12-Jan-2026 15:17:39 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[12-Jan-2026 15:17:39 America/Sao_Paulo] Efí: Token obtido com sucesso
+[12-Jan-2026 15:17:39 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 6.00, Chave Pix: 0c127205-4...
+[12-Jan-2026 15:17:39 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"nome":"Leonardo Israel","cpf":"02629008231"},"valor":{"original":"6.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[12-Jan-2026 15:17:39 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[12-Jan-2026 15:17:39 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 3c6fb24a5c014860b1fcc59d177717ce
+[12-Jan-2026 15:17:39 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[12-Jan-2026 15:17:39 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[12-Jan-2026 15:17:40 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1122 caracteres)
+[12-Jan-2026 15:17:41 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[15-Jan-2026 12:38:42 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[15-Jan-2026 12:38:43 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[15-Jan-2026 12:38:43 America/Sao_Paulo] Efí: Token obtido com sucesso
+[15-Jan-2026 12:38:43 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 6.00, Chave Pix: 0c127205-4...
+[15-Jan-2026 12:38:43 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"nome":"Leonardo Israel","cpf":"35401338287"},"valor":{"original":"6.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[15-Jan-2026 12:38:43 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 12:38:44 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: fce7eae23fe04c4fb75f0039435ec755
+[15-Jan-2026 12:38:44 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[15-Jan-2026 12:38:44 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[15-Jan-2026 12:38:45 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1134 caracteres)
+[15-Jan-2026 12:38:46 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[15-Jan-2026 12:42:21 America/Sao_Paulo] Efí Cobranças: Iniciando obtenção de token - Client ID: Client_I...e641
+[15-Jan-2026 12:42:21 America/Sao_Paulo] Efí Cobranças: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 12:42:21 America/Sao_Paulo] Efí Cobranças: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[15-Jan-2026 12:42:21 America/Sao_Paulo] Efí Cobranças: Enviando requisição OAuth para: https://cobrancas.api.efipay.com.br/v1/authorize
+[15-Jan-2026 12:42:21 America/Sao_Paulo] Efí Cobranças: Token obtido com sucesso - Expira em: 600 segundos
+[15-Jan-2026 12:42:21 America/Sao_Paulo] Efí Cartão: Criando cobrança - Valor: R$ 6,00 (600 centavos), Parcelas: 1
+[15-Jan-2026 12:42:21 America/Sao_Paulo] Efí Cartão: Payment Token (primeiros 30 chars): 840b56ab69f9199bf1ebe42ecc59d2... (tamanho: 40)
+[15-Jan-2026 12:42:21 America/Sao_Paulo] Efí Cartão: Payload completo: {"items":[{"name":"Compra: teste","value":600,"amount":1}],"payment":{"credit_card":{"payment_token":"[OCULTO - Tamanho: 40]","billing_address":{"street":"Rua","number":"0","neighborhood":"Centro","zipcode":"00000000","city":"São Paulo","state":"SP"},"customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpf":"35401338287","phone_number":"91985589960"},"installments":1}},"metadata":{"notification_url":"http://localhost/notification.php","custom_id":"efi_69690adde5e765_97466459"}}
+[15-Jan-2026 12:42:21 America/Sao_Paulo] Efí Cartão: Usando certificado P12: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 12:42:22 America/Sao_Paulo] Efí Cartão Create Charge HTTP Error (500): {"code":3500034,"error":"validation_error","error_description":"A propriedade [notification_url] é inválida."}
+[15-Jan-2026 12:42:22 America/Sao_Paulo] Efí Cartão Create Charge Error Details: {"code":3500034,"error":"validation_error","error_description":"A propriedade [notification_url] \u00e9 inv\u00e1lida."}
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[15-Jan-2026 13:47:05 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[15-Jan-2026 13:47:06 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[15-Jan-2026 13:47:06 America/Sao_Paulo] Efí: Token obtido com sucesso
+[15-Jan-2026 13:47:06 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 2.00, Chave Pix: 0c127205-4...
+[15-Jan-2026 13:47:06 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"nome":"Leonardo Israel","cpf":"35401338287"},"valor":{"original":"2.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[15-Jan-2026 13:47:06 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:47:07 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: cc0071ab17d34fd98d82b7611cb29086
+[15-Jan-2026 13:47:07 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[15-Jan-2026 13:47:07 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[15-Jan-2026 13:47:08 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1122 caracteres)
+[15-Jan-2026 13:47:09 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[15-Jan-2026 13:51:44 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[15-Jan-2026 13:51:45 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[15-Jan-2026 13:51:45 America/Sao_Paulo] Efí: Token obtido com sucesso
+[15-Jan-2026 13:51:45 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 2.00, Chave Pix: 0c127205-4...
+[15-Jan-2026 13:51:45 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"nome":"Leonardo Israel","cpf":"35401338287"},"valor":{"original":"2.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[15-Jan-2026 13:51:45 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:51:46 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: 6208a1f54cf34fa8970a14c5e7c3ce56
+[15-Jan-2026 13:51:46 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[15-Jan-2026 13:51:46 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[15-Jan-2026 13:51:47 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1106 caracteres)
+[15-Jan-2026 13:51:48 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Iniciando processamento de pagamento
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Client ID presente: sim (tamanho: 50)
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Client Secret presente: sim (tamanho: 54)
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Caminho certificado (relativo): uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Chave Pix presente: sim
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Caminho completo do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Certificado encontrado, obtendo token de acesso...
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Iniciando obtenção de token - Client ID: Client_I...e641
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Caminho do certificado (normalizado): C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Certificado encontrado - Tamanho: 2657 bytes, Legível: sim
+[15-Jan-2026 13:52:01 America/Sao_Paulo] Efí: Enviando requisição OAuth para: https://pix.api.efipay.com.br/oauth/token
+[15-Jan-2026 13:52:02 America/Sao_Paulo] Efí: Token obtido com sucesso - Expira em: 3600 segundos
+[15-Jan-2026 13:52:02 America/Sao_Paulo] Efí: Token obtido com sucesso
+[15-Jan-2026 13:52:02 America/Sao_Paulo] Efí: Criando cobrança Pix - Valor: 6.00, Chave Pix: 0c127205-4...
+[15-Jan-2026 13:52:02 America/Sao_Paulo] Efí: Payload completo: {"calendario":{"expiracao":3600},"devedor":{"nome":"Leonardo Israel","cpf":"35401338287"},"valor":{"original":"6.00"},"chave":"0c127205-4b4e-4cc7-bdd2-323e6f639ecc","solicitacaoPagador":"Compra: teste"}
+[15-Jan-2026 13:52:02 America/Sao_Paulo] Efí: Usando certificado P12 na criação de cobrança: C:/xampp/htdocs/uploads/certificados/cert_efi_00b19f6366bf3725e9c60ab83faba435_1768219528.p12
+[15-Jan-2026 13:52:03 America/Sao_Paulo] Efí: Resposta da criação de cobrança - txid: b7943ba3ece4408db99fd39a8cc34f9c
+[15-Jan-2026 13:52:03 America/Sao_Paulo] Efí: Chaves disponíveis na resposta: calendario, txid, revisao, status, valor, chave, devedor, solicitacaoPagador, loc, location, pixCopiaECola
+[15-Jan-2026 13:52:03 America/Sao_Paulo] Efí: pixCopiaECola presente: sim (tamanho: 160)
+[15-Jan-2026 13:52:04 America/Sao_Paulo] Efí: QR code base64 gerado com sucesso (tamanho: 1106 caracteres)
+[15-Jan-2026 13:52:05 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[16-Jan-2026 09:21:26 America/Sao_Paulo] Applyfy Pix: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/pix/receive
+[16-Jan-2026 09:21:26 America/Sao_Paulo] Applyfy Pix: Identifier: applyfy_696a2d46d1e251.75624325_fa8d50ba399fe3f6, Amount: 5
+[16-Jan-2026 09:21:28 America/Sao_Paulo] Applyfy Pix HTTP Error (200): {"responseType":"api","transactionId":"cmkgul2sw2deiny1kgzln63ue","fee":2,"status":"OK","pix":{"code":"00020101021226810014br.gov.bcb.pix2559qr.woovi.com/qr/v2/cob/f1224468-a186-4b89-b8a1-c1f33ebbb89052040000530398654045.005802BR5907APPLYFY6007Barueri6229052533dd8000a64c450c806eb9c046304B25D","base64":"iVBORw0KGgoAAAANSUhEUgAAAPQAAAD0CAYAAACsLwv+AAAAAklEQVR4AewaftIAAA3pSURBVO3BQW7s2pLAQFLw/rfM9jBHBxBU5Xe/OiPsF2utV7hYa73GxVrrNS7WWq9xsdZ6jYu11mtcrLVe42Kt9RoXa63XuFhrvcbFWus1LtZar3Gx1nqNi7XWa1ystV7jYq31Gj88pPKXKu5QOamYVKaKSWWqmFSmiknlpOIOlaniROWk4g6Vv1Rxh8pUcYfKX6p44mKt9RoXa63XuFhrvcYPH1bxSSrfpHJHxR0qU8UTKicqU8VJxaQyVUwqU8WJylQxqZxUTCpTxR0qU8UdFZ+k8kkXa63XuFhrvcbFWus1fvgylTsq7lCZKqaKSWWqOFF5ouJEZaqYVKaKSWWqeKJiUrlD5UTlpOKk4kRlqphUPknljopvulhrvcbFWus1LtZar/HDy6hMFVPFHRV3qNxRMak8oTJVTBWTylQxVdxRcYfKpHJSMalMFZPKVDGpTBX/yy7WWq9xsdZ6jYu11mv88DIVJyp3VNxR8UTFpPKEyhMqU8WJylQxqZxUTCqTylTxRMWbXKy1XuNirfUaF2ut1/jhyyr+SypPqEwVk8odFZPKVHGiclJxh8odKicVJxWTyqRyUvEvqfiXXKy1XuNirfUaF2ut1/jhw1T+ZRWTylQxqdxR
+[16-Jan-2026 09:21:28 America/Sao_Paulo] Applyfy Pix Error Code: UNKNOWN, Message: Erro desconhecido
+[16-Jan-2026 09:24:08 America/Sao_Paulo] Applyfy Pix: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/pix/receive
+[16-Jan-2026 09:24:08 America/Sao_Paulo] Applyfy Pix: Identifier: applyfy_696a2de8e6f2f8.67155737_7f8909aa9648d577, Amount: 5, Client: Leonardo Israel...
+[16-Jan-2026 09:24:10 America/Sao_Paulo] Applyfy Pix HTTP Error (200): {"responseType":"api","transactionId":"cmkguojux2gtwn41kcvfhf9o8","fee":2,"status":"OK","pix":{"code":"00020101021226810014br.gov.bcb.pix2559qr.woovi.com/qr/v2/cob/98266da1-a326-449f-b56a-7820c25358a152040000530398654045.005802BR5907APPLYFY6007Barueri62290525b490a3bf5ff74a4ebb381b47263044BF7","base64":"iVBORw0KGgoAAAANSUhEUgAAAPQAAAD0CAYAAACsLwv+AAAAAklEQVR4AewaftIAAA4oSURBVO3BQY4cy5LAQDLR978yR0ufTQCJqtbTD7iZ/cFa6woPa61rPKy1rvGw1rrGw1rrGg9rrWs8rLWu8bDWusbDWusaD2utazysta7xsNa6xsNa6xoPa61rPKy1rvGw1rrGDx9S+ZsqTlROKk5UpooTlZOKE5Wp4g2VqeJvUvlNFZPKVHGiMlW8ofI3VXziYa11jYe11jUe1lrX+OHLKr5J5Y2KE5WTikllqpgqJpVJZaqYKt5QOVGZKiaVqWJSmSomlaniRGWqmFSmiknlDZUTlanijYpvUvmmh7XWNR7WWtd4WGtd44dfpvJGxRsqU8WkMlWcqEwVk8pUMVWcqJxUTCpTxaQyVZxUTCpTxaTyhsqJyhsVJypTxYnKN6m8UfGbHtZa13hYa13jYa11jR8uVzGpvKEyVXyi4kTlRGWqmFSmiknlROWk4qRiUpkqJpVJ5aRiqjhRmSomlanif9nDWusaD2utazysta7xw2VUPlHxCZVPVEwqU8WkcqLyN6lMFZPKScWk8psqbvKw1rrGw1rrGg9rrWv88Msq/iUVb6icVJxUTConKlPFGxVvqEwVJyonFScVk8qk8r+k4l/ysNa6xsNa6xoPa61r/PBlKv+liknl
+[16-Jan-2026 09:24:10 America/Sao_Paulo] Applyfy Pix Error Code: UNKNOWN, Message: Erro desconhecido
+[16-Jan-2026 09:25:13 America/Sao_Paulo] Applyfy Pix: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/pix/receive
+[16-Jan-2026 09:25:13 America/Sao_Paulo] Applyfy Pix: Identifier: applyfy_696a2e29a797b2.63225004_3ee545ee30c2d585, Amount: 5, Client: Leonardo Israel...
+[16-Jan-2026 09:25:15 America/Sao_Paulo] Applyfy Pix: Transação criada - ID: cmkgupxsc2eacny1ryesnlw0y, Status: approved
+[16-Jan-2026 09:25:16 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[16-Jan-2026 09:26:46 America/Sao_Paulo] Applyfy Pix: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/pix/receive
+[16-Jan-2026 09:26:46 America/Sao_Paulo] Applyfy Pix: Identifier: applyfy_696a2e86bd0953.73308811_43f38465d71aa804, Amount: 5, Client: LEONARDO ISRAEL SOUS...
+[16-Jan-2026 09:26:48 America/Sao_Paulo] Applyfy Pix: Transação criada - ID: cmkgurxkp2enpny1r9eosuz9k, Status: approved
+[16-Jan-2026 09:26:48 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[16-Jan-2026 09:32:55 America/Sao_Paulo] Applyfy Cartão: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/card/receive
+[16-Jan-2026 09:32:55 America/Sao_Paulo] Applyfy Cartão: Identifier: applyfy_696a2ff722c127.77212015_ecad1558b19fe2f1, Amount: 5
+[16-Jan-2026 09:32:56 America/Sao_Paulo] Applyfy Cartão HTTP Error (400): {"statusCode":400,"errorCode":"GATEWAY_INVALID_DATA","message":"Dados da requisição inválidos, verifique 'details' para mais informações","details":[{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]}
+[16-Jan-2026 09:32:56 America/Sao_Paulo] Applyfy Cartão Error Code: GATEWAY_INVALID_DATA, Message: Dados da requisição inválidos, verifique 'details' para mais informações
+[16-Jan-2026 09:32:56 America/Sao_Paulo] Applyfy Cartão Error Details: [{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]
+[16-Jan-2026 09:33:03 America/Sao_Paulo] Applyfy Cartão: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/card/receive
+[16-Jan-2026 09:33:03 America/Sao_Paulo] Applyfy Cartão: Identifier: applyfy_696a2fff02a536.17887353_948881e5903d8b84, Amount: 5
+[16-Jan-2026 09:33:03 America/Sao_Paulo] Applyfy Cartão HTTP Error (400): {"statusCode":400,"errorCode":"GATEWAY_INVALID_DATA","message":"Dados da requisição inválidos, verifique 'details' para mais informações","details":[{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]}
+[16-Jan-2026 09:33:03 America/Sao_Paulo] Applyfy Cartão Error Code: GATEWAY_INVALID_DATA, Message: Dados da requisição inválidos, verifique 'details' para mais informações
+[16-Jan-2026 09:33:03 America/Sao_Paulo] Applyfy Cartão Error Details: [{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]
+[16-Jan-2026 09:35:03 America/Sao_Paulo] Applyfy Cartão: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/card/receive
+[16-Jan-2026 09:35:03 America/Sao_Paulo] Applyfy Cartão: Identifier: applyfy_696a3077e04eb7.81596983_6bea1dc5bb4c5951, Amount: 5
+[16-Jan-2026 09:35:03 America/Sao_Paulo] Applyfy Cartão: Endereço - CEP: 67113-230, Estado: PA, Cidade: Ananindeua, Logradouro: Passagem São Benedito, Bairro: Coqueiro, Número: 56
+[16-Jan-2026 09:35:03 America/Sao_Paulo] Applyfy Cartão: Cartão - Owner: leonardo i..., ExpiresAt: 2033-12
+[16-Jan-2026 09:35:04 America/Sao_Paulo] Applyfy Cartão HTTP Error (400): {"statusCode":400,"errorCode":"GATEWAY_INVALID_DATA","message":"Dados da requisição inválidos, verifique 'details' para mais informações","details":[{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]}
+[16-Jan-2026 09:35:04 America/Sao_Paulo] Applyfy Cartão Error Code: GATEWAY_INVALID_DATA, Message: Dados da requisição inválidos, verifique 'details' para mais informações
+[16-Jan-2026 09:35:04 America/Sao_Paulo] Applyfy Cartão Error Details: [{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]
+[16-Jan-2026 09:35:11 America/Sao_Paulo] Applyfy Cartão: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/card/receive
+[16-Jan-2026 09:35:11 America/Sao_Paulo] Applyfy Cartão: Identifier: applyfy_696a307f878d39.42691358_2a8de4b110ffa067, Amount: 5
+[16-Jan-2026 09:35:11 America/Sao_Paulo] Applyfy Cartão: Endereço - CEP: 67113-230, Estado: PA, Cidade: Ananindeua, Logradouro: Passagem São Benedito, Bairro: Coqueiro, Número: 56
+[16-Jan-2026 09:35:11 America/Sao_Paulo] Applyfy Cartão: Cartão - Owner: leonardo i..., ExpiresAt: 2033-12
+[16-Jan-2026 09:35:12 America/Sao_Paulo] Applyfy Cartão HTTP Error (400): {"statusCode":400,"errorCode":"GATEWAY_INVALID_DATA","message":"Dados da requisição inválidos, verifique 'details' para mais informações","details":[{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]}
+[16-Jan-2026 09:35:12 America/Sao_Paulo] Applyfy Cartão Error Code: GATEWAY_INVALID_DATA, Message: Dados da requisição inválidos, verifique 'details' para mais informações
+[16-Jan-2026 09:35:12 America/Sao_Paulo] Applyfy Cartão Error Details: [{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]
+[16-Jan-2026 09:36:40 America/Sao_Paulo] Applyfy Cartão: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/card/receive
+[16-Jan-2026 09:36:40 America/Sao_Paulo] Applyfy Cartão: Identifier: applyfy_696a30d8199bb6.92962414_ce39ee4d8a43ffd8, Amount: 5
+[16-Jan-2026 09:36:40 America/Sao_Paulo] Applyfy Cartão: Endereço - CEP (raw): 67113230, CEP (limpo): 67113230, CEP no payload: 67113230, Estado: PA, Cidade: Ananindeua, Logradouro: Passagem São Benedito, Bairro: Coqueiro, Número: 56
+[16-Jan-2026 09:36:40 America/Sao_Paulo] Applyfy Cartão: Cartão - Owner: leonardo i..., ExpiresAt: 2033-12
+[16-Jan-2026 09:36:40 America/Sao_Paulo] Applyfy Cartão HTTP Error (400): {"statusCode":400,"errorCode":"GATEWAY_INVALID_DATA","message":"Dados da requisição inválidos, verifique 'details' para mais informações","details":[{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]}
+[16-Jan-2026 09:36:40 America/Sao_Paulo] Applyfy Cartão Error Code: GATEWAY_INVALID_DATA, Message: Dados da requisição inválidos, verifique 'details' para mais informações
+[16-Jan-2026 09:36:40 America/Sao_Paulo] Applyfy Cartão Error Details: [{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]
+[16-Jan-2026 09:38:35 America/Sao_Paulo] Applyfy Cartão: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/card/receive
+[16-Jan-2026 09:38:35 America/Sao_Paulo] Applyfy Cartão: Identifier: applyfy_696a314b17e644.27445926_8d376196c19a2c33, Amount: 5
+[16-Jan-2026 09:38:35 America/Sao_Paulo] Applyfy Cartão: Endereço - CEP (raw): 67113230, CEP (limpo): 67113230, CEP no payload: 67113230, Estado: PA, Cidade: Ananindeua, Logradouro: Passagem São Benedito, Bairro: Coqueiro, Número: 56
+[16-Jan-2026 09:38:35 America/Sao_Paulo] Applyfy Cartão: Cartão - Owner: leonardo s..., ExpiresAt: 2033-12
+[16-Jan-2026 09:38:35 America/Sao_Paulo] Applyfy Cartão HTTP Error (400): {"statusCode":400,"errorCode":"GATEWAY_INVALID_DATA","message":"Dados da requisição inválidos, verifique 'details' para mais informações","details":[{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]}
+[16-Jan-2026 09:38:35 America/Sao_Paulo] Applyfy Cartão Error Code: GATEWAY_INVALID_DATA, Message: Dados da requisição inválidos, verifique 'details' para mais informações
+[16-Jan-2026 09:38:35 America/Sao_Paulo] Applyfy Cartão Error Details: [{"code":"custom","message":"Invalid zip code","path":["client","address","zipCode"]}]
+[16-Jan-2026 09:39:57 America/Sao_Paulo] Applyfy Cartão: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/card/receive
+[16-Jan-2026 09:39:57 America/Sao_Paulo] Applyfy Cartão: Identifier: applyfy_696a319d5153b4.69423598_1fc4920406b84d5c, Amount: 5
+[16-Jan-2026 09:39:57 America/Sao_Paulo] Applyfy Cartão: Endereço - CEP (raw): 67113230, CEP (limpo): 67113230, CEP no payload: 67113-230, Estado: PA, Cidade: Ananindeua, Logradouro: Passagem São Benedito, Bairro: Coqueiro, Número: 56
+[16-Jan-2026 09:39:57 America/Sao_Paulo] Applyfy Cartão: Cartão - Owner: leonardo s..., ExpiresAt: 2033-12
+[16-Jan-2026 09:40:08 America/Sao_Paulo] Applyfy Cartão: Transação criada - ID: cmkgv8vkg2keln41rqer8vz0m, Status raw: OK, Status normalizado: approved
+[16-Jan-2026 09:40:08 America/Sao_Paulo] Conquista atribuída: Usuário #33 - Conquista #1 (Teste1)
+[16-Jan-2026 09:40:14 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[16-Jan-2026 09:40:51 America/Sao_Paulo] Applyfy Pix: Enviando requisição para: https://app.applyfy.com.br/api/v1/gateway/pix/receive
+[16-Jan-2026 09:40:51 America/Sao_Paulo] Applyfy Pix: Identifier: applyfy_696a31d358a400.93999643_c1869cf52d3dcd34, Amount: 5, Client: LEONARDO ISRAEL SOUS...
+[16-Jan-2026 09:40:52 America/Sao_Paulo] Applyfy Pix: Transação criada - ID: cmkgva13a2irsny1rmhjypsvj, Status: approved
+[16-Jan-2026 09:40:53 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[17-Jan-2026 00:09:15 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[17-Jan-2026 00:09:15 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[17-Jan-2026 00:09:15 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[17-Jan-2026 00:09:15 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[17-Jan-2026 00:09:15 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: $aact_prod...Yzll, Ambiente: production
+[17-Jan-2026 00:09:15 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 6.00, Vencimento: 2026-01-18
+[17-Jan-2026 00:09:15 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":6,"dueDate":"2026-01-18","description":"Compra: teste2","customer":{"name":"Leonardo Israel","email":"leonardoiss@icloud.com","cpfCnpj":"35401338287","phone":"91985589960"},"notificationDisabled":false}
+[17-Jan-2026 00:09:19 America/Sao_Paulo] [Asaas] Pagamento Pix criado com sucesso - ID: pay_ppdyvvbp5097aird
+[17-Jan-2026 00:09:19 America/Sao_Paulo] [Asaas] Buscando QR Code Pix - Payment ID: pay_ppdyvvbp5097aird
+[17-Jan-2026 00:09:23 America/Sao_Paulo] PHP Warning:  require(C:\xampp\htdocs\vendor\composer/../ralouphie/getallheaders/src/getallheaders.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\vendor\composer\autoload_real.php on line 41
+[17-Jan-2026 00:09:23 America/Sao_Paulo] PWA Push: Erro fatal ao carregar autoload: Failed opening required 'C:\xampp\htdocs\vendor\composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='C:\xampp\php\PEAR')
+[31-Jan-2026 10:49:39 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 10:49:39 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 10:49:39 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 10:49:39 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 10:49:40 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[31-Jan-2026 10:52:53 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 10:52:53 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 10:52:53 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 10:52:53 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 10:52:54 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[31-Jan-2026 15:48:52 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 15:48:52 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 15:48:52 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 15:48:52 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 15:48:54 America/Sao_Paulo] SpacePag Auth HTTP 201: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUwLCJpYXQiOjE3Njk4ODUzMzMsImV4cCI6MTc2OTg4ODkzM30.votCFOYd7Lq5xeUGvYj8HOZib12KUHTc0M1HYaDH5Uo","type":"Bearer","expiresIn":18000}
+[31-Jan-2026 15:54:20 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 15:54:21 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 15:54:21 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 15:54:21 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 15:54:23 America/Sao_Paulo] SpacePag Cob HTTP 500: {"statusCode":500,"message":"Internal server error"}
+[31-Jan-2026 15:55:48 America/Sao_Paulo] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\xampp\htdocs\config\config.php on line 23
+[31-Jan-2026 15:55:48 America/Sao_Paulo] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\xampp\htdocs\config\config.php on line 24
+[31-Jan-2026 15:55:48 America/Sao_Paulo] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\xampp\htdocs\config\config.php on line 25
+[31-Jan-2026 15:55:48 America/Sao_Paulo] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\xampp\htdocs\config\config.php on line 26
+[31-Jan-2026 15:55:48 America/Sao_Paulo] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\xampp\htdocs\config\config.php on line 27
+[31-Jan-2026 15:55:48 America/Sao_Paulo] PHP Warning:  Undefined array key "SERVER_PORT" in C:\xampp\htdocs\config\config.php on line 30
+[31-Jan-2026 15:55:48 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\xampp\htdocs\config\config.php on line 35
+[31-Jan-2026 15:55:48 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 15:55:48 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 15:55:48 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 15:55:48 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 15:55:48 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\test_spacepag_payment.php:17) in C:\xampp\htdocs\process_payment.php on line 64
+[31-Jan-2026 15:55:48 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\test_spacepag_payment.php:17) in C:\xampp\htdocs\process_payment.php on line 15
+[31-Jan-2026 15:57:22 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 15:57:22 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 15:57:22 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 15:57:22 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 15:57:24 America/Sao_Paulo] SpacePag Cob HTTP 500: {"statusCode":500,"message":"Internal server error"}
+[31-Jan-2026 15:59:27 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 15:59:27 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 15:59:27 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 15:59:27 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 15:59:28 America/Sao_Paulo] SpacePag Cob HTTP 403: {"message":"consumer.document é obrigatório","error":"Forbidden","statusCode":403}
+[31-Jan-2026 15:59:36 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 15:59:36 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 15:59:36 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 15:59:36 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 15:59:37 America/Sao_Paulo] SpacePag Cob HTTP 500: {"statusCode":500,"message":"Internal server error"}
+[31-Jan-2026 16:01:11 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 16:01:11 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 16:01:11 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 16:01:11 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 16:01:13 America/Sao_Paulo] SpacePag Cob HTTP 500: {"statusCode":500,"message":"Internal server error"}
+[31-Jan-2026 16:02:13 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 16:02:13 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 16:02:13 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 16:02:13 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 16:02:14 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":5,"consumer":{"name":"LEONARDO ISRAEL SOUSA SANTOS","document":"354.013.382-87","email":"seckodb@gmail.com"},"external_id":"checkout_697e51b53608165eced1a65123032","postback":"http:\/\/localhost\/notification.php"}
+[31-Jan-2026 16:02:14 America/Sao_Paulo] SpacePag Cob HTTP 500: {"statusCode":500,"message":"Internal server error"}
+[31-Jan-2026 16:04:01 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 16:04:01 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 16:04:01 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 16:04:01 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 16:04:02 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":5,"consumer":{"name":"LEONARDO ISRAEL SOUSA SANTOS","document":"354.013.382-87","email":"seckodb@gmail.com"},"external_id":"checkout697e"}
+[31-Jan-2026 16:04:03 America/Sao_Paulo] SpacePag Cob HTTP 500: {"statusCode":500,"message":"Internal server error"}
+[31-Jan-2026 16:04:49 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 16:04:49 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 16:04:49 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 16:04:49 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 16:04:50 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":10,"consumer":{"name":"LEONARDO ISRAEL SOUSA SANTOS","document":"354.013.382-87","email":"seckodb@gmail.com"},"external_id":"checkout697e"}
+[31-Jan-2026 16:04:51 America/Sao_Paulo] SpacePag Cob HTTP 500: {"statusCode":500,"message":"Internal server error"}
+[31-Jan-2026 16:06:31 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 16:06:31 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 16:06:31 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 16:06:31 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 16:06:31 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":10,"consumer":{"name":"LEONARDO ISRAEL SOUSA SANTOS","document":"354.013.382-87","email":"seckodb@gmail.com"},"external_id":"checkout697e"}
+[31-Jan-2026 16:06:32 America/Sao_Paulo] SpacePag Cob HTTP 500: {"statusCode":500,"message":"Internal server error"}
+[31-Jan-2026 16:11:47 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 16:11:47 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 16:11:47 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 16:11:47 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 16:11:48 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":10,"consumer":{"name":"LEONARDO ISRAEL SOUSA SANTOS","document":"354.013.382-87","email":"seckodb@gmail.com"},"external_id":"checkout697e"}
+[31-Jan-2026 16:11:49 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[31-Jan-2026 16:12:39 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 16:12:39 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 16:12:39 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 16:12:39 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 16:12:40 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":3,"consumer":{"name":"LEONARDO ISRAEL SOUSA SANTOS","document":"354.013.382-87","email":"seckodb@gmail.com"},"external_id":"checkout697e"}
+[31-Jan-2026 16:12:41 America/Sao_Paulo] SpacePag Cob HTTP 403: {"message":"Depósito mínimo de R$ 5,00","error":"Forbidden","statusCode":403}
+[31-Jan-2026 16:13:04 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 16:13:04 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 16:13:04 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 16:13:04 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 16:13:05 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":5,"consumer":{"name":"LEONARDO ISRAEL SOUSA SANTOS","document":"354.013.382-87","email":"seckodb@gmail.com"},"external_id":"checkout697e"}
+[31-Jan-2026 16:13:07 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[31-Jan-2026 16:23:21 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[31-Jan-2026 16:23:21 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[31-Jan-2026 16:23:21 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[31-Jan-2026 16:23:21 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[31-Jan-2026 16:23:23 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":5,"consumer":{"name":"LEONARDO ISRAEL SOUSA SANTOS","document":"354.013.382-87","email":"seckodb@gmail.com"},"external_id":"checkout697e"}
+[31-Jan-2026 16:23:24 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[01-Feb-2026 11:15:41 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[01-Feb-2026 11:15:41 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[01-Feb-2026 11:15:41 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[01-Feb-2026 11:15:41 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[01-Feb-2026 11:15:43 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[01-Feb-2026 11:29:47 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[01-Feb-2026 11:29:47 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[01-Feb-2026 11:29:47 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[01-Feb-2026 11:29:47 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[01-Feb-2026 11:29:48 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":5,"consumer":{"name":"Leonardo Israel","document":"354.013.382-87","email":"leonardoiss@icloud.com"},"external_id":"checkout697f"}
+[01-Feb-2026 11:29:50 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[01-Feb-2026 11:55:39 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[01-Feb-2026 11:55:39 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[01-Feb-2026 11:55:39 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[01-Feb-2026 11:55:39 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[01-Feb-2026 11:55:40 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[01-Feb-2026 11:57:16 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[01-Feb-2026 11:57:16 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[01-Feb-2026 11:57:16 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[01-Feb-2026 11:57:16 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[01-Feb-2026 11:57:17 America/Sao_Paulo] SpacePag Cob: Payload = {"amount":20,"consumer":{"name":"Leonardo Israel","document":"354.013.382-87","email":"leonardoiss@icloud.com"},"external_id":"checkout697f"}
+[01-Feb-2026 11:57:19 America/Sao_Paulo] PWA Push: Erro geral em pwa_get_or_generate_vapid_keys: Unable to create the key
+[03-Feb-2026 03:26:40 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 03:26:40 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 03:26:40 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 03:26:40 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 03:26:40 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: a323cd67-7...01f8, Ambiente: sandbox
+[03-Feb-2026 03:26:40 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 197.00, Vencimento: 2026-02-04
+[03-Feb-2026 03:26:40 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":197,"dueDate":"2026-02-04","description":"Compra: VozSmart","customer":{"name":"FERNANDO RODRIGUES AZEVEDO","email":"fernando.rodrigues.a@gmail.com","cpfCnpj":"40140333843","phone":"11960463218"},"notificationDisabled":false}
+[03-Feb-2026 03:26:40 America/Sao_Paulo] [Asaas] Create Pix Payment HTTP Error (401): [{"code":"invalid_access_token","description":"A chave de API fornecida \u00e9 inv\u00e1lida"}]
+[03-Feb-2026 03:26:40 America/Sao_Paulo] [Asaas] Resposta completa: {"errors":[{"code":"invalid_access_token","description":"A chave de API fornecida é inválida"}]}
+[03-Feb-2026 03:26:45 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 03:26:45 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 03:26:45 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 03:26:45 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 03:26:45 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: a323cd67-7...01f8, Ambiente: sandbox
+[03-Feb-2026 03:26:45 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 197.00, Vencimento: 2026-02-04
+[03-Feb-2026 03:26:45 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":197,"dueDate":"2026-02-04","description":"Compra: VozSmart","customer":{"name":"FERNANDO RODRIGUES AZEVEDO","email":"fernando.rodrigues.a@gmail.com","cpfCnpj":"40140333843","phone":"11960463218"},"notificationDisabled":false}
+[03-Feb-2026 03:26:45 America/Sao_Paulo] [Asaas] Create Pix Payment HTTP Error (401): [{"code":"invalid_access_token","description":"A chave de API fornecida \u00e9 inv\u00e1lida"}]
+[03-Feb-2026 03:26:45 America/Sao_Paulo] [Asaas] Resposta completa: {"errors":[{"code":"invalid_access_token","description":"A chave de API fornecida é inválida"}]}
+[03-Feb-2026 03:26:51 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 03:26:51 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 03:26:51 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 03:26:51 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 03:26:51 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: a323cd67-7...01f8, Ambiente: sandbox
+[03-Feb-2026 03:26:51 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 197.00, Vencimento: 2026-02-04
+[03-Feb-2026 03:26:51 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":197,"dueDate":"2026-02-04","description":"Compra: VozSmart","customer":{"name":"FERNANDO RODRIGUES AZEVEDO","email":"fernando.rodrigues.a@gmail.com","cpfCnpj":"40140333843","phone":"11960463218"},"notificationDisabled":false}
+[03-Feb-2026 03:26:51 America/Sao_Paulo] [Asaas] Create Pix Payment HTTP Error (401): [{"code":"invalid_access_token","description":"A chave de API fornecida \u00e9 inv\u00e1lida"}]
+[03-Feb-2026 03:26:51 America/Sao_Paulo] [Asaas] Resposta completa: {"errors":[{"code":"invalid_access_token","description":"A chave de API fornecida é inválida"}]}
+[03-Feb-2026 03:33:17 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 03:33:17 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 03:33:17 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 03:33:17 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 03:33:17 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: $aact_hmlg...YjZh, Ambiente: sandbox
+[03-Feb-2026 03:33:17 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 197.00, Vencimento: 2026-02-04
+[03-Feb-2026 03:33:17 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":197,"dueDate":"2026-02-04","description":"Compra: VozSmart","customer":{"name":"Fernando Rodrigues Azevedo","email":"fernando.rodrigues.a@gmail.com","cpfCnpj":"40140333843","phone":"11960463218"},"notificationDisabled":false}
+[03-Feb-2026 03:33:18 America/Sao_Paulo] [Asaas] Pagamento Pix criado com sucesso - ID: pay_bb2fqzvefpss11g7
+[03-Feb-2026 03:33:18 America/Sao_Paulo] [Asaas] Buscando QR Code Pix - Payment ID: pay_bb2fqzvefpss11g7
+[03-Feb-2026 03:34:29 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 03:34:29 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 03:34:29 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 03:34:29 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 03:34:29 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: $aact_hmlg...YjZh, Ambiente: production
+[03-Feb-2026 03:34:29 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 197.00, Vencimento: 2026-02-04
+[03-Feb-2026 03:34:29 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":197,"dueDate":"2026-02-04","description":"Compra: VozSmart","customer":{"name":"Fernando Rodrigues Azevedo","email":"fernando.rodrigues.a@gmail.com","cpfCnpj":"40140333843","phone":"11960463218"},"notificationDisabled":false}
+[03-Feb-2026 03:34:29 America/Sao_Paulo] [Asaas] Create Pix Payment HTTP Error (401): [{"code":"invalid_environment","description":"A chave de API informada n\u00e3o pertence a este ambiente"}]
+[03-Feb-2026 03:34:29 America/Sao_Paulo] [Asaas] Resposta completa: {"errors":[{"code":"invalid_environment","description":"A chave de API informada não pertence a este ambiente"}]}
+[03-Feb-2026 03:34:45 America/Sao_Paulo] Plugin Loader: Carregando plugin 'Recorrência' (recorrencia)
+[03-Feb-2026 03:34:45 America/Sao_Paulo] RECORRENCIA: Plugin de Recorrência sendo carregado...
+[03-Feb-2026 03:34:45 America/Sao_Paulo] RECORRENCIA: Registrando hooks...
+[03-Feb-2026 03:34:45 America/Sao_Paulo] Plugin Loader: Plugin 'Recorrência' carregado com sucesso
+[03-Feb-2026 03:34:45 America/Sao_Paulo] [Asaas] Iniciando criação de pagamento Pix - API Key: $aact_hmlg...YjZh, Ambiente: production
+[03-Feb-2026 03:34:45 America/Sao_Paulo] [Asaas] Criando cobrança Pix - Valor: R$ 197.00, Vencimento: 2026-02-04
+[03-Feb-2026 03:34:45 America/Sao_Paulo] [Asaas] Payload completo: {"billingType":"PIX","value":197,"dueDate":"2026-02-04","description":"Compra: VozSmart","customer":{"name":"Fernando Rodrigues Azevedo","email":"fernando.rodrigues.a@gmail.com","cpfCnpj":"40140333843","phone":"11960463218"},"notificationDisabled":false}
+[03-Feb-2026 03:34:45 America/Sao_Paulo] [Asaas] Create Pix Payment HTTP Error (401): [{"code":"invalid_environment","description":"A chave de API informada n\u00e3o pertence a este ambiente"}]
+[03-Feb-2026 03:34:45 America/Sao_Paulo] [Asaas] Resposta completa: {"errors":[{"code":"invalid_environment","description":"A chave de API informada não pertence a este ambiente"}]}

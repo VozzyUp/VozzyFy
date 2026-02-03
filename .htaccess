@@ -1,0 +1,98 @@
+RewriteEngine On
+
+# Desabilita listagem de diretórios
+Options -Indexes
+
+# Passa o Authorization header (compatível)
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# Permite acesso direto a arquivos em uploads/ (IMPORTANTE: deve vir antes das outras regras)
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_URI} ^/uploads/
+RewriteRule ^uploads/(.*)$ uploads/$1 [L]
+
+# Permite acesso direto a arquivos JSON em plugins/ (deve vir antes das outras regras)
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_URI} ^/plugins/.*\.json$
+RewriteRule ^plugins/(.*\.json)$ plugins/$1 [L,QSA]
+
+# Permite acesso direto a arquivos JSON em qualquer lugar
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_URI} \.json$
+RewriteRule ^(.*\.json)$ $1 [L,QSA]
+
+# Permite acesso ao manifest PWA
+RewriteCond %{REQUEST_URI} ^/pwa/manifest(\.php|\.json)?$
+RewriteRule ^ - [L]
+
+# Exceção para páginas admin dos plugins (permite acesso direto)
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_URI} ^/plugins/[^/]+/admin/.*\.php$
+RewriteRule ^ - [L]
+
+# Exceção para checkout_editor.php (não remove .php)
+RewriteCond %{REQUEST_URI} ^/checkout_editor\.php
+RewriteRule ^ - [L]
+
+# Permite acesso à instalação
+RewriteCond %{REQUEST_URI} ^/install
+RewriteRule ^ - [L]
+
+# API na raiz (/api?action=...) - DEVE VIR PRIMEIRO, ANTES DE QUALQUER OUTRA REGRA
+# Se a requisição for exatamente /api ou /api/ (com ou sem query string), processa api.php
+# Isso previne que o Apache liste o diretório /api/
+RewriteCond %{REQUEST_URI} ^/api/?(\?|$)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^api/?$ api.php [L,QSA]
+
+# Exceção para api.php na raiz (permite acesso direto)
+RewriteCond %{REQUEST_URI} ^/api\.php
+RewriteRule ^ - [L]
+
+# Exceção para arquivos da API (permite acesso direto)
+RewriteCond %{REQUEST_URI} ^/api/.*\.php
+RewriteRule ^ - [L]
+
+# APIs em /api/ (subdiretórios) - DEVE VIR ANTES DA REGRA GERAL
+# Converte /api/admin_api para /api/admin_api.php (mantém query string)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^/api/([^/]+)/?(\?|$)
+RewriteCond %{DOCUMENT_ROOT}/api/%1.php -f
+RewriteRule ^api/([^/]+)/?$ api/$1.php [L,QSA]
+
+# Redireciona .php para URL limpa (somente GET)
+RewriteCond %{REQUEST_METHOD} GET
+RewriteCond %{THE_REQUEST} \s/+(.*)\.php[\s?]
+RewriteRule ^ %1 [R=301,L]
+
+# URLs específicas para views (curso_preview e cloned_site_viewer)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^curso_preview/?$ views/curso_preview.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^cloned_site_viewer/?$ views/cloned_site_viewer.php [L]
+
+# URLs limpas → arquivos .php (incluindo subpastas)
+# EXCETO para /api/ que já foi tratado acima
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{REQUEST_URI} !^/api/
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+# Roteador central
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+# Protege arquivos sensíveis (Apache 2.4+)
+<FilesMatch "^(config\.php|VERSION\.txt|\.htaccess|\.env)$">
+    Require all denied
+</FilesMatch>
+
+# Protege arquivos de log
+<FilesMatch ".*(_log\.txt|_errors\.log|\.log)$">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,4 @@
+# Proteger certificados - acesso negado
+Order Deny,Allow
+Deny from all
+

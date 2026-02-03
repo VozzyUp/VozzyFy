@@ -1,0 +1,1637 @@
+2026-01-02 18:01:06 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-02 18:01:06 - Usuario ID: 34 | Evento: pending | Produto ID: 43
+2026-01-02 18:01:06 - Event Data: {"transacao_id":"832091f6040141bd9e9388c031d29f99","valor_total_compra":"10.00","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"354.013.382-87"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"teste2","valor":"10.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-02 18:01:06"}
+2026-01-02 18:01:06 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-02 18:01:06 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-02 18:01:06 - Trigger event normalizado: 'pending'
+2026-01-02 18:01:06 - Método de pagamento detectado: 'pix'
+2026-01-02 18:01:06 - Evento é Pix pendente - push será enviado
+2026-01-02 18:01:06 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 10,00 - Leonardo Israel | URL: /index?pagina=vendas&id=243
+2026-01-02 18:01:06 - Dados do evento - transacao_id: 832091f6040141bd9e9388c031d29f99 | valor_total: 10.00 | comprador: Leonardo Israel
+2026-01-02 18:01:06 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-02 18:01:06 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-02 18:01:06 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-02 18:01:06 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-02 18:01:06 - === FIM trigger_push_pedidos_notifications ===
+2026-01-05 18:27:42 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-05 18:27:42 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-05 18:27:42 - Event Data: {"transacao_id":"a0c445db-95b7-4e24-9cc8-6787b9bbd995","valor_total_compra":"10.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"548.337.130-55"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"10.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-05 18:27:42"}
+2026-01-05 18:27:42 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-05 18:27:42 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-05 18:27:42 - Trigger event normalizado: 'pending'
+2026-01-05 18:27:42 - Método de pagamento detectado: 'pix'
+2026-01-05 18:27:42 - Evento é Pix pendente - push será enviado
+2026-01-05 18:27:42 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 10,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=244
+2026-01-05 18:27:42 - Dados do evento - transacao_id: a0c445db-95b7-4e24-9cc8-6787b9bbd995 | valor_total: 10.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-05 18:27:42 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-05 18:27:42 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-05 18:27:42 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-05 18:27:42 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-05 18:27:42 - === FIM trigger_push_pedidos_notifications ===
+2026-01-05 18:28:38 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-05 18:28:38 - Usuario ID: 34 | Evento: approved | Produto ID: 45
+2026-01-05 18:28:38 - Event Data: {"transacao_id":"A0C445DB-95B7-4E24-9CC8-6787B9BBD995","status_pagamento":"approved","valor_total_compra":10,"comprador":{"email":"seckodb@gmail.com","nome":"LEONARDO ISRAEL SOUSA SANTOS","cpf":"54833713055","telefone":"91980533856"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":10}],"data_venda":"2026-01-05 18:27:42","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-05 18:28:38 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-05 18:28:38 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-05 18:28:38 - Trigger event normalizado: 'approved'
+2026-01-05 18:28:38 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-05 18:28:38 - Preparando para enviar push - Vendedor ID: 34 | Evento: approved | Título: getfy pwa - Pedido Aprovado! | Mensagem: Venda aprovada de R$ 10,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=244
+2026-01-05 18:28:38 - Dados do evento - transacao_id: A0C445DB-95B7-4E24-9CC8-6787B9BBD995 | valor_total: 10 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-05 18:28:38 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-05 18:28:38 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-05 18:28:38 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-05 18:28:38 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-05 18:28:38 - === FIM trigger_push_pedidos_notifications ===
+2026-01-05 18:28:38 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-05 18:28:38 - Usuario ID: 34 | Evento: approved | Produto ID: 45
+2026-01-05 18:28:38 - Event Data: {"transacao_id":"A0C445DB-95B7-4E24-9CC8-6787B9BBD995","status_pagamento":"approved","valor_total_compra":10,"comprador":{"email":"seckodb@gmail.com","nome":"LEONARDO ISRAEL SOUSA SANTOS","cpf":"54833713055","telefone":"91980533856"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":10}],"data_venda":"2026-01-05 18:27:42","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-05 18:28:38 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-05 18:28:38 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-05 18:28:38 - Trigger event normalizado: 'approved'
+2026-01-05 18:28:38 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-05 18:28:38 - Preparando para enviar push - Vendedor ID: 34 | Evento: approved | Título: getfy pwa - Pedido Aprovado! | Mensagem: Venda aprovada de R$ 10,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=244
+2026-01-05 18:28:38 - Dados do evento - transacao_id: A0C445DB-95B7-4E24-9CC8-6787B9BBD995 | valor_total: 10 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-05 18:28:38 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-05 18:28:38 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-05 18:28:38 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-05 18:28:38 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-05 18:28:38 - === FIM trigger_push_pedidos_notifications ===
+2026-01-05 18:52:22 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-05 18:52:22 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-05 18:52:22 - Event Data: {"transacao_id":"b818fdc4d8b14119a00b058a258b7a27","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"354.013.382-87"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-05 18:52:22"}
+2026-01-05 18:52:22 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-05 18:52:22 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-05 18:52:22 - Trigger event normalizado: 'pending'
+2026-01-05 18:52:22 - Método de pagamento detectado: 'pix'
+2026-01-05 18:52:22 - Evento é Pix pendente - push será enviado
+2026-01-05 18:52:22 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=245
+2026-01-05 18:52:22 - Dados do evento - transacao_id: b818fdc4d8b14119a00b058a258b7a27 | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-05 18:52:22 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-05 18:52:22 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-05 18:52:22 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-05 18:52:22 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-05 18:52:22 - === FIM trigger_push_pedidos_notifications ===
+2026-01-05 18:52:34 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-05 18:52:34 - Usuario ID: 34 | Evento: approved | Produto ID: 45
+2026-01-05 18:52:34 - Event Data: {"transacao_id":"b818fdc4d8b14119a00b058a258b7a27","valor_total_compra":1,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":1}],"data_venda":"2026-01-05 18:52:22"}
+2026-01-05 18:52:34 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-05 18:52:34 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-05 18:52:34 - Trigger event normalizado: 'approved'
+2026-01-05 18:52:34 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-05 18:52:34 - Preparando para enviar push - Vendedor ID: 34 | Evento: approved | Título: getfy pwa - Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=245
+2026-01-05 18:52:34 - Dados do evento - transacao_id: b818fdc4d8b14119a00b058a258b7a27 | valor_total: 1 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-05 18:52:34 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-05 18:52:34 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-05 18:52:34 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-05 18:52:34 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-05 18:52:34 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 07:46:47 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 07:46:47 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 07:46:47 - Event Data: {"transacao_id":"a137e7f2186d4309acc9421e5380181c","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"leonardosantostrafego@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 07:46:47"}
+2026-01-06 07:46:47 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 07:46:47 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 07:46:47 - Trigger event normalizado: 'pending'
+2026-01-06 07:46:47 - Método de pagamento detectado: 'pix'
+2026-01-06 07:46:47 - Evento é Pix pendente - push será enviado
+2026-01-06 07:46:47 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=246
+2026-01-06 07:46:47 - Dados do evento - transacao_id: a137e7f2186d4309acc9421e5380181c | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 07:46:48 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 07:46:48 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 07:46:48 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 07:46:48 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 07:46:48 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 07:47:05 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 07:47:05 - Usuario ID: 34 | Evento: approved | Produto ID: 45
+2026-01-06 07:47:05 - Event Data: {"transacao_id":"a137e7f2186d4309acc9421e5380181c","valor_total_compra":1,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"leonardosantostrafego@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":1}],"data_venda":"2026-01-06 07:46:47"}
+2026-01-06 07:47:05 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 07:47:05 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 07:47:05 - Trigger event normalizado: 'approved'
+2026-01-06 07:47:05 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-06 07:47:05 - Preparando para enviar push - Vendedor ID: 34 | Evento: approved | Título: getfy pwa - Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=246
+2026-01-06 07:47:05 - Dados do evento - transacao_id: a137e7f2186d4309acc9421e5380181c | valor_total: 1 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 07:47:05 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 07:47:05 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 07:47:05 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 07:47:05 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 07:47:05 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 07:47:59 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 07:47:59 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 07:47:59 - Event Data: {"transacao_id":"a0c56411-2c91-48d5-8546-e65c8c6006dc","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"leonardosantostrafego@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 07:47:59"}
+2026-01-06 07:47:59 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 07:47:59 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 07:47:59 - Trigger event normalizado: 'pending'
+2026-01-06 07:47:59 - Método de pagamento detectado: 'pix'
+2026-01-06 07:47:59 - Evento é Pix pendente - push será enviado
+2026-01-06 07:47:59 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=247
+2026-01-06 07:47:59 - Dados do evento - transacao_id: a0c56411-2c91-48d5-8546-e65c8c6006dc | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 07:47:59 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 07:47:59 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 07:47:59 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 07:47:59 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 07:47:59 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 07:57:42 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 07:57:42 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 07:57:42 - Event Data: {"transacao_id":"a0c56789-886e-49a5-a625-e52e72ba1cf7","valor_total_compra":"1.50","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.50"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 07:57:42"}
+2026-01-06 07:57:42 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 07:57:42 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 07:57:42 - Trigger event normalizado: 'pending'
+2026-01-06 07:57:42 - Método de pagamento detectado: 'pix'
+2026-01-06 07:57:42 - Evento é Pix pendente - push será enviado
+2026-01-06 07:57:42 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,50 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=248
+2026-01-06 07:57:42 - Dados do evento - transacao_id: a0c56789-886e-49a5-a625-e52e72ba1cf7 | valor_total: 1.50 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 07:57:42 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 07:57:42 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 07:57:42 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 07:57:42 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 07:57:42 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:13:02 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:13:02 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 08:13:02 - Event Data: {"transacao_id":"a0c56d05-48ca-4888-ab4b-5cdfc437f426","valor_total_compra":"1.50","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.50"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 08:13:02"}
+2026-01-06 08:13:02 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:13:02 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:13:02 - Trigger event normalizado: 'pending'
+2026-01-06 08:13:02 - Método de pagamento detectado: 'pix'
+2026-01-06 08:13:02 - Evento é Pix pendente - push será enviado
+2026-01-06 08:13:02 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,50 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=249
+2026-01-06 08:13:02 - Dados do evento - transacao_id: a0c56d05-48ca-4888-ab4b-5cdfc437f426 | valor_total: 1.50 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:13:02 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:13:02 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:13:02 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:13:02 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:13:02 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:33:44 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:33:44 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 08:33:44 - Event Data: {"transacao_id":"a0c5746d-88e3-4f23-a0c1-f92659f71a7d","valor_total_compra":"1.50","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.50"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 08:33:44"}
+2026-01-06 08:33:44 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:33:44 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:33:44 - Trigger event normalizado: 'pending'
+2026-01-06 08:33:44 - Método de pagamento detectado: 'pix'
+2026-01-06 08:33:44 - Evento é Pix pendente - push será enviado
+2026-01-06 08:33:44 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,50 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=255
+2026-01-06 08:33:44 - Dados do evento - transacao_id: a0c5746d-88e3-4f23-a0c1-f92659f71a7d | valor_total: 1.50 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:33:44 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:33:44 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:33:44 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:33:44 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:33:44 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:41:21 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:41:21 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 08:41:21 - Event Data: {"transacao_id":"a0c57726-0c85-4104-91e3-a84b5341fc5c","valor_total_compra":"1.50","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.50"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 08:41:21"}
+2026-01-06 08:41:21 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:41:21 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:41:21 - Trigger event normalizado: 'pending'
+2026-01-06 08:41:21 - Método de pagamento detectado: 'pix'
+2026-01-06 08:41:21 - Evento é Pix pendente - push será enviado
+2026-01-06 08:41:21 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,50 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=256
+2026-01-06 08:41:21 - Dados do evento - transacao_id: a0c57726-0c85-4104-91e3-a84b5341fc5c | valor_total: 1.50 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:41:21 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:41:21 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:41:21 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:41:21 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:41:21 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:42:39 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:42:39 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 08:42:39 - Event Data: {"transacao_id":"1af1d7ec46c44cc586a25255be0784b4","valor_total_compra":"1.50","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.50"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 08:42:39"}
+2026-01-06 08:42:39 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:42:39 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:42:39 - Trigger event normalizado: 'pending'
+2026-01-06 08:42:39 - Método de pagamento detectado: 'pix'
+2026-01-06 08:42:39 - Evento é Pix pendente - push será enviado
+2026-01-06 08:42:39 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,50 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=257
+2026-01-06 08:42:39 - Dados do evento - transacao_id: 1af1d7ec46c44cc586a25255be0784b4 | valor_total: 1.50 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:42:39 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:42:39 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:42:39 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:42:39 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:42:39 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:43:39 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:43:39 - Usuario ID: 34 | Evento: approved | Produto ID: 45
+2026-01-06 08:43:39 - Event Data: {"transacao_id":"1af1d7ec46c44cc586a25255be0784b4","valor_total_compra":1.5,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":1.5}],"data_venda":"2026-01-06 08:42:39"}
+2026-01-06 08:43:39 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:43:39 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:43:39 - Trigger event normalizado: 'approved'
+2026-01-06 08:43:39 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-06 08:43:39 - Preparando para enviar push - Vendedor ID: 34 | Evento: approved | Título: getfy pwa - Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,50 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=257
+2026-01-06 08:43:39 - Dados do evento - transacao_id: 1af1d7ec46c44cc586a25255be0784b4 | valor_total: 1.5 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:43:39 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:43:39 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:43:39 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:43:39 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:43:39 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:48:39 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:48:39 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 08:48:39 - Event Data: {"transacao_id":"cf4f3cbed4fd43008c42e4783a8741b2","valor_total_compra":"1.20","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.20"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 08:48:39"}
+2026-01-06 08:48:39 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:48:39 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:48:39 - Trigger event normalizado: 'pending'
+2026-01-06 08:48:39 - Método de pagamento detectado: 'pix'
+2026-01-06 08:48:39 - Evento é Pix pendente - push será enviado
+2026-01-06 08:48:39 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,20 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=258
+2026-01-06 08:48:39 - Dados do evento - transacao_id: cf4f3cbed4fd43008c42e4783a8741b2 | valor_total: 1.20 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:48:39 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:48:39 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:48:39 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:48:39 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:48:39 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:49:02 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:49:02 - Usuario ID: 34 | Evento: approved | Produto ID: 45
+2026-01-06 08:49:02 - Event Data: {"transacao_id":"cf4f3cbed4fd43008c42e4783a8741b2","valor_total_compra":1.2,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":1.2}],"data_venda":"2026-01-06 08:48:39"}
+2026-01-06 08:49:02 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:49:02 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:49:02 - Trigger event normalizado: 'approved'
+2026-01-06 08:49:02 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-06 08:49:02 - Preparando para enviar push - Vendedor ID: 34 | Evento: approved | Título: getfy pwa - Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,20 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=258
+2026-01-06 08:49:02 - Dados do evento - transacao_id: cf4f3cbed4fd43008c42e4783a8741b2 | valor_total: 1.2 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:49:02 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:49:02 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:49:02 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:49:02 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:49:02 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:53:30 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:53:30 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 08:53:30 - Event Data: {"transacao_id":"5c1d1a4868f247fc80884caff76c1574","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 08:53:30"}
+2026-01-06 08:53:30 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:53:30 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:53:30 - Trigger event normalizado: 'pending'
+2026-01-06 08:53:30 - Método de pagamento detectado: 'pix'
+2026-01-06 08:53:30 - Evento é Pix pendente - push será enviado
+2026-01-06 08:53:30 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=259
+2026-01-06 08:53:30 - Dados do evento - transacao_id: 5c1d1a4868f247fc80884caff76c1574 | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:53:30 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:53:30 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:53:30 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:53:30 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:53:30 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:53:53 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:53:53 - Usuario ID: 34 | Evento: approved | Produto ID: 45
+2026-01-06 08:53:53 - Event Data: {"transacao_id":"5c1d1a4868f247fc80884caff76c1574","valor_total_compra":1,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":1}],"data_venda":"2026-01-06 08:53:30"}
+2026-01-06 08:53:53 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:53:53 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:53:53 - Trigger event normalizado: 'approved'
+2026-01-06 08:53:53 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-06 08:53:53 - Preparando para enviar push - Vendedor ID: 34 | Evento: approved | Título: getfy pwa - Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=259
+2026-01-06 08:53:53 - Dados do evento - transacao_id: 5c1d1a4868f247fc80884caff76c1574 | valor_total: 1 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:53:53 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:53:53 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:53:53 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:53:53 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:53:53 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:54:18 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:54:18 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 08:54:18 - Event Data: {"transacao_id":"a0c57bc8-5cb5-4919-96e0-75cec2130ad9","valor_total_compra":"1.10","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.10"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 08:54:18"}
+2026-01-06 08:54:18 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:54:18 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:54:18 - Trigger event normalizado: 'pending'
+2026-01-06 08:54:18 - Método de pagamento detectado: 'pix'
+2026-01-06 08:54:18 - Evento é Pix pendente - push será enviado
+2026-01-06 08:54:18 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,10 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=260
+2026-01-06 08:54:18 - Dados do evento - transacao_id: a0c57bc8-5cb5-4919-96e0-75cec2130ad9 | valor_total: 1.10 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:54:19 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:54:19 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:54:19 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:54:19 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:54:19 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 08:57:15 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 08:57:15 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 08:57:15 - Event Data: {"transacao_id":"a0c57cd6-39ab-4109-88c1-d2b2c2e5a263","valor_total_compra":"1.15","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.15"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 08:57:15"}
+2026-01-06 08:57:15 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 08:57:15 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 08:57:15 - Trigger event normalizado: 'pending'
+2026-01-06 08:57:15 - Método de pagamento detectado: 'pix'
+2026-01-06 08:57:15 - Evento é Pix pendente - push será enviado
+2026-01-06 08:57:15 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,15 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=261
+2026-01-06 08:57:15 - Dados do evento - transacao_id: a0c57cd6-39ab-4109-88c1-d2b2c2e5a263 | valor_total: 1.15 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 08:57:15 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 08:57:15 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 08:57:15 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 08:57:15 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 08:57:15 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 09:00:11 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 09:00:11 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 09:00:11 - Event Data: {"transacao_id":"a0c57de2-e5fa-4b76-8742-f06c1e2417bc","valor_total_compra":"1.17","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.17"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 09:00:11"}
+2026-01-06 09:00:11 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 09:00:11 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 09:00:11 - Trigger event normalizado: 'pending'
+2026-01-06 09:00:11 - Método de pagamento detectado: 'pix'
+2026-01-06 09:00:11 - Evento é Pix pendente - push será enviado
+2026-01-06 09:00:11 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,17 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=262
+2026-01-06 09:00:11 - Dados do evento - transacao_id: a0c57de2-e5fa-4b76-8742-f06c1e2417bc | valor_total: 1.17 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 09:00:11 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 09:00:11 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 09:00:11 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 09:00:11 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 09:00:11 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 09:07:09 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 09:07:09 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 09:07:09 - Event Data: {"transacao_id":"a0c58061-29cc-4814-9c71-48c8b5293326","valor_total_compra":"1.20","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.20"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 09:07:09"}
+2026-01-06 09:07:09 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 09:07:09 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 09:07:09 - Trigger event normalizado: 'pending'
+2026-01-06 09:07:09 - Método de pagamento detectado: 'pix'
+2026-01-06 09:07:09 - Evento é Pix pendente - push será enviado
+2026-01-06 09:07:09 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,20 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=263
+2026-01-06 09:07:09 - Dados do evento - transacao_id: a0c58061-29cc-4814-9c71-48c8b5293326 | valor_total: 1.20 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 09:07:10 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 09:07:10 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 09:07:10 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 09:07:10 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 09:07:10 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 09:12:55 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 09:12:55 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 09:12:55 - Event Data: {"transacao_id":"a0c58270-2cd9-4460-9c8a-2f09d1596868","valor_total_compra":"1.20","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.20"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 09:12:55"}
+2026-01-06 09:12:55 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 09:12:55 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 09:12:55 - Trigger event normalizado: 'pending'
+2026-01-06 09:12:55 - Método de pagamento detectado: 'pix'
+2026-01-06 09:12:55 - Evento é Pix pendente - push será enviado
+2026-01-06 09:12:55 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,20 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=264
+2026-01-06 09:12:55 - Dados do evento - transacao_id: a0c58270-2cd9-4460-9c8a-2f09d1596868 | valor_total: 1.20 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 09:12:55 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 09:12:55 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 09:12:55 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 09:12:55 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 09:12:55 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 09:25:59 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 09:25:59 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 09:25:59 - Event Data: {"transacao_id":"a0c5871a-d839-4422-8aa1-41a9e92e2ec8","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 09:25:58"}
+2026-01-06 09:25:59 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 09:25:59 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 09:25:59 - Trigger event normalizado: 'pending'
+2026-01-06 09:25:59 - Método de pagamento detectado: 'pix'
+2026-01-06 09:25:59 - Evento é Pix pendente - push será enviado
+2026-01-06 09:25:59 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=265
+2026-01-06 09:25:59 - Dados do evento - transacao_id: a0c5871a-d839-4422-8aa1-41a9e92e2ec8 | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 09:25:59 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 09:25:59 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 09:25:59 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 09:25:59 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 09:25:59 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 09:33:19 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 09:33:19 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 09:33:19 - Event Data: {"transacao_id":"a0c589ba-dee8-469d-814e-cc768454d4c1","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 09:33:18"}
+2026-01-06 09:33:19 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 09:33:19 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 09:33:19 - Trigger event normalizado: 'pending'
+2026-01-06 09:33:19 - Método de pagamento detectado: 'pix'
+2026-01-06 09:33:19 - Evento é Pix pendente - push será enviado
+2026-01-06 09:33:19 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=266
+2026-01-06 09:33:19 - Dados do evento - transacao_id: a0c589ba-dee8-469d-814e-cc768454d4c1 | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 09:33:19 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 09:33:19 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 09:33:19 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 09:33:19 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 09:33:19 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 09:44:28 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 09:44:28 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 09:44:28 - Event Data: {"transacao_id":"a0c58db7-b516-4a98-8587-cc956aa597bf","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 09:44:27"}
+2026-01-06 09:44:28 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 09:44:28 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 09:44:28 - Trigger event normalizado: 'pending'
+2026-01-06 09:44:28 - Método de pagamento detectado: 'pix'
+2026-01-06 09:44:28 - Evento é Pix pendente - push será enviado
+2026-01-06 09:44:28 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=267
+2026-01-06 09:44:28 - Dados do evento - transacao_id: a0c58db7-b516-4a98-8587-cc956aa597bf | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 09:44:28 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 09:44:28 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 09:44:28 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 09:44:28 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 09:44:28 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 09:45:59 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 09:45:59 - Usuario ID:  | Evento: approved | Produto ID: 45
+2026-01-06 09:45:59 - Event Data: {"transacao_id":"a0c58db7-b516-4a98-8587-cc956aa597bf","valor_total_compra":1,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":1}],"data_venda":"2026-01-06 09:44:27","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-06 09:45:59 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 09:45:59 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 09:45:59 - Trigger event normalizado: 'approved'
+2026-01-06 09:45:59 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-06 09:45:59 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: getfy pwa - Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=267
+2026-01-06 09:45:59 - Dados do evento - transacao_id: a0c58db7-b516-4a98-8587-cc956aa597bf | valor_total: 1 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 09:45:59 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 09:45:59 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 09:45:59 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 09:45:59 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-06 09:45:59 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 09:47:41 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 09:47:41 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 09:47:41 - Event Data: {"transacao_id":"a0c58edd-71e2-4b6a-b5ab-de8cbfadb90c","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 09:47:40"}
+2026-01-06 09:47:41 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 09:47:41 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 09:47:41 - Trigger event normalizado: 'pending'
+2026-01-06 09:47:41 - Método de pagamento detectado: 'pix'
+2026-01-06 09:47:41 - Evento é Pix pendente - push será enviado
+2026-01-06 09:47:41 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=268
+2026-01-06 09:47:41 - Dados do evento - transacao_id: a0c58edd-71e2-4b6a-b5ab-de8cbfadb90c | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 09:47:41 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 09:47:41 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 09:47:41 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 09:47:41 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 09:47:41 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 09:48:42 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 09:48:42 - Usuario ID:  | Evento: approved | Produto ID: 45
+2026-01-06 09:48:42 - Event Data: {"transacao_id":"a0c58edd-71e2-4b6a-b5ab-de8cbfadb90c","valor_total_compra":1,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":1}],"data_venda":"2026-01-06 09:47:40","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-06 09:48:42 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 09:48:42 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 09:48:42 - Trigger event normalizado: 'approved'
+2026-01-06 09:48:42 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-06 09:48:42 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: getfy pwa - Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=268
+2026-01-06 09:48:42 - Dados do evento - transacao_id: a0c58edd-71e2-4b6a-b5ab-de8cbfadb90c | valor_total: 1 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 09:48:42 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 09:48:42 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 09:48:42 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 09:48:42 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-06 09:48:42 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 10:16:41 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 10:16:41 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 10:16:41 - Event Data: {"transacao_id":"a0c5993d-60f6-4e49-8d29-34cc96b91f7c","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 10:16:41"}
+2026-01-06 10:16:41 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 10:16:41 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 10:16:41 - Trigger event normalizado: 'pending'
+2026-01-06 10:16:41 - Método de pagamento detectado: 'pix'
+2026-01-06 10:16:41 - Evento é Pix pendente - push será enviado
+2026-01-06 10:16:41 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=269
+2026-01-06 10:16:41 - Dados do evento - transacao_id: a0c5993d-60f6-4e49-8d29-34cc96b91f7c | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 10:16:41 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 10:16:41 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 10:16:41 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 10:16:41 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 10:16:41 - === FIM trigger_push_pedidos_notifications ===
+2026-01-06 11:13:46 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-06 11:13:46 - Usuario ID: 34 | Evento: pending | Produto ID: 45
+2026-01-06 11:13:46 - Event Data: {"transacao_id":"a0c5ada7-1fdb-49eb-94db-ea7d65323b55","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":45,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-06 11:13:45"}
+2026-01-06 11:13:46 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-06 11:13:46 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-06 11:13:46 - Trigger event normalizado: 'pending'
+2026-01-06 11:13:46 - Método de pagamento detectado: 'pix'
+2026-01-06 11:13:46 - Evento é Pix pendente - push será enviado
+2026-01-06 11:13:46 - Preparando para enviar push - Vendedor ID: 34 | Evento: pending | Título: getfy pwa - Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=270
+2026-01-06 11:13:46 - Dados do evento - transacao_id: a0c5ada7-1fdb-49eb-94db-ea7d65323b55 | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-06 11:13:46 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-06 11:13:46 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-06 11:13:46 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-06 11:13:46 - AVISO: Vendedor ID 34 não possui subscriptions de push registradas!
+2026-01-06 11:13:46 - === FIM trigger_push_pedidos_notifications ===
+2026-01-07 08:03:38 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-07 08:03:38 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-07 08:03:38 - Event Data: {"transacao_id":"a0c76ca3-5507-43e7-8eb6-63a5b959f437","valor_total_compra":"1.00","comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-07 08:03:38"}
+2026-01-07 08:03:38 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-07 08:03:38 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-07 08:03:38 - Trigger event normalizado: 'pending'
+2026-01-07 08:03:38 - Método de pagamento detectado: 'pix'
+2026-01-07 08:03:38 - Evento é Pix pendente - push será enviado
+2026-01-07 08:03:38 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=240
+2026-01-07 08:03:38 - Dados do evento - transacao_id: a0c76ca3-5507-43e7-8eb6-63a5b959f437 | valor_total: 1.00 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-07 08:03:38 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-07 08:03:38 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-07 08:03:38 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-07 08:03:38 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-07 08:03:38 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:06:50 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:06:50 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:06:50 - Event Data: {"transacao_id":"d4a4239a693d40b9ab4382b4603e4797","valor_total_compra":"1.00","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:06:49"}
+2026-01-12 09:06:50 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:06:50 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:06:50 - Trigger event normalizado: 'pending'
+2026-01-12 09:06:50 - Método de pagamento detectado: 'pix'
+2026-01-12 09:06:50 - Evento é Pix pendente - push será enviado
+2026-01-12 09:06:50 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=241
+2026-01-12 09:06:50 - Dados do evento - transacao_id: d4a4239a693d40b9ab4382b4603e4797 | valor_total: 1.00 | comprador: Leonardo Israel
+2026-01-12 09:06:50 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:06:50 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:06:50 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:06:50 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:06:50 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:07:19 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:07:19 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:07:19 - Event Data: {"transacao_id":"e21973eb86f64a9b8ffdbf880d661376","valor_total_compra":"1.30","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.30"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:07:19"}
+2026-01-12 09:07:19 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:07:19 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:07:19 - Trigger event normalizado: 'pending'
+2026-01-12 09:07:19 - Método de pagamento detectado: 'pix'
+2026-01-12 09:07:19 - Evento é Pix pendente - push será enviado
+2026-01-12 09:07:19 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,30 - Leonardo Israel | URL: /index?pagina=vendas&id=242
+2026-01-12 09:07:19 - Dados do evento - transacao_id: e21973eb86f64a9b8ffdbf880d661376 | valor_total: 1.30 | comprador: Leonardo Israel
+2026-01-12 09:07:19 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:07:19 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:07:19 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:07:19 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:07:19 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:07:37 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:07:37 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:07:37 - Event Data: {"transacao_id":"e21973eb86f64a9b8ffdbf880d661376","valor_total_compra":1.3,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.3}],"data_venda":"2026-01-12 09:07:19","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:07:37 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:07:37 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:07:37 - Trigger event normalizado: 'approved'
+2026-01-12 09:07:37 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:07:37 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,30 - Leonardo Israel | URL: /index?pagina=vendas&id=242
+2026-01-12 09:07:37 - Dados do evento - transacao_id: e21973eb86f64a9b8ffdbf880d661376 | valor_total: 1.3 | comprador: Leonardo Israel
+2026-01-12 09:07:37 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:07:37 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:07:37 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:07:37 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:07:37 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:10:05 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:10:05 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:10:05 - Event Data: {"transacao_id":"b337c2c565b749049e3d16f7bbe88c72","valor_total_compra":"1.15","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.15"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:10:04"}
+2026-01-12 09:10:05 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:10:05 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:10:05 - Trigger event normalizado: 'pending'
+2026-01-12 09:10:05 - Método de pagamento detectado: 'pix'
+2026-01-12 09:10:05 - Evento é Pix pendente - push será enviado
+2026-01-12 09:10:05 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,15 - Leonardo Israel | URL: /index?pagina=vendas&id=243
+2026-01-12 09:10:05 - Dados do evento - transacao_id: b337c2c565b749049e3d16f7bbe88c72 | valor_total: 1.15 | comprador: Leonardo Israel
+2026-01-12 09:10:05 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:10:05 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:10:05 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:10:05 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:10:05 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:10:22 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:10:22 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:10:22 - Event Data: {"transacao_id":"b337c2c565b749049e3d16f7bbe88c72","valor_total_compra":1.15,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.15}],"data_venda":"2026-01-12 09:10:04","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:10:22 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:10:22 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:10:22 - Trigger event normalizado: 'approved'
+2026-01-12 09:10:22 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:10:22 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,15 - Leonardo Israel | URL: /index?pagina=vendas&id=243
+2026-01-12 09:10:22 - Dados do evento - transacao_id: b337c2c565b749049e3d16f7bbe88c72 | valor_total: 1.15 | comprador: Leonardo Israel
+2026-01-12 09:10:22 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:10:22 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:10:22 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:10:22 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:10:22 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:12:23 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:12:23 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:12:23 - Event Data: {"transacao_id":"7151fa7e52494b79adeffdede18579a2","valor_total_compra":"1.05","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.05"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:12:23"}
+2026-01-12 09:12:23 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:12:23 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:12:23 - Trigger event normalizado: 'pending'
+2026-01-12 09:12:23 - Método de pagamento detectado: 'pix'
+2026-01-12 09:12:23 - Evento é Pix pendente - push será enviado
+2026-01-12 09:12:23 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,05 - Leonardo Israel | URL: /index?pagina=vendas&id=244
+2026-01-12 09:12:23 - Dados do evento - transacao_id: 7151fa7e52494b79adeffdede18579a2 | valor_total: 1.05 | comprador: Leonardo Israel
+2026-01-12 09:12:23 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:12:23 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:12:23 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:12:23 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:12:23 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:12:46 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:12:46 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:12:46 - Event Data: {"transacao_id":"7151fa7e52494b79adeffdede18579a2","valor_total_compra":1.05,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.05}],"data_venda":"2026-01-12 09:12:23","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:12:46 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:12:46 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:12:46 - Trigger event normalizado: 'approved'
+2026-01-12 09:12:46 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:12:46 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,05 - Leonardo Israel | URL: /index?pagina=vendas&id=244
+2026-01-12 09:12:46 - Dados do evento - transacao_id: 7151fa7e52494b79adeffdede18579a2 | valor_total: 1.05 | comprador: Leonardo Israel
+2026-01-12 09:12:46 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:12:46 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:12:46 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:12:46 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:12:46 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:15:23 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:15:23 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:15:23 - Event Data: {"transacao_id":"15738378860045e0b7a861dd81a5ce4d","valor_total_compra":"1.05","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.05"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:15:23"}
+2026-01-12 09:15:23 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:15:23 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:15:23 - Trigger event normalizado: 'pending'
+2026-01-12 09:15:23 - Método de pagamento detectado: 'pix'
+2026-01-12 09:15:23 - Evento é Pix pendente - push será enviado
+2026-01-12 09:15:23 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,05 - Leonardo Israel | URL: /index?pagina=vendas&id=245
+2026-01-12 09:15:23 - Dados do evento - transacao_id: 15738378860045e0b7a861dd81a5ce4d | valor_total: 1.05 | comprador: Leonardo Israel
+2026-01-12 09:15:23 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:15:23 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:15:23 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:15:23 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:15:23 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:16:09 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:16:09 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:16:09 - Event Data: {"transacao_id":"3050e5165df24fbf9d0422c0cb319aac","valor_total_compra":"1.00","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:16:09"}
+2026-01-12 09:16:09 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:16:09 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:16:09 - Trigger event normalizado: 'pending'
+2026-01-12 09:16:09 - Método de pagamento detectado: 'pix'
+2026-01-12 09:16:09 - Evento é Pix pendente - push será enviado
+2026-01-12 09:16:09 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=246
+2026-01-12 09:16:09 - Dados do evento - transacao_id: 3050e5165df24fbf9d0422c0cb319aac | valor_total: 1.00 | comprador: Leonardo Israel
+2026-01-12 09:16:09 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:16:09 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:16:09 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:16:09 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:16:09 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:16:21 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:16:21 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:16:21 - Event Data: {"transacao_id":"3050e5165df24fbf9d0422c0cb319aac","valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 09:16:09","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:16:21 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:16:21 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:16:21 - Trigger event normalizado: 'approved'
+2026-01-12 09:16:21 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:16:21 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=246
+2026-01-12 09:16:21 - Dados do evento - transacao_id: 3050e5165df24fbf9d0422c0cb319aac | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 09:16:21 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:16:21 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:16:21 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:16:21 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:16:21 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:18:58 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:18:58 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:18:58 - Event Data: {"transacao_id":"d61a4a28aa91454497a34de5ba8ee21d","valor_total_compra":"1.00","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:18:57"}
+2026-01-12 09:18:58 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:18:58 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:18:58 - Trigger event normalizado: 'pending'
+2026-01-12 09:18:58 - Método de pagamento detectado: 'pix'
+2026-01-12 09:18:58 - Evento é Pix pendente - push será enviado
+2026-01-12 09:18:58 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=247
+2026-01-12 09:18:58 - Dados do evento - transacao_id: d61a4a28aa91454497a34de5ba8ee21d | valor_total: 1.00 | comprador: Leonardo Israel
+2026-01-12 09:18:58 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:18:58 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:18:58 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:18:58 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:18:58 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:19:22 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:19:22 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:19:22 - Event Data: {"transacao_id":"6ac1857fce5b47398fab7236207009d8","valor_total_compra":"1.10","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.10"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:19:22"}
+2026-01-12 09:19:22 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:19:22 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:19:22 - Trigger event normalizado: 'pending'
+2026-01-12 09:19:22 - Método de pagamento detectado: 'pix'
+2026-01-12 09:19:22 - Evento é Pix pendente - push será enviado
+2026-01-12 09:19:22 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,10 - Leonardo Israel | URL: /index?pagina=vendas&id=248
+2026-01-12 09:19:22 - Dados do evento - transacao_id: 6ac1857fce5b47398fab7236207009d8 | valor_total: 1.10 | comprador: Leonardo Israel
+2026-01-12 09:19:22 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:19:22 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:19:22 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:19:22 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:19:22 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:19:40 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:19:40 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:19:40 - Event Data: {"transacao_id":"6ac1857fce5b47398fab7236207009d8","valor_total_compra":1.1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.1}],"data_venda":"2026-01-12 09:19:22","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:19:40 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:19:40 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:19:40 - Trigger event normalizado: 'approved'
+2026-01-12 09:19:40 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:19:40 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,10 - Leonardo Israel | URL: /index?pagina=vendas&id=248
+2026-01-12 09:19:40 - Dados do evento - transacao_id: 6ac1857fce5b47398fab7236207009d8 | valor_total: 1.1 | comprador: Leonardo Israel
+2026-01-12 09:19:40 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:19:40 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:19:40 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:19:40 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:19:40 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:24:07 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:24:07 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:24:07 - Event Data: {"transacao_id":"469ca2debfb749a7af15b0c5583a5f64","valor_total_compra":"1.15","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.15"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:24:07"}
+2026-01-12 09:24:07 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:24:07 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:24:07 - Trigger event normalizado: 'pending'
+2026-01-12 09:24:07 - Método de pagamento detectado: 'pix'
+2026-01-12 09:24:07 - Evento é Pix pendente - push será enviado
+2026-01-12 09:24:07 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,15 - Leonardo Israel | URL: /index?pagina=vendas&id=249
+2026-01-12 09:24:07 - Dados do evento - transacao_id: 469ca2debfb749a7af15b0c5583a5f64 | valor_total: 1.15 | comprador: Leonardo Israel
+2026-01-12 09:24:07 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:24:07 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:24:07 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:24:07 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:24:07 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:24:24 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:24:24 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:24:24 - Event Data: {"transacao_id":"469ca2debfb749a7af15b0c5583a5f64","valor_total_compra":1.15,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.15}],"data_venda":"2026-01-12 09:24:07","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:24:24 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:24:24 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:24:24 - Trigger event normalizado: 'approved'
+2026-01-12 09:24:24 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:24:24 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,15 - Leonardo Israel | URL: /index?pagina=vendas&id=249
+2026-01-12 09:24:24 - Dados do evento - transacao_id: 469ca2debfb749a7af15b0c5583a5f64 | valor_total: 1.15 | comprador: Leonardo Israel
+2026-01-12 09:24:24 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:24:24 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:24:24 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:24:24 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:24:24 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:26:57 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:26:57 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:26:57 - Event Data: {"transacao_id":"da2d9d4be23e456caba780a431262ae1","valor_total_compra":"1.00","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:26:57"}
+2026-01-12 09:26:57 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:26:57 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:26:57 - Trigger event normalizado: 'pending'
+2026-01-12 09:26:57 - Método de pagamento detectado: 'pix'
+2026-01-12 09:26:57 - Evento é Pix pendente - push será enviado
+2026-01-12 09:26:57 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=250
+2026-01-12 09:26:57 - Dados do evento - transacao_id: da2d9d4be23e456caba780a431262ae1 | valor_total: 1.00 | comprador: Leonardo Israel
+2026-01-12 09:26:57 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:26:57 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:26:57 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:26:57 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:26:57 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:27:14 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:27:14 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:27:14 - Event Data: {"transacao_id":"da2d9d4be23e456caba780a431262ae1","valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 09:26:57","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:27:14 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:27:14 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:27:14 - Trigger event normalizado: 'approved'
+2026-01-12 09:27:14 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:27:14 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=250
+2026-01-12 09:27:14 - Dados do evento - transacao_id: da2d9d4be23e456caba780a431262ae1 | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 09:27:14 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:27:14 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:27:14 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:27:14 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:27:14 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:28:54 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:28:54 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:28:54 - Event Data: {"transacao_id":"df1379020b524f51a5db628d66b54cda","valor_total_compra":"1.00","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:28:54"}
+2026-01-12 09:28:54 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:28:54 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:28:54 - Trigger event normalizado: 'pending'
+2026-01-12 09:28:54 - Método de pagamento detectado: 'pix'
+2026-01-12 09:28:54 - Evento é Pix pendente - push será enviado
+2026-01-12 09:28:54 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=251
+2026-01-12 09:28:54 - Dados do evento - transacao_id: df1379020b524f51a5db628d66b54cda | valor_total: 1.00 | comprador: Leonardo Israel
+2026-01-12 09:28:54 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:28:54 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:28:54 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:28:54 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:28:54 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:29:16 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:29:16 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:29:16 - Event Data: {"transacao_id":"1336677004bf4123b78aa442f5698cc8","valor_total_compra":"1.00","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:29:15"}
+2026-01-12 09:29:16 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:29:16 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:29:16 - Trigger event normalizado: 'pending'
+2026-01-12 09:29:16 - Método de pagamento detectado: 'pix'
+2026-01-12 09:29:16 - Evento é Pix pendente - push será enviado
+2026-01-12 09:29:16 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=252
+2026-01-12 09:29:16 - Dados do evento - transacao_id: 1336677004bf4123b78aa442f5698cc8 | valor_total: 1.00 | comprador: Leonardo Israel
+2026-01-12 09:29:16 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:29:16 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:29:16 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:29:16 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:29:16 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:29:52 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:29:52 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:29:52 - Event Data: {"transacao_id":"131f32b5163c4870baa21a1d10ae830f","valor_total_compra":"1.10","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.10"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:29:52"}
+2026-01-12 09:29:52 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:29:52 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:29:52 - Trigger event normalizado: 'pending'
+2026-01-12 09:29:52 - Método de pagamento detectado: 'pix'
+2026-01-12 09:29:52 - Evento é Pix pendente - push será enviado
+2026-01-12 09:29:52 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,10 - Leonardo Israel | URL: /index?pagina=vendas&id=253
+2026-01-12 09:29:52 - Dados do evento - transacao_id: 131f32b5163c4870baa21a1d10ae830f | valor_total: 1.10 | comprador: Leonardo Israel
+2026-01-12 09:29:52 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:29:52 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:29:52 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:29:52 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:29:52 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:30:04 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:30:04 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:30:04 - Event Data: {"transacao_id":"131f32b5163c4870baa21a1d10ae830f","valor_total_compra":1.1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.1}],"data_venda":"2026-01-12 09:29:52","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:30:04 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:30:04 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:30:04 - Trigger event normalizado: 'approved'
+2026-01-12 09:30:04 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:30:04 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,10 - Leonardo Israel | URL: /index?pagina=vendas&id=253
+2026-01-12 09:30:04 - Dados do evento - transacao_id: 131f32b5163c4870baa21a1d10ae830f | valor_total: 1.1 | comprador: Leonardo Israel
+2026-01-12 09:30:04 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:30:04 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:30:04 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:30:04 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:30:04 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:36:05 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:36:05 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:36:05 - Event Data: {"transacao_id":"dec45697b11943adb058eab6d4ac828e","valor_total_compra":"1.05","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.05"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:36:05"}
+2026-01-12 09:36:05 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:36:05 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:36:05 - Trigger event normalizado: 'pending'
+2026-01-12 09:36:05 - Método de pagamento detectado: 'pix'
+2026-01-12 09:36:05 - Evento é Pix pendente - push será enviado
+2026-01-12 09:36:05 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,05 - Leonardo Israel | URL: /index?pagina=vendas&id=254
+2026-01-12 09:36:05 - Dados do evento - transacao_id: dec45697b11943adb058eab6d4ac828e | valor_total: 1.05 | comprador: Leonardo Israel
+2026-01-12 09:36:05 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:36:05 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:36:05 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:36:05 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:36:05 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:36:23 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:36:23 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:36:23 - Event Data: {"transacao_id":"dec45697b11943adb058eab6d4ac828e","valor_total_compra":1.05,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.05}],"data_venda":"2026-01-12 09:36:05","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:36:23 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:36:23 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:36:23 - Trigger event normalizado: 'approved'
+2026-01-12 09:36:23 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:36:23 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,05 - Leonardo Israel | URL: /index?pagina=vendas&id=254
+2026-01-12 09:36:23 - Dados do evento - transacao_id: dec45697b11943adb058eab6d4ac828e | valor_total: 1.05 | comprador: Leonardo Israel
+2026-01-12 09:36:23 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:36:23 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:36:23 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:36:23 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:36:23 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:39:07 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:39:07 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:39:07 - Event Data: {"transacao_id":"331443210f914618a37cdf7c02cfb1a0","valor_total_compra":"1.00","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:39:06"}
+2026-01-12 09:39:07 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:39:07 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:39:07 - Trigger event normalizado: 'pending'
+2026-01-12 09:39:07 - Método de pagamento detectado: 'pix'
+2026-01-12 09:39:07 - Evento é Pix pendente - push será enviado
+2026-01-12 09:39:07 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=255
+2026-01-12 09:39:07 - Dados do evento - transacao_id: 331443210f914618a37cdf7c02cfb1a0 | valor_total: 1.00 | comprador: Leonardo Israel
+2026-01-12 09:39:07 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:39:07 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:39:07 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:39:07 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:39:07 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:39:19 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:39:19 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:39:19 - Event Data: {"transacao_id":"331443210f914618a37cdf7c02cfb1a0","valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 09:39:06","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:39:19 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:39:19 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:39:19 - Trigger event normalizado: 'approved'
+2026-01-12 09:39:19 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:39:19 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=255
+2026-01-12 09:39:19 - Dados do evento - transacao_id: 331443210f914618a37cdf7c02cfb1a0 | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 09:39:19 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:39:19 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:39:19 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:39:19 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:39:19 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:42:26 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:42:26 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:42:26 - Event Data: {"transacao_id":"7e9a577acf254d7ebaa91b338b25117a","valor_total_compra":"1.05","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.05"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:42:26"}
+2026-01-12 09:42:26 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:42:26 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:42:26 - Trigger event normalizado: 'pending'
+2026-01-12 09:42:26 - Método de pagamento detectado: 'pix'
+2026-01-12 09:42:26 - Evento é Pix pendente - push será enviado
+2026-01-12 09:42:26 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,05 - Leonardo Israel | URL: /index?pagina=vendas&id=256
+2026-01-12 09:42:26 - Dados do evento - transacao_id: 7e9a577acf254d7ebaa91b338b25117a | valor_total: 1.05 | comprador: Leonardo Israel
+2026-01-12 09:42:26 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:42:26 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:42:26 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:42:26 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:42:26 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:42:43 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:42:43 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:42:43 - Event Data: {"transacao_id":"7e9a577acf254d7ebaa91b338b25117a","valor_total_compra":1.05,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.05}],"data_venda":"2026-01-12 09:42:26","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:42:43 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:42:43 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:42:43 - Trigger event normalizado: 'approved'
+2026-01-12 09:42:43 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:42:43 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,05 - Leonardo Israel | URL: /index?pagina=vendas&id=256
+2026-01-12 09:42:43 - Dados do evento - transacao_id: 7e9a577acf254d7ebaa91b338b25117a | valor_total: 1.05 | comprador: Leonardo Israel
+2026-01-12 09:42:43 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:42:43 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:42:43 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:42:43 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:42:43 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:46:59 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:46:59 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:46:59 - Event Data: {"transacao_id":"f302d1d42e5e408c9978e8dc66f2fd19","valor_total_compra":"2.00","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"2.00"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:46:59"}
+2026-01-12 09:46:59 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:46:59 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:46:59 - Trigger event normalizado: 'pending'
+2026-01-12 09:46:59 - Método de pagamento detectado: 'pix'
+2026-01-12 09:46:59 - Evento é Pix pendente - push será enviado
+2026-01-12 09:46:59 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 2,00 - Leonardo Israel | URL: /index?pagina=vendas&id=257
+2026-01-12 09:46:59 - Dados do evento - transacao_id: f302d1d42e5e408c9978e8dc66f2fd19 | valor_total: 2.00 | comprador: Leonardo Israel
+2026-01-12 09:46:59 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:46:59 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:46:59 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:46:59 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:46:59 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:47:17 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:47:17 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:47:17 - Event Data: {"transacao_id":"f302d1d42e5e408c9978e8dc66f2fd19","valor_total_compra":2,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":2}],"data_venda":"2026-01-12 09:46:59","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:47:17 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:47:17 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:47:17 - Trigger event normalizado: 'approved'
+2026-01-12 09:47:17 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:47:17 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 2,00 - Leonardo Israel | URL: /index?pagina=vendas&id=257
+2026-01-12 09:47:17 - Dados do evento - transacao_id: f302d1d42e5e408c9978e8dc66f2fd19 | valor_total: 2 | comprador: Leonardo Israel
+2026-01-12 09:47:17 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:47:17 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:47:17 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:47:17 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:47:17 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:49:16 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:49:16 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 09:49:16 - Event Data: {"transacao_id":"d237428b27df4add92a15a92d8b71304","valor_total_compra":"1.10","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.10"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 09:49:15"}
+2026-01-12 09:49:16 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:49:16 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:49:16 - Trigger event normalizado: 'pending'
+2026-01-12 09:49:16 - Método de pagamento detectado: 'pix'
+2026-01-12 09:49:16 - Evento é Pix pendente - push será enviado
+2026-01-12 09:49:16 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,10 - Leonardo Israel | URL: /index?pagina=vendas&id=258
+2026-01-12 09:49:16 - Dados do evento - transacao_id: d237428b27df4add92a15a92d8b71304 | valor_total: 1.10 | comprador: Leonardo Israel
+2026-01-12 09:49:16 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:49:16 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:49:16 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:49:16 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 09:49:16 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 09:49:38 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 09:49:38 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 09:49:38 - Event Data: {"transacao_id":"d237428b27df4add92a15a92d8b71304","valor_total_compra":1.1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.1}],"data_venda":"2026-01-12 09:49:15","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 09:49:38 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 09:49:38 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 09:49:38 - Trigger event normalizado: 'approved'
+2026-01-12 09:49:38 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 09:49:38 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,10 - Leonardo Israel | URL: /index?pagina=vendas&id=258
+2026-01-12 09:49:38 - Dados do evento - transacao_id: d237428b27df4add92a15a92d8b71304 | valor_total: 1.1 | comprador: Leonardo Israel
+2026-01-12 09:49:38 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 09:49:38 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 09:49:38 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 09:49:38 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 09:49:38 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 10:12:57 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 10:12:57 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 10:12:57 - Event Data: {"transacao_id":"d18b4ed3ea174441900c7efc3d9336a9","valor_total_compra":"1.30","comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":"1.30"}],"utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null},"data_venda":"2026-01-12 10:12:57"}
+2026-01-12 10:12:57 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 10:12:57 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 10:12:57 - Trigger event normalizado: 'pending'
+2026-01-12 10:12:57 - Método de pagamento detectado: 'pix'
+2026-01-12 10:12:57 - Evento é Pix pendente - push será enviado
+2026-01-12 10:12:57 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,30 - Leonardo Israel | URL: /index?pagina=vendas&id=259
+2026-01-12 10:12:57 - Dados do evento - transacao_id: d18b4ed3ea174441900c7efc3d9336a9 | valor_total: 1.30 | comprador: Leonardo Israel
+2026-01-12 10:12:57 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 10:12:57 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 10:12:57 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 10:12:57 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 10:12:57 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 10:13:30 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 10:13:30 - Usuario ID:  | Evento: approved | Produto ID: 41
+2026-01-12 10:13:30 - Event Data: {"transacao_id":"d18b4ed3ea174441900c7efc3d9336a9","valor_total_compra":1.3,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.3}],"data_venda":"2026-01-12 10:12:57","utm_parameters":{"utm_source":null,"utm_campaign":null,"utm_medium":null,"utm_content":null,"utm_term":null,"src":null,"sck":null}}
+2026-01-12 10:13:30 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 10:13:30 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 10:13:30 - Trigger event normalizado: 'approved'
+2026-01-12 10:13:30 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 10:13:30 - Preparando para enviar push - Vendedor ID:  | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,30 - Leonardo Israel | URL: /index?pagina=vendas&id=259
+2026-01-12 10:13:30 - Dados do evento - transacao_id: d18b4ed3ea174441900c7efc3d9336a9 | valor_total: 1.3 | comprador: Leonardo Israel
+2026-01-12 10:13:30 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 10:13:30 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 10:13:30 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 10:13:30 - AVISO: Vendedor ID  não possui subscriptions de push registradas!
+2026-01-12 10:13:30 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 10:31:33 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 10:31:33 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 10:31:33 - Event Data: {"transacao_id":"84aa4eddee684165b65e668dc0e12a4c","valor_total_compra":0,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":0}],"data_venda":"2026-01-12 10:31:32","utm_parameters":[]}
+2026-01-12 10:31:33 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 10:31:33 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 10:31:33 - Trigger event normalizado: 'pending'
+2026-01-12 10:31:33 - Método de pagamento detectado: 'pix'
+2026-01-12 10:31:33 - Evento é Pix pendente - push será enviado
+2026-01-12 10:31:33 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 0,00 - Leonardo Israel | URL: /index?pagina=vendas&id=260
+2026-01-12 10:31:33 - Dados do evento - transacao_id: 84aa4eddee684165b65e668dc0e12a4c | valor_total: 0 | comprador: Leonardo Israel
+2026-01-12 10:31:33 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 10:31:33 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 10:31:33 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 10:31:33 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 10:31:33 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 10:32:01 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 10:32:01 - Usuario ID: 33 | Evento: approved | Produto ID: 41
+2026-01-12 10:32:01 - Event Data: {"transacao_id":"84aa4eddee684165b65e668dc0e12a4c","valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 10:31:32","utm_parameters":[]}
+2026-01-12 10:32:01 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 10:32:01 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 10:32:01 - Trigger event normalizado: 'approved'
+2026-01-12 10:32:01 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 10:32:01 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=260
+2026-01-12 10:32:01 - Dados do evento - transacao_id: 84aa4eddee684165b65e668dc0e12a4c | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 10:32:01 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 10:32:01 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 10:32:01 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 10:32:01 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 10:32:01 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 10:32:37 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 10:32:37 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 10:32:37 - Event Data: {"transacao_id":"7a89569521b94f4e943b1da01492932d","valor_total_compra":0,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":0}],"data_venda":"2026-01-12 10:32:36","utm_parameters":[]}
+2026-01-12 10:32:37 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 10:32:37 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 10:32:37 - Trigger event normalizado: 'pending'
+2026-01-12 10:32:37 - Método de pagamento detectado: 'pix'
+2026-01-12 10:32:37 - Evento é Pix pendente - push será enviado
+2026-01-12 10:32:37 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 0,00 - Leonardo Israel | URL: /index?pagina=vendas&id=261
+2026-01-12 10:32:37 - Dados do evento - transacao_id: 7a89569521b94f4e943b1da01492932d | valor_total: 0 | comprador: Leonardo Israel
+2026-01-12 10:32:37 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 10:32:37 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 10:32:37 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 10:32:37 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 10:32:37 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 10:34:19 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 10:34:19 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 10:34:19 - Event Data: {"transacao_id":"456f082597954c23abf0aaed5af49e21","valor_total_compra":1.1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.1}],"data_venda":"2026-01-12 10:34:19","utm_parameters":[]}
+2026-01-12 10:34:19 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 10:34:19 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 10:34:19 - Trigger event normalizado: 'pending'
+2026-01-12 10:34:19 - Método de pagamento detectado: 'pix'
+2026-01-12 10:34:19 - Evento é Pix pendente - push será enviado
+2026-01-12 10:34:19 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,10 - Leonardo Israel | URL: /index?pagina=vendas&id=262
+2026-01-12 10:34:19 - Dados do evento - transacao_id: 456f082597954c23abf0aaed5af49e21 | valor_total: 1.1 | comprador: Leonardo Israel
+2026-01-12 10:34:19 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 10:34:19 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 10:34:19 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 10:34:19 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 10:34:19 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 10:34:47 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 10:34:47 - Usuario ID: 33 | Evento: approved | Produto ID: 41
+2026-01-12 10:34:47 - Event Data: {"transacao_id":"456f082597954c23abf0aaed5af49e21","valor_total_compra":1.1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.1}],"data_venda":"2026-01-12 10:34:19","utm_parameters":[]}
+2026-01-12 10:34:47 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 10:34:47 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 10:34:47 - Trigger event normalizado: 'approved'
+2026-01-12 10:34:47 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 10:34:47 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,10 - Leonardo Israel | URL: /index?pagina=vendas&id=262
+2026-01-12 10:34:47 - Dados do evento - transacao_id: 456f082597954c23abf0aaed5af49e21 | valor_total: 1.1 | comprador: Leonardo Israel
+2026-01-12 10:34:47 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 10:34:47 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 10:34:47 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 10:34:47 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 10:34:47 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 10:43:50 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 10:43:50 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 10:43:50 - Event Data: {"transacao_id":141700523346,"valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 10:43:50","utm_parameters":[]}
+2026-01-12 10:43:50 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 10:43:50 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 10:43:50 - Trigger event normalizado: 'pending'
+2026-01-12 10:43:50 - Método de pagamento detectado: 'pix'
+2026-01-12 10:43:50 - Evento é Pix pendente - push será enviado
+2026-01-12 10:43:50 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=263
+2026-01-12 10:43:50 - Dados do evento - transacao_id: 141700523346 | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 10:43:50 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 10:43:50 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 10:43:50 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 10:43:50 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 10:43:50 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 10:44:17 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 10:44:17 - Usuario ID: 33 | Evento: approved | Produto ID: 41
+2026-01-12 10:44:17 - Event Data: {"transacao_id":"141700523346","valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 10:43:50","utm_parameters":[]}
+2026-01-12 10:44:17 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 10:44:17 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 10:44:17 - Trigger event normalizado: 'approved'
+2026-01-12 10:44:17 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 10:44:17 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=263
+2026-01-12 10:44:17 - Dados do evento - transacao_id: 141700523346 | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 10:44:17 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 10:44:17 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 10:44:17 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 10:44:17 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 10:44:17 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 11:05:46 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 11:05:46 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 11:05:46 - Event Data: {"transacao_id":141042807375,"valor_total_compra":1.2,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.2}],"data_venda":"2026-01-12 11:05:45","utm_parameters":[]}
+2026-01-12 11:05:46 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 11:05:46 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 11:05:46 - Trigger event normalizado: 'pending'
+2026-01-12 11:05:46 - Método de pagamento detectado: 'pix'
+2026-01-12 11:05:46 - Evento é Pix pendente - push será enviado
+2026-01-12 11:05:46 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,20 - Leonardo Israel | URL: /index?pagina=vendas&id=264
+2026-01-12 11:05:46 - Dados do evento - transacao_id: 141042807375 | valor_total: 1.2 | comprador: Leonardo Israel
+2026-01-12 11:05:46 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 11:05:46 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 11:05:46 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 11:05:46 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 11:05:46 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 11:51:28 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 11:51:28 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 11:51:28 - Event Data: {"transacao_id":"a86a0e7ec69246158d0b07b9ed55ffea","valor_total_compra":1.2,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1.2}],"data_venda":"2026-01-12 11:51:28","utm_parameters":[]}
+2026-01-12 11:51:28 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 11:51:28 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 11:51:28 - Trigger event normalizado: 'pending'
+2026-01-12 11:51:28 - Método de pagamento detectado: 'pix'
+2026-01-12 11:51:28 - Evento é Pix pendente - push será enviado
+2026-01-12 11:51:28 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,20 - Leonardo Israel | URL: /index?pagina=vendas&id=265
+2026-01-12 11:51:28 - Dados do evento - transacao_id: a86a0e7ec69246158d0b07b9ed55ffea | valor_total: 1.2 | comprador: Leonardo Israel
+2026-01-12 11:51:28 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 11:51:28 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 11:51:28 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 11:51:28 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 11:51:28 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 11:51:44 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 11:51:44 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 11:51:44 - Event Data: {"transacao_id":"ac890242ef5545958fb6a89ef7600fe1","valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 11:51:44","utm_parameters":[]}
+2026-01-12 11:51:44 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 11:51:44 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 11:51:44 - Trigger event normalizado: 'pending'
+2026-01-12 11:51:44 - Método de pagamento detectado: 'pix'
+2026-01-12 11:51:44 - Evento é Pix pendente - push será enviado
+2026-01-12 11:51:44 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=266
+2026-01-12 11:51:44 - Dados do evento - transacao_id: ac890242ef5545958fb6a89ef7600fe1 | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 11:51:44 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 11:51:44 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 11:51:44 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 11:51:44 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 11:51:44 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 11:51:57 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 11:51:57 - Usuario ID: 33 | Evento: approved | Produto ID: 41
+2026-01-12 11:51:57 - Event Data: {"transacao_id":"ac890242ef5545958fb6a89ef7600fe1","valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 11:51:44","utm_parameters":[]}
+2026-01-12 11:51:57 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 11:51:57 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 11:51:57 - Trigger event normalizado: 'approved'
+2026-01-12 11:51:57 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 11:51:57 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=266
+2026-01-12 11:51:57 - Dados do evento - transacao_id: ac890242ef5545958fb6a89ef7600fe1 | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 11:51:57 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 11:51:57 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 11:51:57 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 11:51:57 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 11:51:57 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 13:52:20 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 13:52:20 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 13:52:20 - Event Data: {"transacao_id":141066139849,"valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 13:52:19","utm_parameters":[]}
+2026-01-12 13:52:20 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 13:52:20 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 13:52:20 - Trigger event normalizado: 'pending'
+2026-01-12 13:52:20 - Método de pagamento detectado: 'pix'
+2026-01-12 13:52:20 - Evento é Pix pendente - push será enviado
+2026-01-12 13:52:20 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=267
+2026-01-12 13:52:20 - Dados do evento - transacao_id: 141066139849 | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 13:52:20 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 13:52:20 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 13:52:20 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 13:52:20 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 13:52:20 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 13:52:47 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 13:52:47 - Usuario ID: 33 | Evento: approved | Produto ID: 41
+2026-01-12 13:52:47 - Event Data: {"transacao_id":"141066139849","valor_total_compra":1,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":1}],"data_venda":"2026-01-12 13:52:19","utm_parameters":[]}
+2026-01-12 13:52:47 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 13:52:47 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 13:52:47 - Trigger event normalizado: 'approved'
+2026-01-12 13:52:47 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-12 13:52:47 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 1,00 - Leonardo Israel | URL: /index?pagina=vendas&id=267
+2026-01-12 13:52:47 - Dados do evento - transacao_id: 141066139849 | valor_total: 1 | comprador: Leonardo Israel
+2026-01-12 13:52:47 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 13:52:47 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 13:52:47 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 13:52:47 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 13:52:47 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 14:06:16 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 14:06:16 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 14:06:16 - Event Data: {"transacao_id":"pay_rivi98haxiwom81a","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 14:06:15","utm_parameters":[]}
+2026-01-12 14:06:16 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 14:06:16 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 14:06:16 - Trigger event normalizado: 'pending'
+2026-01-12 14:06:16 - Método de pagamento detectado: 'pix'
+2026-01-12 14:06:16 - Evento é Pix pendente - push será enviado
+2026-01-12 14:06:16 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=268
+2026-01-12 14:06:16 - Dados do evento - transacao_id: pay_rivi98haxiwom81a | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 14:06:16 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 14:06:16 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 14:06:16 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 14:06:16 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 14:06:16 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 14:12:04 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 14:12:04 - Usuario ID: 33 | Evento: approved | Produto ID: 41
+2026-01-12 14:12:04 - Event Data: {"transacao_id":"pay_u1pdttsljlwmp2zk","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Cart\u00e3o de cr\u00e9dito","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 14:12:03","utm_parameters":[]}
+2026-01-12 14:12:04 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 14:12:04 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 14:12:04 - Trigger event normalizado: 'approved'
+2026-01-12 14:12:04 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Cartão de crédito
+2026-01-12 14:12:04 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=269
+2026-01-12 14:12:04 - Dados do evento - transacao_id: pay_u1pdttsljlwmp2zk | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 14:12:04 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 14:12:04 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 14:12:04 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 14:12:04 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 14:12:04 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 14:25:22 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 14:25:22 - Usuario ID: 33 | Evento: approved | Produto ID: 41
+2026-01-12 14:25:22 - Event Data: {"transacao_id":"pay_kadoggt5q3r7ifz8","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"02629008231"},"metodo_pagamento":"Cart\u00e3o de cr\u00e9dito","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 14:25:20","utm_parameters":[]}
+2026-01-12 14:25:22 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 14:25:22 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 14:25:22 - Trigger event normalizado: 'approved'
+2026-01-12 14:25:22 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Cartão de crédito
+2026-01-12 14:25:22 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=270
+2026-01-12 14:25:22 - Dados do evento - transacao_id: pay_kadoggt5q3r7ifz8 | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 14:25:22 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 14:25:22 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 14:25:22 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 14:25:22 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 14:25:22 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 14:39:23 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 14:39:23 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 14:39:23 - Event Data: {"transacao_id":"pay_rgn8eqwls251tugy","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"02629008231"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 14:39:23","utm_parameters":[]}
+2026-01-12 14:39:23 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 14:39:23 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 14:39:23 - Trigger event normalizado: 'pending'
+2026-01-12 14:39:23 - Método de pagamento detectado: 'pix'
+2026-01-12 14:39:23 - Evento é Pix pendente - push será enviado
+2026-01-12 14:39:23 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=271
+2026-01-12 14:39:23 - Dados do evento - transacao_id: pay_rgn8eqwls251tugy | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 14:39:23 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 14:39:23 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 14:39:23 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 14:39:23 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 14:39:23 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 14:45:44 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 14:45:44 - Usuario ID: 33 | Evento: approved | Produto ID: 41
+2026-01-12 14:45:44 - Event Data: {"transacao_id":"pay_kaydjh5wic7m1wni","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"02629008231"},"metodo_pagamento":"Cart\u00e3o de cr\u00e9dito","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 14:45:43","utm_parameters":[]}
+2026-01-12 14:45:44 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 14:45:44 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 14:45:44 - Trigger event normalizado: 'approved'
+2026-01-12 14:45:44 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Cartão de crédito
+2026-01-12 14:45:44 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=272
+2026-01-12 14:45:44 - Dados do evento - transacao_id: pay_kaydjh5wic7m1wni | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 14:45:44 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 14:45:44 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 14:45:44 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 14:45:44 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 14:45:44 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 14:56:45 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 14:56:45 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 14:56:45 - Event Data: {"transacao_id":141075846449,"valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"02629008231"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 14:56:45","utm_parameters":[]}
+2026-01-12 14:56:45 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 14:56:45 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 14:56:45 - Trigger event normalizado: 'pending'
+2026-01-12 14:56:45 - Método de pagamento detectado: 'pix'
+2026-01-12 14:56:45 - Evento é Pix pendente - push será enviado
+2026-01-12 14:56:45 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=273
+2026-01-12 14:56:45 - Dados do evento - transacao_id: 141075846449 | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 14:56:45 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 14:56:45 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 14:56:45 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 14:56:45 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 14:56:45 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 15:10:39 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 15:10:39 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 15:10:39 - Event Data: {"transacao_id":"018de1a7ca884bfd93d5f0b5f9ae9055","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"02629008231"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 15:10:39","utm_parameters":[]}
+2026-01-12 15:10:39 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 15:10:39 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 15:10:39 - Trigger event normalizado: 'pending'
+2026-01-12 15:10:39 - Método de pagamento detectado: 'pix'
+2026-01-12 15:10:39 - Evento é Pix pendente - push será enviado
+2026-01-12 15:10:39 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=274
+2026-01-12 15:10:39 - Dados do evento - transacao_id: 018de1a7ca884bfd93d5f0b5f9ae9055 | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 15:10:39 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 15:10:39 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 15:10:39 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 15:10:39 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 15:10:39 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 15:11:38 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 15:11:38 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 15:11:38 - Event Data: {"transacao_id":"a0d214a3-33ce-4705-849e-ca22c16a8e82","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":""},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 15:11:38","utm_parameters":[]}
+2026-01-12 15:11:38 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 15:11:38 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 15:11:38 - Trigger event normalizado: 'pending'
+2026-01-12 15:11:38 - Método de pagamento detectado: 'pix'
+2026-01-12 15:11:38 - Evento é Pix pendente - push será enviado
+2026-01-12 15:11:38 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=275
+2026-01-12 15:11:38 - Dados do evento - transacao_id: a0d214a3-33ce-4705-849e-ca22c16a8e82 | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 15:11:38 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 15:11:38 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 15:11:38 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 15:11:38 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 15:11:38 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 15:16:53 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 15:16:53 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 15:16:53 - Event Data: {"transacao_id":141076607629,"valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":""},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 15:16:53","utm_parameters":[]}
+2026-01-12 15:16:53 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 15:16:53 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 15:16:53 - Trigger event normalizado: 'pending'
+2026-01-12 15:16:53 - Método de pagamento detectado: 'pix'
+2026-01-12 15:16:53 - Evento é Pix pendente - push será enviado
+2026-01-12 15:16:53 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=276
+2026-01-12 15:16:53 - Dados do evento - transacao_id: 141076607629 | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 15:16:53 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 15:16:53 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 15:16:53 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 15:16:53 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 15:16:53 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 15:17:24 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 15:17:24 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 15:17:24 - Event Data: {"transacao_id":"a0d216b3-1b1f-42fc-be01-7ca9f7b42480","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":""},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 15:17:24","utm_parameters":[]}
+2026-01-12 15:17:24 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 15:17:24 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 15:17:24 - Trigger event normalizado: 'pending'
+2026-01-12 15:17:24 - Método de pagamento detectado: 'pix'
+2026-01-12 15:17:24 - Evento é Pix pendente - push será enviado
+2026-01-12 15:17:24 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=277
+2026-01-12 15:17:24 - Dados do evento - transacao_id: a0d216b3-1b1f-42fc-be01-7ca9f7b42480 | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 15:17:24 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 15:17:24 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 15:17:24 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 15:17:24 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 15:17:24 - === FIM trigger_push_pedidos_notifications ===
+2026-01-12 15:17:40 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-12 15:17:40 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-12 15:17:40 - Event Data: {"transacao_id":"3c6fb24a5c014860b1fcc59d177717ce","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"02629008231"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-12 15:17:40","utm_parameters":[]}
+2026-01-12 15:17:40 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-12 15:17:40 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-12 15:17:40 - Trigger event normalizado: 'pending'
+2026-01-12 15:17:40 - Método de pagamento detectado: 'pix'
+2026-01-12 15:17:40 - Evento é Pix pendente - push será enviado
+2026-01-12 15:17:40 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=278
+2026-01-12 15:17:40 - Dados do evento - transacao_id: 3c6fb24a5c014860b1fcc59d177717ce | valor_total: 6 | comprador: Leonardo Israel
+2026-01-12 15:17:41 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-12 15:17:41 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-12 15:17:41 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-12 15:17:41 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-12 15:17:41 - === FIM trigger_push_pedidos_notifications ===
+2026-01-15 12:38:46 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-15 12:38:46 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-15 12:38:46 - Event Data: {"transacao_id":"fce7eae23fe04c4fb75f0039435ec755","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-15 12:38:45","utm_parameters":[]}
+2026-01-15 12:38:46 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-15 12:38:46 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-15 12:38:46 - Trigger event normalizado: 'pending'
+2026-01-15 12:38:46 - Método de pagamento detectado: 'pix'
+2026-01-15 12:38:46 - Evento é Pix pendente - push será enviado
+2026-01-15 12:38:46 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=279
+2026-01-15 12:38:46 - Dados do evento - transacao_id: fce7eae23fe04c4fb75f0039435ec755 | valor_total: 6 | comprador: Leonardo Israel
+2026-01-15 12:38:46 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-15 12:38:46 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-15 12:38:46 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-15 12:38:46 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-15 12:38:46 - === FIM trigger_push_pedidos_notifications ===
+2026-01-15 13:47:09 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-15 13:47:09 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-15 13:47:09 - Event Data: {"transacao_id":"cc0071ab17d34fd98d82b7611cb29086","valor_total_compra":2,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":2}],"data_venda":"2026-01-15 13:47:08","utm_parameters":[]}
+2026-01-15 13:47:09 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-15 13:47:09 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-15 13:47:09 - Trigger event normalizado: 'pending'
+2026-01-15 13:47:09 - Método de pagamento detectado: 'pix'
+2026-01-15 13:47:09 - Evento é Pix pendente - push será enviado
+2026-01-15 13:47:09 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 2,00 - Leonardo Israel | URL: /index?pagina=vendas&id=280
+2026-01-15 13:47:09 - Dados do evento - transacao_id: cc0071ab17d34fd98d82b7611cb29086 | valor_total: 2 | comprador: Leonardo Israel
+2026-01-15 13:47:09 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-15 13:47:09 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-15 13:47:09 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-15 13:47:09 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-15 13:47:09 - === FIM trigger_push_pedidos_notifications ===
+2026-01-15 13:51:48 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-15 13:51:48 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-15 13:51:48 - Event Data: {"transacao_id":"6208a1f54cf34fa8970a14c5e7c3ce56","valor_total_compra":2,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":2}],"data_venda":"2026-01-15 13:51:47","utm_parameters":[]}
+2026-01-15 13:51:48 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-15 13:51:48 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-15 13:51:48 - Trigger event normalizado: 'pending'
+2026-01-15 13:51:48 - Método de pagamento detectado: 'pix'
+2026-01-15 13:51:48 - Evento é Pix pendente - push será enviado
+2026-01-15 13:51:48 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 2,00 - Leonardo Israel | URL: /index?pagina=vendas&id=281
+2026-01-15 13:51:48 - Dados do evento - transacao_id: 6208a1f54cf34fa8970a14c5e7c3ce56 | valor_total: 2 | comprador: Leonardo Israel
+2026-01-15 13:51:48 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-15 13:51:48 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-15 13:51:48 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-15 13:51:48 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-15 13:51:48 - === FIM trigger_push_pedidos_notifications ===
+2026-01-15 13:52:05 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-15 13:52:05 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-15 13:52:05 - Event Data: {"transacao_id":"b7943ba3ece4408db99fd39a8cc34f9c","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste","valor":6}],"data_venda":"2026-01-15 13:52:04","utm_parameters":[]}
+2026-01-15 13:52:05 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-15 13:52:05 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-15 13:52:05 - Trigger event normalizado: 'pending'
+2026-01-15 13:52:05 - Método de pagamento detectado: 'pix'
+2026-01-15 13:52:05 - Evento é Pix pendente - push será enviado
+2026-01-15 13:52:05 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=282
+2026-01-15 13:52:05 - Dados do evento - transacao_id: b7943ba3ece4408db99fd39a8cc34f9c | valor_total: 6 | comprador: Leonardo Israel
+2026-01-15 13:52:05 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-15 13:52:05 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-15 13:52:05 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-15 13:52:05 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-15 13:52:05 - === FIM trigger_push_pedidos_notifications ===
+2026-01-16 09:25:16 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-16 09:25:16 - Usuario ID: 33 | Evento: pending | Produto ID: 43
+2026-01-16 09:25:16 - Event Data: {"transacao_id":"cmkgupxsc2eacny1ryesnlw0y","valor_total_compra":5,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Getfy","valor":5}],"data_venda":"2026-01-16 09:25:15","utm_parameters":[]}
+2026-01-16 09:25:16 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-16 09:25:16 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-16 09:25:16 - Trigger event normalizado: 'pending'
+2026-01-16 09:25:16 - Método de pagamento detectado: 'pix'
+2026-01-16 09:25:16 - Evento é Pix pendente - push será enviado
+2026-01-16 09:25:16 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 5,00 - Leonardo Israel | URL: /index?pagina=vendas&id=283
+2026-01-16 09:25:16 - Dados do evento - transacao_id: cmkgupxsc2eacny1ryesnlw0y | valor_total: 5 | comprador: Leonardo Israel
+2026-01-16 09:25:16 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-16 09:25:16 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-16 09:25:16 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-16 09:25:16 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-16 09:25:16 - === FIM trigger_push_pedidos_notifications ===
+2026-01-16 09:26:48 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-16 09:26:48 - Usuario ID: 33 | Evento: pending | Produto ID: 43
+2026-01-16 09:26:48 - Event Data: {"transacao_id":"cmkgurxkp2enpny1r9eosuz9k","valor_total_compra":5,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"leonardosantostrafego@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Getfy","valor":5}],"data_venda":"2026-01-16 09:26:48","utm_parameters":[]}
+2026-01-16 09:26:48 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-16 09:26:48 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-16 09:26:48 - Trigger event normalizado: 'pending'
+2026-01-16 09:26:48 - Método de pagamento detectado: 'pix'
+2026-01-16 09:26:48 - Evento é Pix pendente - push será enviado
+2026-01-16 09:26:48 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 5,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=284
+2026-01-16 09:26:48 - Dados do evento - transacao_id: cmkgurxkp2enpny1r9eosuz9k | valor_total: 5 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-16 09:26:48 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-16 09:26:48 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-16 09:26:48 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-16 09:26:48 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-16 09:26:48 - === FIM trigger_push_pedidos_notifications ===
+2026-01-16 09:40:14 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-16 09:40:14 - Usuario ID: 33 | Evento: approved | Produto ID: 43
+2026-01-16 09:40:14 - Event Data: {"transacao_id":"cmkgv8vkg2keln41rqer8vz0m","valor_total_compra":5,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Cart\u00e3o de cr\u00e9dito","produtos_comprados":[{"produto_id":43,"nome":"Getfy","valor":5}],"data_venda":"2026-01-16 09:40:08","utm_parameters":[]}
+2026-01-16 09:40:14 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-16 09:40:14 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-16 09:40:14 - Trigger event normalizado: 'approved'
+2026-01-16 09:40:14 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Cartão de crédito
+2026-01-16 09:40:14 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 5,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=285
+2026-01-16 09:40:14 - Dados do evento - transacao_id: cmkgv8vkg2keln41rqer8vz0m | valor_total: 5 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-16 09:40:14 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-16 09:40:14 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-16 09:40:14 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-16 09:40:14 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-16 09:40:14 - === FIM trigger_push_pedidos_notifications ===
+2026-01-16 09:40:53 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-16 09:40:53 - Usuario ID: 33 | Evento: pending | Produto ID: 43
+2026-01-16 09:40:53 - Event Data: {"transacao_id":"cmkgva13a2irsny1rmhjypsvj","valor_total_compra":5,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Getfy","valor":5}],"data_venda":"2026-01-16 09:40:52","utm_parameters":[]}
+2026-01-16 09:40:53 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-16 09:40:53 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-16 09:40:53 - Trigger event normalizado: 'pending'
+2026-01-16 09:40:53 - Método de pagamento detectado: 'pix'
+2026-01-16 09:40:53 - Evento é Pix pendente - push será enviado
+2026-01-16 09:40:53 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 5,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=286
+2026-01-16 09:40:53 - Dados do evento - transacao_id: cmkgva13a2irsny1rmhjypsvj | valor_total: 5 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-16 09:40:53 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-16 09:40:53 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-16 09:40:53 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-16 09:40:53 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-16 09:40:53 - === FIM trigger_push_pedidos_notifications ===
+2026-01-16 09:41:19 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-16 09:41:19 - Usuario ID: 33 | Evento: approved | Produto ID: 43
+2026-01-16 09:41:19 - Event Data: {"transacao_id":"cmkgva13a2irsny1rmhjypsvj","valor_total_compra":5,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Getfy","valor":5}],"data_venda":"2026-01-16 09:40:52","utm_parameters":[]}
+2026-01-16 09:41:19 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-16 09:41:19 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-16 09:41:19 - Trigger event normalizado: 'approved'
+2026-01-16 09:41:19 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-16 09:41:19 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 5,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=286
+2026-01-16 09:41:19 - Dados do evento - transacao_id: cmkgva13a2irsny1rmhjypsvj | valor_total: 5 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-16 09:41:19 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-16 09:41:19 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-16 09:41:19 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-16 09:41:19 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-16 09:41:19 - === FIM trigger_push_pedidos_notifications ===
+2026-01-16 09:41:25 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-16 09:41:25 - Usuario ID: 33 | Evento: approved | Produto ID: 43
+2026-01-16 09:41:25 - Event Data: {"transacao_id":"cmkgva13a2irsny1rmhjypsvj","valor_total_compra":5,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Getfy","valor":5}],"data_venda":"2026-01-16 09:40:52","utm_parameters":[]}
+2026-01-16 09:41:25 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-16 09:41:25 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-16 09:41:25 - Trigger event normalizado: 'approved'
+2026-01-16 09:41:25 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-16 09:41:25 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 5,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=286
+2026-01-16 09:41:25 - Dados do evento - transacao_id: cmkgva13a2irsny1rmhjypsvj | valor_total: 5 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-16 09:41:25 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-16 09:41:25 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-16 09:41:25 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-16 09:41:25 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-16 09:41:25 - === FIM trigger_push_pedidos_notifications ===
+2026-01-17 00:09:23 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-17 00:09:23 - Usuario ID: 33 | Evento: pending | Produto ID: 41
+2026-01-17 00:09:23 - Event Data: {"transacao_id":"pay_ppdyvvbp5097aird","valor_total_compra":6,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":41,"nome":"teste2","valor":6}],"data_venda":"2026-01-17 00:09:22","utm_parameters":[]}
+2026-01-17 00:09:23 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-17 00:09:23 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-17 00:09:23 - Trigger event normalizado: 'pending'
+2026-01-17 00:09:23 - Método de pagamento detectado: 'pix'
+2026-01-17 00:09:23 - Evento é Pix pendente - push será enviado
+2026-01-17 00:09:23 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 6,00 - Leonardo Israel | URL: /index?pagina=vendas&id=287
+2026-01-17 00:09:23 - Dados do evento - transacao_id: pay_ppdyvvbp5097aird | valor_total: 6 | comprador: Leonardo Israel
+2026-01-17 00:09:23 - Resultado do envio: {"sent":0,"failed":0,"error":"Biblioteca web-push n\u00e3o dispon\u00edvel"}
+2026-01-17 00:09:23 - ERRO no envio de push: Biblioteca web-push não disponível
+2026-01-17 00:09:23 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Biblioteca web-push não disponível
+2026-01-17 00:09:23 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-17 00:09:23 - === FIM trigger_push_pedidos_notifications ===
+2026-01-31 10:49:40 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-31 10:49:40 - Usuario ID: 33 | Evento: pending | Produto ID: 42
+2026-01-31 10:49:40 - Event Data: {"transacao_id":"a0f7efa6-0a3b-4dec-a865-a7b3b803ae8c","valor_total_compra":15,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":""},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":42,"nome":"teste","valor":15}],"data_venda":"2026-01-31 10:49:40","utm_parameters":[]}
+2026-01-31 10:49:40 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-31 10:49:40 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-31 10:49:40 - Trigger event normalizado: 'pending'
+2026-01-31 10:49:40 - Método de pagamento detectado: 'pix'
+2026-01-31 10:49:40 - Evento é Pix pendente - push será enviado
+2026-01-31 10:49:40 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 15,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=1
+2026-01-31 10:49:40 - Dados do evento - transacao_id: a0f7efa6-0a3b-4dec-a865-a7b3b803ae8c | valor_total: 15 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-31 10:49:40 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-31 10:49:40 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-31 10:49:40 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-31 10:49:40 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-31 10:49:40 - === FIM trigger_push_pedidos_notifications ===
+2026-01-31 10:52:53 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-31 10:52:53 - Usuario ID: 33 | Evento: pending | Produto ID: 42
+2026-01-31 10:52:53 - Event Data: {"transacao_id":"a0f7f0cd-721f-445d-9a6f-c99b00303858","valor_total_compra":15,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":""},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":42,"nome":"teste","valor":15}],"data_venda":"2026-01-31 10:52:53","utm_parameters":{"utm_source":"organic","utm_campaign":"","utm_medium":"","utm_content":"","utm_term":"","src":null,"sck":null}}
+2026-01-31 10:52:54 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-31 10:52:54 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-31 10:52:54 - Trigger event normalizado: 'pending'
+2026-01-31 10:52:54 - Método de pagamento detectado: 'pix'
+2026-01-31 10:52:54 - Evento é Pix pendente - push será enviado
+2026-01-31 10:52:54 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 15,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=2
+2026-01-31 10:52:54 - Dados do evento - transacao_id: a0f7f0cd-721f-445d-9a6f-c99b00303858 | valor_total: 15 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-31 10:52:54 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-31 10:52:54 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-31 10:52:54 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-31 10:52:54 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-31 10:52:54 - === FIM trigger_push_pedidos_notifications ===
+2026-01-31 16:11:49 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-31 16:11:49 - Usuario ID: 33 | Evento: pending | Produto ID: 43
+2026-01-31 16:11:49 - Event Data: {"transacao_id":"9X70MMZYXD42","valor_total_compra":10,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Dev","valor":10}],"data_venda":"2026-01-31 16:11:49","utm_parameters":[]}
+2026-01-31 16:11:49 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-31 16:11:49 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-31 16:11:49 - Trigger event normalizado: 'pending'
+2026-01-31 16:11:49 - Método de pagamento detectado: 'pix'
+2026-01-31 16:11:49 - Evento é Pix pendente - push será enviado
+2026-01-31 16:11:49 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 10,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=3
+2026-01-31 16:11:49 - Dados do evento - transacao_id: 9X70MMZYXD42 | valor_total: 10 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-31 16:11:49 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-31 16:11:49 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-31 16:11:49 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-31 16:11:49 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-31 16:11:49 - === FIM trigger_push_pedidos_notifications ===
+2026-01-31 16:13:06 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-31 16:13:06 - Usuario ID: 33 | Evento: pending | Produto ID: 43
+2026-01-31 16:13:06 - Event Data: {"transacao_id":"2L4JYY926K45","valor_total_compra":5,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Dev","valor":5}],"data_venda":"2026-01-31 16:13:06","utm_parameters":[]}
+2026-01-31 16:13:06 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-31 16:13:06 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-31 16:13:06 - Trigger event normalizado: 'pending'
+2026-01-31 16:13:06 - Método de pagamento detectado: 'pix'
+2026-01-31 16:13:06 - Evento é Pix pendente - push será enviado
+2026-01-31 16:13:06 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 5,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=4
+2026-01-31 16:13:06 - Dados do evento - transacao_id: 2L4JYY926K45 | valor_total: 5 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-31 16:13:07 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-31 16:13:07 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-31 16:13:07 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-31 16:13:07 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-31 16:13:07 - === FIM trigger_push_pedidos_notifications ===
+2026-01-31 16:13:29 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-31 16:13:29 - Usuario ID: 33 | Evento: approved | Produto ID: 43
+2026-01-31 16:13:29 - Event Data: {"transacao_id":"2L4JYY926K45","valor_total_compra":5,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Dev","valor":5}],"data_venda":"2026-01-31 16:13:06","utm_parameters":[]}
+2026-01-31 16:13:29 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-31 16:13:29 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-31 16:13:29 - Trigger event normalizado: 'approved'
+2026-01-31 16:13:29 - Evento é aprovado - push será enviado | trigger_event: 'approved' | método_pagamento: Pix
+2026-01-31 16:13:29 - Preparando para enviar push - Vendedor ID: 33 | Evento: approved | Título: Pedido Aprovado! | Mensagem: Venda aprovada de R$ 5,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=4
+2026-01-31 16:13:29 - Dados do evento - transacao_id: 2L4JYY926K45 | valor_total: 5 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-31 16:13:29 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-31 16:13:29 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-31 16:13:29 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-31 16:13:29 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-31 16:13:29 - === FIM trigger_push_pedidos_notifications ===
+2026-01-31 16:23:24 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-01-31 16:23:24 - Usuario ID: 33 | Evento: pending | Produto ID: 43
+2026-01-31 16:23:24 - Event Data: {"transacao_id":"2E4Q22D0D2RX","valor_total_compra":5,"comprador":{"nome":"LEONARDO ISRAEL SOUSA SANTOS","email":"seckodb@gmail.com","telefone":"91980533856","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Dev","valor":5}],"data_venda":"2026-01-31 16:23:24","utm_parameters":[]}
+2026-01-31 16:23:24 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-01-31 16:23:24 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-01-31 16:23:24 - Trigger event normalizado: 'pending'
+2026-01-31 16:23:24 - Método de pagamento detectado: 'pix'
+2026-01-31 16:23:24 - Evento é Pix pendente - push será enviado
+2026-01-31 16:23:24 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 5,00 - LEONARDO ISRAEL SOUSA SANTOS | URL: /index?pagina=vendas&id=5
+2026-01-31 16:23:24 - Dados do evento - transacao_id: 2E4Q22D0D2RX | valor_total: 5 | comprador: LEONARDO ISRAEL SOUSA SANTOS
+2026-01-31 16:23:24 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-01-31 16:23:24 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-01-31 16:23:24 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-01-31 16:23:24 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-01-31 16:23:24 - === FIM trigger_push_pedidos_notifications ===
+2026-02-01 11:15:43 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-02-01 11:15:43 - Usuario ID: 33 | Evento: pending | Produto ID: 42
+2026-02-01 11:15:43 - Event Data: {"transacao_id":"a0f9fbf1-f888-4700-a8d4-a314dfcdc01c","valor_total_compra":15,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":""},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":42,"nome":"Dev","valor":15}],"data_venda":"2026-02-01 11:15:43","utm_parameters":[]}
+2026-02-01 11:15:43 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-02-01 11:15:43 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-02-01 11:15:43 - Trigger event normalizado: 'pending'
+2026-02-01 11:15:43 - Método de pagamento detectado: 'pix'
+2026-02-01 11:15:43 - Evento é Pix pendente - push será enviado
+2026-02-01 11:15:43 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 15,00 - Leonardo Israel | URL: /index?pagina=vendas&id=6
+2026-02-01 11:15:43 - Dados do evento - transacao_id: a0f9fbf1-f888-4700-a8d4-a314dfcdc01c | valor_total: 15 | comprador: Leonardo Israel
+2026-02-01 11:15:43 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-02-01 11:15:43 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-02-01 11:15:43 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-02-01 11:15:43 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-02-01 11:15:43 - === FIM trigger_push_pedidos_notifications ===
+2026-02-01 11:29:50 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-02-01 11:29:50 - Usuario ID: 33 | Evento: pending | Produto ID: 43
+2026-02-01 11:29:50 - Event Data: {"transacao_id":"KW4LGGZM8Q76","valor_total_compra":5,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":43,"nome":"Dev","valor":5}],"data_venda":"2026-02-01 11:29:50","utm_parameters":[]}
+2026-02-01 11:29:50 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-02-01 11:29:50 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-02-01 11:29:50 - Trigger event normalizado: 'pending'
+2026-02-01 11:29:50 - Método de pagamento detectado: 'pix'
+2026-02-01 11:29:50 - Evento é Pix pendente - push será enviado
+2026-02-01 11:29:50 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 5,00 - Leonardo Israel | URL: /index?pagina=vendas&id=7
+2026-02-01 11:29:50 - Dados do evento - transacao_id: KW4LGGZM8Q76 | valor_total: 5 | comprador: Leonardo Israel
+2026-02-01 11:29:50 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-02-01 11:29:50 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-02-01 11:29:50 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-02-01 11:29:50 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-02-01 11:29:50 - === FIM trigger_push_pedidos_notifications ===
+2026-02-01 11:55:40 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-02-01 11:55:40 - Usuario ID: 33 | Evento: pending | Produto ID: 42
+2026-02-01 11:55:40 - Event Data: {"transacao_id":"a0fa0a3c-9711-409e-ae5f-8cdaf95fd56d","valor_total_compra":15,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":42,"nome":"Dev","valor":15}],"data_venda":"2026-02-01 11:55:40","utm_parameters":[]}
+2026-02-01 11:55:40 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-02-01 11:55:40 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-02-01 11:55:40 - Trigger event normalizado: 'pending'
+2026-02-01 11:55:40 - Método de pagamento detectado: 'pix'
+2026-02-01 11:55:40 - Evento é Pix pendente - push será enviado
+2026-02-01 11:55:40 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 15,00 - Leonardo Israel | URL: /index?pagina=vendas&id=8
+2026-02-01 11:55:40 - Dados do evento - transacao_id: a0fa0a3c-9711-409e-ae5f-8cdaf95fd56d | valor_total: 15 | comprador: Leonardo Israel
+2026-02-01 11:55:40 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-02-01 11:55:40 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-02-01 11:55:40 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-02-01 11:55:40 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-02-01 11:55:40 - === FIM trigger_push_pedidos_notifications ===
+2026-02-01 11:57:19 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-02-01 11:57:19 - Usuario ID: 33 | Evento: pending | Produto ID: 42
+2026-02-01 11:57:19 - Event Data: {"transacao_id":"JQREXXN5M346","valor_total_compra":20,"comprador":{"nome":"Leonardo Israel","email":"leonardoiss@icloud.com","telefone":"91985589960","cpf":"35401338287"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":42,"nome":"Dev","valor":20}],"data_venda":"2026-02-01 11:57:19","utm_parameters":[]}
+2026-02-01 11:57:19 - Push helper carregado de: C:\xampp\htdocs\helpers/../pwa/api/web_push_helper.php
+2026-02-01 11:57:19 - Push helper carregado com sucesso e função pwa_send_push_to_vendor disponível
+2026-02-01 11:57:19 - Trigger event normalizado: 'pending'
+2026-02-01 11:57:19 - Método de pagamento detectado: 'pix'
+2026-02-01 11:57:19 - Evento é Pix pendente - push será enviado
+2026-02-01 11:57:19 - Preparando para enviar push - Vendedor ID: 33 | Evento: pending | Título: Pix Gerado - Aguardando Pagamento | Mensagem: Novo pedido Pix de R$ 20,00 - Leonardo Israel | URL: /index?pagina=vendas&id=9
+2026-02-01 11:57:19 - Dados do evento - transacao_id: JQREXXN5M346 | valor_total: 20 | comprador: Leonardo Israel
+2026-02-01 11:57:19 - Resultado do envio: {"sent":0,"failed":0,"error":"Erro ao obter chaves VAPID"}
+2026-02-01 11:57:19 - ERRO no envio de push: Erro ao obter chaves VAPID
+2026-02-01 11:57:19 - ✗ Push não foi enviado. Total de subscriptions: 0 | Erro: Erro ao obter chaves VAPID
+2026-02-01 11:57:19 - AVISO: Vendedor ID 33 não possui subscriptions de push registradas!
+2026-02-01 11:57:19 - === FIM trigger_push_pedidos_notifications ===
+2026-02-03 03:33:18 - === INÍCIO trigger_push_pedidos_notifications ===
+2026-02-03 03:33:18 - Usuario ID: 2 | Evento: pending | Produto ID: 1
+2026-02-03 03:33:18 - Event Data: {"transacao_id":"pay_bb2fqzvefpss11g7","valor_total_compra":197,"comprador":{"nome":"Fernando Rodrigues Azevedo","email":"fernando.rodrigues.a@gmail.com","telefone":"11960463218","cpf":"40140333843"},"metodo_pagamento":"Pix","produtos_comprados":[{"produto_id":1,"nome":"VozSmart","valor":197}],"data_venda":"2026-02-03 03:33:18","utm_parameters":[]}
+2026-02-03 03:33:18 - Push helper não encontrado em: /home/u874095710/domains/vozfy.cloud/public_html/helpers/../pwa/api/web_push_helper.php
+2026-02-03 03:33:18 - Push helper não encontrado em: /home/u874095710/domains/vozfy.cloud/public_html/helpers/pwa/api/web_push_helper.php
+2026-02-03 03:33:18 - Push helper não encontrado em: /home/u874095710/domains/vozfy.cloud/public_html/pwa/api/web_push_helper.php
+2026-02-03 03:33:18 - ERRO: Push helper não foi carregado de nenhum caminho!
