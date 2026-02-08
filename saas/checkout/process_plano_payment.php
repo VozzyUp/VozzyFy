@@ -5,7 +5,7 @@
  */
 
 // Registrar handler de erros fatais
-register_shutdown_function(function() {
+register_shutdown_function(function () {
     $error = error_get_last();
     if ($error !== NULL && in_array($error['type'], [E_ERROR, E_PARSE, E_CORE_ERROR, E_COMPILE_ERROR])) {
         ob_clean();
@@ -23,7 +23,8 @@ ini_set('display_errors', 0);
 ini_set('log_errors', 1);
 error_reporting(E_ALL);
 
-function returnJsonError($message, $code = 500) {
+function returnJsonError($message, $code = 500)
+{
     ob_clean();
     http_response_code($code);
     header('Content-Type: application/json');
@@ -31,7 +32,8 @@ function returnJsonError($message, $code = 500) {
     exit;
 }
 
-function returnJsonSuccess($data) {
+function returnJsonSuccess($data)
+{
     ob_clean();
     http_response_code(200);
     header('Content-Type: application/json');
@@ -83,13 +85,13 @@ if (file_exists(__DIR__ . '/../includes/saas_functions.php')) {
         error_log("SaaS: Função saas_enabled não encontrada após incluir saas_functions.php");
         returnJsonError('Sistema SaaS não configurado corretamente. Função saas_enabled não encontrada.', 500);
     }
-    
+
     // Verificar se PDO está disponível
     if (!isset($pdo) || !($pdo instanceof PDO)) {
         error_log("SaaS: PDO não disponível em process_plano_payment.php");
         returnJsonError('Erro de configuração do banco de dados.', 500);
     }
-    
+
     // Verificar se tabela existe
     try {
         $stmt_check = $pdo->query("SHOW TABLES LIKE 'saas_config'");
@@ -101,29 +103,29 @@ if (file_exists(__DIR__ . '/../includes/saas_functions.php')) {
         error_log("SaaS: Erro ao verificar tabela saas_config: " . $e->getMessage());
         returnJsonError('Erro ao verificar configuração do sistema SaaS.', 500);
     }
-    
+
     // Verificar se está habilitado
     error_log("SaaS Payment: Verificando se SaaS está habilitado...");
-    
+
     // Verificar diretamente no banco para ter certeza
     try {
         $stmt_saas = $pdo->prepare("SELECT enabled FROM saas_config LIMIT 1");
         $stmt_saas->execute();
         $saas_config = $stmt_saas->fetch(PDO::FETCH_ASSOC);
-        
+
         if (!$saas_config) {
             error_log("SaaS: Nenhum registro encontrado na tabela saas_config");
             returnJsonError('Sistema SaaS não configurado. Nenhum registro encontrado na tabela saas_config. Por favor, habilite no painel administrativo (Configurações > Modo SaaS).', 500);
         }
-        
-        $enabled_value = (int)($saas_config['enabled'] ?? 0);
+
+        $enabled_value = (int) ($saas_config['enabled'] ?? 0);
         error_log("SaaS Payment: Valor de enabled no banco: " . $enabled_value);
-        
+
         if ($enabled_value !== 1) {
             error_log("SaaS: Sistema SaaS está desabilitado (enabled = {$enabled_value})");
             returnJsonError('Sistema SaaS não está habilitado. Por favor, habilite no painel administrativo (Configurações > Modo SaaS).', 403);
         }
-        
+
         error_log("SaaS Payment: SaaS está habilitado (enabled = 1), continuando...");
     } catch (PDOException $e) {
         error_log("SaaS: Erro ao verificar enabled: " . $e->getMessage());
@@ -180,36 +182,36 @@ try {
     $stmt_plano = $pdo->prepare("SELECT * FROM saas_planos WHERE id = ? AND ativo = 1");
     $stmt_plano->execute([$plano_id]);
     $plano = $stmt_plano->fetch(PDO::FETCH_ASSOC);
-    
+
     if (!$plano) {
         throw new Exception("Plano não encontrado ou inativo.");
     }
-    
+
     // Buscar credenciais do gateway admin
     $stmt_gateway = $pdo->prepare("SELECT * FROM saas_admin_gateways WHERE gateway = ?");
     $stmt_gateway->execute([$gateway_choice]);
     $gateway_config = $stmt_gateway->fetch(PDO::FETCH_ASSOC);
-    
+
     if (!$gateway_config) {
         throw new Exception("Gateway não configurado no painel admin.");
     }
-    
+
     $usuario_id = $_SESSION['id'];
-    
+
     // Construir URL do webhook corretamente (seguindo padrão do process_payment.php)
     $domainName = $_SERVER['HTTP_HOST'] ?? 'localhost';
     $scriptDir = dirname($_SERVER['PHP_SELF']);
     $path = rtrim(str_replace('\\', '/', $scriptDir), '/');
-    
+
     // Detectar protocolo (HTTPS ou HTTP)
-    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || 
-                (!empty($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443) ||
-                (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https')
-                ? 'https' : 'http';
-    
+    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ||
+        (!empty($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443) ||
+        (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https')
+        ? 'https' : 'http';
+
     // Construir URL do webhook
     $webhook_url = $protocol . "://" . $domainName . $path . '/../../notification.php';
-    
+
     // Validar URL do webhook
     if (!filter_var($webhook_url, FILTER_VALIDATE_URL)) {
         error_log("SaaS Payment: URL do webhook inválida: " . $webhook_url);
@@ -219,7 +221,7 @@ try {
             error_log("SaaS Payment: Tentando forçar HTTPS: " . $webhook_url);
         }
     }
-    
+
     // Validar se é localhost (Mercado Pago não aceita localhost)
     $webhook_url_for_mp = null;
     if ($domainName === 'localhost' || strpos($domainName, '127.0.0.1') !== false || strpos($domainName, '::1') !== false) {
@@ -237,33 +239,33 @@ try {
         }
         error_log("SaaS Payment: notification_url válida: " . $webhook_url_for_mp);
     }
-    
+
     // Processar conforme gateway
     if ($gateway_choice === 'efi' && $data['payment_method'] === 'pix') {
         require_once __DIR__ . '/../../gateways/efi.php';
-        
+
         $client_id = trim($gateway_config['efi_client_id'] ?? '');
         $client_secret = trim($gateway_config['efi_client_secret'] ?? '');
         $certificate_path = trim($gateway_config['efi_certificate_path'] ?? '');
         $pix_key = trim($gateway_config['efi_pix_key'] ?? '');
-        
+
         if (empty($client_id) || empty($client_secret) || empty($certificate_path) || empty($pix_key)) {
             throw new Exception("Credenciais Efí não configuradas completamente.");
         }
-        
+
         $full_cert_path = __DIR__ . '/../../' . str_replace('\\', '/', $certificate_path);
         if (!file_exists($full_cert_path)) {
             throw new Exception("Certificado Efí não encontrado.");
         }
-        
+
         $token_data = efi_get_access_token($client_id, $client_secret, $full_cert_path);
         if (!$token_data) {
             throw new Exception("Erro ao obter token de acesso Efí.");
         }
-        
+
         $pix_result = efi_create_pix_charge(
             $token_data['access_token'],
-            (float)$data['transaction_amount'],
+            (float) $data['transaction_amount'],
             $pix_key,
             [
                 'name' => $name,
@@ -274,26 +276,26 @@ try {
             60,
             $full_cert_path
         );
-        
+
         if (!$pix_result || !isset($pix_result['txid'])) {
             throw new Exception("Erro ao criar cobrança Pix na Efí.");
         }
-        
+
         $payment_id = $pix_result['txid'];
         $status = 'pending';
-        
+
         // Criar assinatura
         $data_inicio = date('Y-m-d');
         $dias_periodo = $plano['periodo'] === 'anual' ? 365 : 30;
         $data_vencimento = date('Y-m-d', strtotime("+{$dias_periodo} days"));
-        
+
         $stmt = $pdo->prepare("
             INSERT INTO saas_assinaturas 
             (usuario_id, plano_id, status, data_inicio, data_vencimento, transacao_id, metodo_pagamento) 
             VALUES (?, ?, ?, ?, ?, ?, ?)
         ");
         $stmt->execute([$usuario_id, $plano_id, $status, $data_inicio, $data_vencimento, $payment_id, 'Pix']);
-        
+
         returnJsonSuccess([
             'status' => 'pix_created',
             'pix_data' => [
@@ -303,24 +305,24 @@ try {
             ],
             'redirect_url' => '/index?pagina=saas_planos?payment_id=' . $payment_id
         ]);
-        
+
     } elseif ($gateway_choice === 'pushinpay' && $data['payment_method'] === 'pix') {
         $token = $gateway_config['pushinpay_token'] ?? '';
         if (empty($token)) {
             throw new Exception("Token PushinPay não configurado.");
         }
-        
-        $amount_cents = (int)(round((float)$data['transaction_amount'], 2) * 100);
-            $payload = [
-                "value" => $amount_cents,
-                "webhook_url" => $webhook_url,
-                "payer" => [
-                    "name" => $name,
-                    "document" => preg_replace('/[^0-9]/', '', $data['cpf']),
-                    "email" => $email
-                ]
-            ];
-        
+
+        $amount_cents = (int) (round((float) $data['transaction_amount'], 2) * 100);
+        $payload = [
+            "value" => $amount_cents,
+            "webhook_url" => $webhook_url,
+            "payer" => [
+                "name" => $name,
+                "document" => preg_replace('/[^0-9]/', '', $data['cpf']),
+                "email" => $email
+            ]
+        ];
+
         $ch = curl_init('https://api.pushinpay.com.br/api/pix/cashIn');
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, true);
@@ -329,33 +331,33 @@ try {
             'Authorization: Bearer ' . $token,
             'Content-Type: application/json'
         ]);
-        
+
         $response = curl_exec($ch);
         $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         curl_close($ch);
-        
+
         $res_data = json_decode($response, true);
-        
+
         if ($http_code >= 200 && $http_code < 300 && isset($res_data['qr_code_base64'])) {
             $payment_id = $res_data['id'] ?? null;
             if (!$payment_id) {
                 throw new Exception("Resposta inválida da API PushinPay: ID não encontrado");
             }
-            
+
             $status = 'pending';
-            
+
             // Criar assinatura
             $data_inicio = date('Y-m-d');
             $dias_periodo = $plano['periodo'] === 'anual' ? 365 : 30;
             $data_vencimento = date('Y-m-d', strtotime("+{$dias_periodo} days"));
-            
+
             $stmt = $pdo->prepare("
                 INSERT INTO saas_assinaturas 
                 (usuario_id, plano_id, status, data_inicio, data_vencimento, transacao_id, metodo_pagamento) 
                 VALUES (?, ?, ?, ?, ?, ?, ?)
             ");
             $stmt->execute([$usuario_id, $plano_id, $status, $data_inicio, $data_vencimento, $payment_id, 'Pix']);
-            
+
             returnJsonSuccess([
                 'status' => 'pix_created',
                 'pix_data' => [
@@ -369,38 +371,38 @@ try {
             $error_msg = $res_data['message'] ?? 'Erro ao processar pagamento';
             throw new Exception("PushinPay Error ($http_code): " . $error_msg);
         }
-        
+
     } elseif ($gateway_choice === 'mercadopago' && $data['payment_method'] === 'pix') {
         $token = trim($gateway_config['mp_access_token'] ?? '');
         if (empty($token)) {
             throw new Exception("Token Mercado Pago não configurado.");
         }
-        
+
         // Validar formato básico do token (deve começar com APP_USR- ou TEST-)
         if (!preg_match('/^(APP_USR-|TEST-)/', $token)) {
             error_log("SaaS Payment (Mercado Pago): Token com formato inválido: " . substr($token, 0, 20) . "...");
             throw new Exception("Token do Mercado Pago com formato inválido. O token deve começar com 'APP_USR-' (produção) ou 'TEST-' (sandbox).");
         }
-        
+
         error_log("SaaS Payment (Mercado Pago): Token detectado - Tipo: " . (strpos($token, 'TEST-') === 0 ? 'SANDBOX' : 'PRODUÇÃO'));
-        
+
         // Validar CPF antes de enviar
         $cpf_limpo = preg_replace('/[^0-9]/', '', $data['cpf']);
         if (strlen($cpf_limpo) !== 11) {
             throw new Exception("CPF inválido. Deve conter 11 dígitos.");
         }
-        
+
         // Dividir nome corretamente
         $name_parts = explode(' ', trim($name), 2);
         $first_name = $name_parts[0] ?? '';
         $last_name = $name_parts[1] ?? '';
-        
+
         if (empty($first_name)) {
             throw new Exception("Nome inválido. Por favor, informe um nome completo.");
         }
-        
+
         $payment_data = [
-            'transaction_amount' => (float)$data['transaction_amount'],
+            'transaction_amount' => (float) $data['transaction_amount'],
             'description' => 'Assinatura: ' . $plano['nome'],
             'payment_method_id' => 'pix',
             'payer' => [
@@ -413,7 +415,7 @@ try {
                 ],
             ]
         ];
-        
+
         // Adicionar notification_url apenas se for válida (não localhost)
         if ($webhook_url_for_mp !== null) {
             $payment_data['notification_url'] = $webhook_url_for_mp;
@@ -421,13 +423,13 @@ try {
         } else {
             error_log("SaaS Payment (Mercado Pago): Omitindo notification_url (ambiente local)");
         }
-        
+
         error_log("SaaS Payment (Mercado Pago): Enviando requisição - Valor: " . $payment_data['transaction_amount']);
         error_log("SaaS Payment (Mercado Pago): Payload: " . json_encode($payment_data));
-        
+
         // Gerar chave de idempotência única para evitar pagamentos duplicados
         $idempotency_key = 'saas_plano_' . $plano_id . '_' . $usuario_id . '_' . time() . '_' . bin2hex(random_bytes(8));
-        
+
         $ch = curl_init('https://api.mercadopago.com/v1/payments');
         curl_setopt($ch, CURLOPT_TIMEOUT, 30);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
@@ -439,41 +441,41 @@ try {
         ]);
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payment_data));
-        
+
         error_log("SaaS Payment (Mercado Pago): X-Idempotency-Key: " . $idempotency_key);
-        
+
         $response = curl_exec($ch);
         $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         $curl_error = curl_error($ch);
         curl_close($ch);
-        
+
         // Log da resposta para debug
         error_log("SaaS Payment (Mercado Pago): HTTP Code: " . $http_code);
         error_log("SaaS Payment (Mercado Pago): Response: " . substr($response, 0, 500));
-        
+
         if ($curl_error) {
             error_log("SaaS Payment (Mercado Pago): cURL Error: " . $curl_error);
             throw new Exception("Erro de conexão com Mercado Pago: " . $curl_error);
         }
-        
+
         $res_data = json_decode($response, true);
-        
+
         if ($http_code >= 200 && $http_code < 300 && isset($res_data['status'])) {
             $status = $res_data['status'];
             $payment_id = $res_data['id'];
-            
+
             // Criar assinatura
             $data_inicio = date('Y-m-d');
             $dias_periodo = $plano['periodo'] === 'anual' ? 365 : 30;
             $data_vencimento = date('Y-m-d', strtotime("+{$dias_periodo} days"));
-            
+
             $stmt = $pdo->prepare("
                 INSERT INTO saas_assinaturas 
                 (usuario_id, plano_id, status, data_inicio, data_vencimento, transacao_id, metodo_pagamento) 
                 VALUES (?, ?, ?, ?, ?, ?, ?)
             ");
             $stmt->execute([$usuario_id, $plano_id, $status, $data_inicio, $data_vencimento, $payment_id, 'Pix']);
-            
+
             if ($status == 'pending') {
                 returnJsonSuccess([
                     'status' => 'pix_created',
@@ -495,7 +497,7 @@ try {
             // Extrair mensagem de erro detalhada do Mercado Pago
             $error_message = "Erro ao processar pagamento no Mercado Pago";
             $user_friendly_message = "Não foi possível processar o pagamento.";
-            
+
             if ($res_data) {
                 if (isset($res_data['message'])) {
                     $error_message = $res_data['message'];
@@ -506,7 +508,7 @@ try {
                         $error_message = $res_data['error']['message'];
                     }
                 }
-                
+
                 // Adicionar causas se disponíveis
                 if (isset($res_data['cause']) && is_array($res_data['cause'])) {
                     $causes = [];
@@ -521,12 +523,14 @@ try {
                         $error_message .= " - " . implode(". ", $causes);
                     }
                 }
-                
+
                 // Mensagens amigáveis para erros comuns
                 if ($http_code === 401 || $http_code === 403) {
-                    if (stripos($error_message, 'UNAUTHORIZED') !== false || 
+                    if (
+                        stripos($error_message, 'UNAUTHORIZED') !== false ||
                         stripos($error_message, 'unauthorized') !== false ||
-                        stripos($error_message, 'forbidden') !== false) {
+                        stripos($error_message, 'forbidden') !== false
+                    ) {
                         $user_friendly_message = "Token do Mercado Pago inválido ou sem permissão. Por favor, verifique as credenciais no painel administrativo.";
                     } else {
                         $user_friendly_message = "Erro de autorização no Mercado Pago. Verifique se o token está correto e tem permissão para criar pagamentos PIX.";
@@ -539,10 +543,10 @@ try {
                     $user_friendly_message = "Erro no servidor do Mercado Pago. Tente novamente em alguns instantes.";
                 }
             }
-            
+
             error_log("SaaS Payment (Mercado Pago): Erro - HTTP $http_code - $error_message");
             error_log("SaaS Payment (Mercado Pago): Resposta completa: " . json_encode($res_data));
-            
+
             // Para erros 401/403, retornar mensagem amigável ao usuário
             if ($http_code === 401 || $http_code === 403) {
                 throw new Exception($user_friendly_message);
@@ -550,11 +554,87 @@ try {
                 throw new Exception("Mercado Pago Error (HTTP $http_code): " . $error_message);
             }
         }
-        
+
+    } elseif ($gateway_choice === 'stripe') {
+        require_once __DIR__ . '/../../gateways/stripe.php';
+
+        $public_key = trim($gateway_config['stripe_public_key'] ?? '');
+        $secret_key = trim($gateway_config['stripe_secret_key'] ?? '');
+        $webhook_secret = trim($gateway_config['stripe_webhook_secret'] ?? '');
+
+        if (empty($public_key) || empty($secret_key)) {
+            throw new Exception("Credenciais Stripe não configuradas no painel admin.");
+        }
+
+        $line_items = [];
+        $line_items[] = [
+            'price_data' => [
+                'currency' => 'brl',
+                'product_data' => [
+                    'name' => 'Assinatura: ' . $plano['nome'],
+                ],
+                'unit_amount' => (int) (round((float) $plano['valor'], 2) * 100),
+                'recurring' => [
+                    'interval' => $plano['periodo'] === 'anual' ? 'year' : 'month'
+                ]
+            ],
+            'quantity' => 1,
+        ];
+
+        // URLs de redirecionamento
+        // Success URL deve confirmar o pagamento ou apenas agradecer. 
+        // O webhook que vai confirmar de fato.
+        $success_url = $protocol . "://" . $domainName . $path . '/../../saas/painel/index.php?pagina=saas_planos&status=success&session_id={CHECKOUT_SESSION_ID}';
+        $cancel_url = $protocol . "://" . $domainName . $path . '/../../saas/painel/index.php?pagina=saas_planos&status=cancel';
+
+        $metadata = [
+            'plano_id' => $plano_id,
+            'usuario_id' => $usuario_id,
+            'type' => 'saas_subscription'
+        ];
+
+        try {
+            $session = create_stripe_checkout_session(
+                $line_items,
+                $success_url,
+                $cancel_url,
+                $metadata,
+                $secret_key,
+                true // is_subscription
+            );
+
+            if (isset($session['id']) && isset($session['url'])) {
+                $payment_id = $session['id'];
+                $status = 'pending';
+
+                // Criar assinatura localmente como pending
+                $data_inicio = date('Y-m-d');
+                $dias_periodo = $plano['periodo'] === 'anual' ? 365 : 30;
+                $data_vencimento = date('Y-m-d', strtotime("+{$dias_periodo} days"));
+
+                $stmt = $pdo->prepare("
+                    INSERT INTO saas_assinaturas 
+                    (usuario_id, plano_id, status, data_inicio, data_vencimento, transacao_id, metodo_pagamento) 
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                 ");
+                $stmt->execute([$usuario_id, $plano_id, $status, $data_inicio, $data_vencimento, $payment_id, 'Stripe']);
+
+                returnJsonSuccess([
+                    'status' => 'redirect',
+                    'redirect_url' => $session['url']
+                ]);
+            } else {
+                throw new Exception("Erro ao criar sessão Stripe.");
+            }
+        } catch (Exception $e) {
+            error_log("Stripe Subscription Error: " . $e->getMessage());
+            throw $e;
+        }
+
     } else {
         throw new Exception("Gateway ou método de pagamento não suportado.");
     }
-    
+
 } catch (Exception $e) {
     error_log("SaaS Payment Error (Exception): " . $e->getMessage());
     error_log("SaaS Payment Error File: " . $e->getFile() . " Line: " . $e->getLine());
