@@ -4,7 +4,7 @@
 // Buscar credenciais do usuário para verificar se estão configuradas
 $usuario_id = $_SESSION['id'] ?? 0;
 try {
-    $stmt_credenciais = $pdo->prepare("SELECT mp_access_token, pushinpay_token, efi_client_id, efi_client_secret, efi_certificate_path, efi_pix_key, efi_payee_code, hypercash_secret_key, hypercash_public_key, asaas_api_key, asaas_environment, applyfy_public_key, applyfy_secret_key, spacepag_public_key, spacepag_secret_key FROM usuarios WHERE id = ?");
+    $stmt_credenciais = $pdo->prepare("SELECT mp_access_token, pushinpay_token, efi_client_id, efi_client_secret, efi_certificate_path, efi_pix_key, efi_payee_code, hypercash_secret_key, hypercash_public_key, asaas_api_key, asaas_environment, applyfy_public_key, applyfy_secret_key, spacepag_public_key, spacepag_secret_key, stripe_public_key, stripe_secret_key, stripe_webhook_secret FROM usuarios WHERE id = ?");
     $stmt_credenciais->execute([$usuario_id]);
     $credenciais = $stmt_credenciais->fetch(PDO::FETCH_ASSOC);
 } catch (PDOException $e) {
@@ -26,6 +26,9 @@ try {
         $credenciais['applyfy_secret_key'] = null;
         $credenciais['spacepag_public_key'] = null;
         $credenciais['spacepag_secret_key'] = null;
+        $credenciais['stripe_public_key'] = null;
+        $credenciais['stripe_secret_key'] = null;
+        $credenciais['stripe_webhook_secret'] = null;
     } catch (PDOException $e2) {
         $credenciais = [
             'mp_access_token' => null,
@@ -42,7 +45,10 @@ try {
             'applyfy_public_key' => null,
             'applyfy_secret_key' => null,
             'spacepag_public_key' => null,
-            'spacepag_secret_key' => null
+            'spacepag_secret_key' => null,
+            'stripe_public_key' => null,
+            'stripe_secret_key' => null,
+            'stripe_webhook_secret' => null
         ];
     }
 }
@@ -95,6 +101,9 @@ $applyfy_configured = !empty($credenciais['applyfy_public_key'] ?? '') && !empty
 
 // Para SpacePag, verificar se ambas as credenciais estão preenchidas
 $spacepag_configured = !empty($credenciais['spacepag_public_key'] ?? '') && !empty($credenciais['spacepag_secret_key'] ?? '');
+
+// Para Stripe, verificar se ambas as credenciais estão preenchidas
+$stripe_configured = !empty($credenciais['stripe_public_key'] ?? '') && !empty($credenciais['stripe_secret_key'] ?? '');
 
 // Variáveis removidas - não são mais necessárias sem a seção de gateways
 ?>
@@ -390,6 +399,38 @@ $spacepag_configured = !empty($credenciais['spacepag_public_key'] ?? '') && !emp
                     </label>
                 </div>
             </div>
+
+            <!-- Stripe Card -->
+            <div class="bg-dark-elevated p-6 rounded-lg border border-dark-border <?php echo !$stripe_configured ? 'opacity-50 pointer-events-none' : ''; ?>">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-lg font-semibold text-white flex items-center gap-2">
+                        <i data-lucide="credit-card" class="w-5 h-5 text-indigo-500"></i>
+                        Stripe
+                    </h3>
+                    <?php if (!$stripe_configured): ?>
+                        <div class="flex items-center gap-2">
+                            <span class="bg-orange-900/30 text-orange-400 text-xs font-bold px-2 py-1 rounded border border-orange-500/50">Não Configurado</span>
+                            <a href="/index?pagina=integracoes" class="text-orange-400 hover:text-orange-300 transition-colors" title="Configurar Stripe">
+                                <i data-lucide="external-link" class="w-4 h-4"></i>
+                            </a>
+                        </div>
+                    <?php endif; ?>
+                </div>
+                <div class="space-y-3">
+                    <label class="flex items-start p-3 bg-dark-card border border-dark-border rounded-lg cursor-pointer transition-all hover:border-indigo-600" <?php echo !$stripe_configured ? 'style="pointer-events: none;"' : ''; ?>>
+                        <input type="checkbox" name="payment_credit_card_stripe" value="1" class="form-checkbox mt-1" 
+                               <?php echo (isset($payment_methods_config['credit_card']['gateway']) && $payment_methods_config['credit_card']['gateway'] === 'stripe' && ($payment_methods_config['credit_card']['enabled'] ?? false)) ? 'checked' : ''; ?>
+                               <?php echo !$stripe_configured ? 'disabled' : ''; ?>>
+                        <div class="ml-3 flex-1">
+                            <div class="flex items-center gap-2">
+                                <span class="text-sm font-medium text-white">Cartão de Crédito</span>
+                                <span class="bg-indigo-900/30 text-indigo-400 text-xs font-bold px-2 py-0.5 rounded">Aprovação Imediata</span>
+                            </div>
+                            <p class="text-xs text-gray-400 mt-1">Visa, Mastercard, Amex, etc.</p>
+                        </div>
+                    </label>
+                </div>
+            </div>
         </div>
 
         <!-- Resumo Visual -->
@@ -414,6 +455,7 @@ $spacepag_configured = !empty($credenciais['spacepag_public_key'] ?? '') && !emp
         <input type="hidden" name="payment_pix_applyfy" value="<?php echo (isset($payment_methods_config['pix']['gateway']) && $payment_methods_config['pix']['gateway'] === 'applyfy' && ($payment_methods_config['pix']['enabled'] ?? false)) ? '1' : '0'; ?>">
         <input type="hidden" name="payment_credit_card_applyfy" value="<?php echo (isset($payment_methods_config['credit_card']['gateway']) && $payment_methods_config['credit_card']['gateway'] === 'applyfy' && ($payment_methods_config['credit_card']['enabled'] ?? false)) ? '1' : '0'; ?>">
         <input type="hidden" name="payment_pix_spacepag" value="<?php echo (isset($payment_methods_config['pix']['gateway']) && $payment_methods_config['pix']['gateway'] === 'spacepag' && ($payment_methods_config['pix']['enabled'] ?? false)) ? '1' : '0'; ?>">
+        <input type="hidden" name="payment_credit_card_stripe" value="<?php echo (isset($payment_methods_config['credit_card']['gateway']) && $payment_methods_config['credit_card']['gateway'] === 'stripe' && ($payment_methods_config['credit_card']['enabled'] ?? false)) ? '1' : '0'; ?>">
         <input type="hidden" name="payment_ticket_enabled" value="<?php echo ($payment_methods_config['ticket']['enabled'] ?? false) ? '1' : '0'; ?>">
     </div>
 </div>
@@ -427,7 +469,9 @@ const gatewayConfig = {
     efi_card: <?php echo $efi_card_configured ? 'true' : 'false'; ?>,
     hypercash: <?php echo $hypercash_configured ? 'true' : 'false'; ?>,
     asaas: <?php echo $asaas_configured ? 'true' : 'false'; ?>,
-    applyfy: <?php echo $applyfy_configured ? 'true' : 'false'; ?>
+    applyfy: <?php echo $applyfy_configured ? 'true' : 'false'; ?>,
+    spacepag: <?php echo $spacepag_configured ? 'true' : 'false'; ?>,
+    stripe: <?php echo $stripe_configured ? 'true' : 'false'; ?>
 };
 
 // Função para verificar se pode interagir com gateway
@@ -439,6 +483,7 @@ function canInteractWithGateway(gateway) {
     if (gateway === 'asaas') return gatewayConfig.asaas;
     if (gateway === 'applyfy') return gatewayConfig.applyfy;
     if (gateway === 'spacepag') return gatewayConfig.spacepag;
+    if (gateway === 'stripe') return gatewayConfig.stripe;
     return false;
 }
 
@@ -469,10 +514,44 @@ function enforceSingleCreditCard() {
     const creditCardEfi = document.querySelector('input[name="payment_credit_card_efi"]:not([type="hidden"])');
     const creditCardAsaas = document.querySelector('input[name="payment_credit_card_asaas"]:not([type="hidden"])');
     const creditCardApplyfy = document.querySelector('input[name="payment_credit_card_applyfy"]:not([type="hidden"])');
+    const creditCardStripe = document.querySelector('input[name="payment_credit_card_stripe"]:not([type="hidden"])');
 
-    // Prioridade: Hypercash > Efí > Asaas > Applyfy > Mercado Pago
-    // Se Hypercash está selecionado, desmarcar todos os outros
-    if (creditCardHypercash && creditCardHypercash.checked && !creditCardHypercash.disabled) {
+    // Prioridade: Stripe > Hypercash > Efí > Asaas > Applyfy > Mercado Pago
+    // Se Stripe está selecionado, desmarcar todos os outros
+    if (creditCardStripe && creditCardStripe.checked && !creditCardStripe.disabled) {
+        if (creditCardMP) {
+            creditCardMP.checked = false;
+            const hiddenMP = document.querySelector('input[name="payment_credit_card_mercadopago"][type="hidden"]');
+            if (hiddenMP) hiddenMP.value = '0';
+        }
+        if (creditCardEfi) {
+            creditCardEfi.checked = false;
+            const hiddenEfi = document.querySelector('input[name="payment_credit_card_efi"][type="hidden"]');
+            if (hiddenEfi) hiddenEfi.value = '0';
+        }
+        if (creditCardAsaas) {
+            creditCardAsaas.checked = false;
+            const hiddenAsaas = document.querySelector('input[name="payment_credit_card_asaas"][type="hidden"]');
+            if (hiddenAsaas) hiddenAsaas.value = '0';
+        }
+        if (creditCardApplyfy) {
+            creditCardApplyfy.checked = false;
+            const hiddenApplyfy = document.querySelector('input[name="payment_credit_card_applyfy"][type="hidden"]');
+            if (hiddenApplyfy) hiddenApplyfy.value = '0';
+        }
+        if (creditCardHypercash) {
+            creditCardHypercash.checked = false;
+            const hiddenHypercash = document.querySelector('input[name="payment_credit_card_hypercash"][type="hidden"]');
+            if (hiddenHypercash) hiddenHypercash.value = '0';
+        }
+    }
+    // Se Hypercash está selecionado, desmarcar todos os outros (incluindo Stripe)
+    else if (creditCardHypercash && creditCardHypercash.checked && !creditCardHypercash.disabled) {
+        if (creditCardStripe) {
+            creditCardStripe.checked = false;
+            const hiddenStripe = document.querySelector('input[name="payment_credit_card_stripe"][type="hidden"]');
+            if (hiddenStripe) hiddenStripe.value = '0';
+        }
         if (creditCardMP) {
             creditCardMP.checked = false;
             const hiddenMP = document.querySelector('input[name="payment_credit_card_mercadopago"][type="hidden"]');
@@ -494,8 +573,13 @@ function enforceSingleCreditCard() {
             if (hiddenApplyfy) hiddenApplyfy.value = '0';
         }
     }
-    // Se Efí está selecionado, desmarcar Mercado Pago, Hypercash, Asaas e Applyfy
+    // Se Efí está selecionado, desmarcar Mercado Pago, Hypercash, Asaas, Applyfy e Stripe
     else if (creditCardEfi && creditCardEfi.checked && !creditCardEfi.disabled) {
+        if (creditCardStripe) {
+            creditCardStripe.checked = false;
+            const hiddenStripe = document.querySelector('input[name="payment_credit_card_stripe"][type="hidden"]');
+            if (hiddenStripe) hiddenStripe.value = '0';
+        }
         if (creditCardMP) {
             creditCardMP.checked = false;
             const hiddenMP = document.querySelector('input[name="payment_credit_card_mercadopago"][type="hidden"]');
@@ -517,8 +601,13 @@ function enforceSingleCreditCard() {
             if (hiddenApplyfy) hiddenApplyfy.value = '0';
         }
     }
-    // Se Asaas está selecionado, desmarcar Mercado Pago, Hypercash, Efí e Applyfy
+    // Se Asaas está selecionado, desmarcar Mercado Pago, Hypercash, Efí, Applyfy e Stripe
     else if (creditCardAsaas && creditCardAsaas.checked && !creditCardAsaas.disabled) {
+        if (creditCardStripe) {
+            creditCardStripe.checked = false;
+            const hiddenStripe = document.querySelector('input[name="payment_credit_card_stripe"][type="hidden"]');
+            if (hiddenStripe) hiddenStripe.value = '0';
+        }
         if (creditCardMP) {
             creditCardMP.checked = false;
             const hiddenMP = document.querySelector('input[name="payment_credit_card_mercadopago"][type="hidden"]');
@@ -540,8 +629,13 @@ function enforceSingleCreditCard() {
             if (hiddenApplyfy) hiddenApplyfy.value = '0';
         }
     }
-    // Se Applyfy está selecionado, desmarcar Mercado Pago, Hypercash, Efí e Asaas
+    // Se Applyfy está selecionado, desmarcar Mercado Pago, Hypercash, Efí, Asaas e Stripe
     else if (creditCardApplyfy && creditCardApplyfy.checked && !creditCardApplyfy.disabled) {
+        if (creditCardStripe) {
+            creditCardStripe.checked = false;
+            const hiddenStripe = document.querySelector('input[name="payment_credit_card_stripe"][type="hidden"]');
+            if (hiddenStripe) hiddenStripe.value = '0';
+        }
         if (creditCardMP) {
             creditCardMP.checked = false;
             const hiddenMP = document.querySelector('input[name="payment_credit_card_mercadopago"][type="hidden"]');
@@ -563,8 +657,13 @@ function enforceSingleCreditCard() {
             if (hiddenAsaas) hiddenAsaas.value = '0';
         }
     }
-    // Se Mercado Pago está selecionado, desmarcar Hypercash, Efí, Asaas e Applyfy
+    // Se Mercado Pago está selecionado, desmarcar Hypercash, Efí, Asaas, Applyfy e Stripe
     else if (creditCardMP && creditCardMP.checked && !creditCardMP.disabled) {
+        if (creditCardStripe) {
+            creditCardStripe.checked = false;
+            const hiddenStripe = document.querySelector('input[name="payment_credit_card_stripe"][type="hidden"]');
+            if (hiddenStripe) hiddenStripe.value = '0';
+        }
         if (creditCardHypercash) {
             creditCardHypercash.checked = false;
             const hiddenHypercash = document.querySelector('input[name="payment_credit_card_hypercash"][type="hidden"]');
@@ -777,6 +876,7 @@ function updateSummary() {
     const creditCardEfi = document.querySelector('input[name="payment_credit_card_efi"]:not([type="hidden"])')?.checked || false;
     const creditCardAsaas = document.querySelector('input[name="payment_credit_card_asaas"]:not([type="hidden"])')?.checked || false;
     const creditCardApplyfy = document.querySelector('input[name="payment_credit_card_applyfy"]:not([type="hidden"])')?.checked || false;
+    const creditCardStripe = document.querySelector('input[name="payment_credit_card_stripe"]:not([type="hidden"])')?.checked || false;
     const ticket = document.querySelector('input[name="payment_ticket_enabled"]:not([type="hidden"])')?.checked || false;
     
     const summary = document.getElementById('payment-summary');
@@ -799,31 +899,35 @@ function updateSummary() {
     }
     
     if (pixSpacepag) {
-        html += '<p class="text-indigo-400">✓ Pix via <strong>SpacePag</strong> (Aprovação Imediata)</p>';
+        html += '<p style="color: #6366f1;">✓ Pix via <strong>SpacePag</strong> (Aprovação Imediata)</p>';
     }
     
     if (pixMP) {
-        html += '<p class="text-blue-400">✓ Pix via <strong>Mercado Pago</strong></p>';
+        html += '<p class="text-blue-400">✓ Pix via <strong>Mercado Pago</strong> (Aprovação Imediata)</p>';
+    }
+    
+    if (creditCardStripe) {
+        html += '<p class="text-indigo-500">✓ Cartão de Crédito via <strong>Stripe</strong></p>';
+    }
+    
+    if (creditCardHypercash) {
+        html += '<p class="text-indigo-400">✓ Cartão de Crédito via <strong>Hypercash</strong></p>';
+    }
+    
+    if (creditCardEfi) {
+        html += '<p class="text-purple-400">✓ Cartão de Crédito via <strong>Efí</strong></p>';
+    }
+    
+    if (creditCardAsaas) {
+        html += '<p class="text-teal-400">✓ Cartão de Crédito via <strong>Asaas</strong></p>';
+    }
+
+    if (creditCardApplyfy) {
+        html += '<p class="text-blue-400">✓ Cartão de Crédito via <strong>Applyfy</strong></p>';
     }
     
     if (creditCardMP) {
         html += '<p class="text-blue-400">✓ Cartão de Crédito via <strong>Mercado Pago</strong></p>';
-    }
-    
-    if (creditCardHypercash) {
-        html += '<p class="text-indigo-400">✓ Cartão de Crédito via <strong>Hypercash</strong> (Aprovação Imediata)</p>';
-    }
-    
-    if (creditCardEfi) {
-        html += '<p class="text-purple-400">✓ Cartão de Crédito via <strong>Efí</strong> (Aprovação Imediata)</p>';
-    }
-    
-    if (creditCardAsaas) {
-        html += '<p class="text-teal-400">✓ Cartão de Crédito via <strong>Asaas</strong> (Aprovação Imediata)</p>';
-    }
-    
-    if (creditCardApplyfy) {
-        html += '<p class="text-blue-400">✓ Cartão de Crédito via <strong>Applyfy</strong> (Aprovação Imediata)</p>';
     }
     
     if (ticket) {
